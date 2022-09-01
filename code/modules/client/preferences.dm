@@ -192,9 +192,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/preview_pref = PREVIEW_PREF_JOB
 
 	var/ooc_prefs = ""
-	var/erp_pref = "Ask"
-	var/noncon_pref = "Ask"
-	var/vore_pref = "Ask"
 
 	//BACKGROUND STUFF
 	var/general_record = ""
@@ -213,8 +210,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/chosen_augment_slot
 	///Whether the user wants to see body size being shown in the preview
 	var/show_body_size = FALSE
-	///The arousal state of the previewed character, can be toggled by the user
-	var/arousal_preview = AROUSAL_NONE
 	/// Chosen cultural informations
 	var/pref_culture = /datum/cultural_info/culture/generic
 	var/pref_location = /datum/cultural_info/location/generic
@@ -471,9 +466,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "[copytext(html_encode(features["silicon_flavor_text"]), 1, 40)]..."
 
 					dat +=	"<h2>OOC Preferences</h2>"
-					dat += 	"<b>ERP:</b><a href='?_src_=prefs;preference=erp_pref;task=input'>[erp_pref]</a> "
-					dat += 	"<b>Non-Con:</b><a href='?_src_=prefs;preference=noncon_pref;task=input'>[noncon_pref]</a> "
-					dat += 	"<b>Vore:</b><a href='?_src_=prefs;preference=vore_pref;task=input'>[vore_pref]</a><br>"
 					dat += "<a href='?_src_=prefs;preference=ooc_prefs;task=input'><b>Set OOC prefs</b></a><br>"
 					if(length(ooc_prefs) <= 40)
 						if(!length(ooc_prefs))
@@ -1972,41 +1964,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if("uses_skintones")
 					needs_update = TRUE
 					features["uses_skintones"] = !features["uses_skintones"]
-
-				if("erp_pref")
-					switch(erp_pref)
-						if("Yes")
-							erp_pref = "Ask"
-						if("Ask")
-							erp_pref = "No"
-						if("No")
-							erp_pref = "Yes"
-				if("noncon_pref")
-					switch(noncon_pref)
-						if("Yes")
-							noncon_pref = "Ask"
-						if("Ask")
-							noncon_pref = "No"
-						if("No")
-							noncon_pref = "Yes"
-				if("vore_pref")
-					switch(vore_pref)
-						if("Yes")
-							vore_pref = "Ask"
-						if("Ask")
-							vore_pref = "No"
-						if("No")
-							vore_pref = "Yes"
-
-				if("change_arousal_preview")
-					var/list/gen_arous_trans = list("Not aroused" = AROUSAL_NONE,
-						"Partly aroused" = AROUSAL_PARTIAL,
-						"Very aroused" = AROUSAL_FULL
-						)
-					var/new_arousal = input(user, "Choose your character's arousal:", "Character Preference")  as null|anything in gen_arous_trans
-					if(new_arousal)
-						arousal_preview = gen_arous_trans[new_arousal]
-						needs_update = TRUE
 
 				if("hair")
 					var/new_hair = input(user, "Choose your character's hair colour:", "Character Preference","#"+hair_color) as color|null

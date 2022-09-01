@@ -64,8 +64,3 @@
 #define UNDERWEAR_HIDE_SOCKS		(1<<0)
 #define UNDERWEAR_HIDE_SHIRT		(1<<1)
 #define UNDERWEAR_HIDE_UNDIES		(1<<2)
-
-#define AROUSAL_CANT		0
-#define AROUSAL_NONE		1
-#define AROUSAL_PARTIAL		2
-#define AROUSAL_FULL		3
