@@ -898,7 +898,6 @@
 /obj/item/organ/lungs/vox,
 /obj/item/organ/heart/gland/ventcrawling,
 /obj/item/organ/heart/demon,
-/obj/item/organ/genital/breasts,
 /obj/structure/closet/crate/secure/loot,
 /obj/item/storage/box/syndie_kit/romerol,
 /turf/open/floor/mineral/plastitanium,
