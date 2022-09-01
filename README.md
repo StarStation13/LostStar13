@@ -1,30 +1,8 @@
-# Horizon Station 13
+# Lost Star 13
 
-[![GitHub continuous integrations status](https://img.shields.io/github/workflow/status/hrzntal/horizon/CI%20Suite/main?style=for-the-badge)](https://github.com/hrzntal/horizon/actions?query=workflow%3A%22CI+Suite%22)
-[![Open GitHub pull requests](https://img.shields.io/github/issues-pr/hrzntal/horizon?color=blue&style=for-the-badge)](https://github.com/hrzntal/horizon/pulls)
-[![Open GitHub issues marked as tracked bugs](https://img.shields.io/github/issues/hrzntal/horizon/Issue%20:%20Bug%20-%20Tracked?label=Bug%20Reports&style=for-the-badge)](https://github.com/hrzntal/horizon/issues?q=is%3Aissue+is%3Aopen+label%3A%22Issue+%3A+Bug+-+Tracked%22)
-[![Open GitHub issues marked as feature requests](https://img.shields.io/github/issues/hrzntal/horizon/Issue%20:%20Feature%20Request?label=Feature%20Requests&color=a180f2&style=for-the-badge)](https://github.com/hrzntal/horizon/issues?q=is%3Aissue+is%3Aopen+label%3A%22Issue%3AFeature+Request%22)
+Lost Star 13 is a small-group, Ship-Focused take on Space Station 13, a classic, round-based, paranoia-laden misadventure. Our objective is to curate a codebase that's simple and fun to crack open for a round with only a few friends rather than dedicated 24/7 hosting, akin to Barotrauma.
 
-![Built with Resentment](https://img.shields.io/static/v1?label=Built%20with&message=Resentment&labelColor=e36d25&color=d15d27&style=for-the-badge)
-![Contains Tasty Spaghetti Code](https://img.shields.io/static/v1?label=Contains&message=Tasty%20Spaghetti%20Code&labelColor=31c4f3&color=389ad5&style=for-the-badge)
-![Powered By Tailwags](https://img.shields.io/static/v1?label=Powered%20By&message=Tailwags&labelColor=c1d72f&color=5d9741&style=for-the-badge)
-
----
-
-## About
-Welcome to the Horizon Station 13 codebase.  
-TBD
-
-Code based on [/tg/station](https://github.com/tgstation/tgstation) among others.
-
-| Helpful URLs |                               |
-|---------|------------------------------------|
-| Website | https://hrzn.fun                   |
-| Code    | https://github.com/hrzntal/horizon |
-| Discord | https://discord.hrzn.fun           |
-| Git/GitHub cheatsheet | https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833 |
-| BYOND   | https://byond.com                  |
----
+Code based on [Horizon](https://github.com/hrzntal/horizon), [Skyrat-TG](https://github.com/Skyrat-SS13/Skyrat-tg), and [/tg/station](https://github.com/tgstation/tgstation).
 
 ## DOWNLOADING
 [Downloading](.github/DOWNLOADING.md)
@@ -47,10 +25,6 @@ On **2021-01-04** tgstation has changed the way to compile the codebase.
 
 ## Requirements for contributors
 [Guidelines for Contributors](.github/CONTRIBUTING.md)
-
-<!-- Hopefully soon.
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
--->
 
 [Documenting your code](.github/AUTODOC_GUIDE.md)
 
