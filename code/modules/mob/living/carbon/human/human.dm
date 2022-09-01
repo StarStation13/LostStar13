@@ -109,24 +109,6 @@
 				if(compare_text)
 					to_chat(usr, SPAN_NOTICE("<i>Comparing yourself to [src] you notice...\n[compare_text]</i>"))
 
-			if("genitals")
-				var/list/line = list()
-				for(var/genital in list("penis", "testicles", "vagina", "breasts"))
-					if(!dna.species.mutant_bodyparts[genital])
-						continue
-					var/datum/sprite_accessory/genital/G = GLOB.sprite_accessories[genital][dna.species.mutant_bodyparts[genital][MUTANT_INDEX_NAME]]
-					if(!G)
-						continue
-					if(G.is_hidden(src))
-						continue
-					var/obj/item/organ/genital/ORG = getorganslot(G.associated_organ_slot)
-					if(!ORG)
-						continue
-					var/new_line = ORG.get_description_string(G)
-					if(new_line)
-						line += new_line
-				if(length(line))
-					to_chat(usr, SPAN_NOTICE("[jointext(line, "\n")]"))
 			if("flavor_text")
 				if(length(dna.features["flavor_text"]))
 					var/datum/browser/popup = new(usr, "[name]'s flavor text", "[name]'s Flavor Text", 500, 200)

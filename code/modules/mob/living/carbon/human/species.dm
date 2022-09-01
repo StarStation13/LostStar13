@@ -294,11 +294,6 @@ GLOBAL_LIST_EMPTY(customizable_races)
 	if(!limbs_id) //if we havent set a limbs id to use, just use our own id
 		limbs_id = id
 	wings_icons = string_list(wings_icons)
-	if(can_have_genitals)
-		default_mutant_bodyparts["vagina"] = "None"
-		default_mutant_bodyparts["testicles"] = "None"
-		default_mutant_bodyparts["breasts"] = "None"
-		default_mutant_bodyparts["penis"] = "None"
 	..()
 
 /**
