@@ -10,6 +10,9 @@
 /mob/living/simple_animal/pet/cat/jerry,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/commons/lounge)
 "at" = (
@@ -151,7 +154,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "cr" = (
 /obj/structure/lattice/catwalk,
@@ -230,9 +233,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/hidden,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "dI" = (
@@ -278,7 +279,7 @@
 /area/service/hydroponics)
 "er" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "es" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -339,6 +340,9 @@
 /area/service/kitchen/diner)
 "fk" = (
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "fm" = (
@@ -619,7 +623,7 @@
 /obj/machinery/computer/communications{
 	dir = 8
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/captain)
 "iS" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -857,7 +861,7 @@
 	pixel_x = 3;
 	pixel_y = -4
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "lU" = (
 /obj/machinery/light/directional/east,
@@ -906,6 +910,9 @@
 /area/medical/medbay)
 "mw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
@@ -995,7 +1002,7 @@
 /obj/structure/table/wood,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "nx" = (
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped,
@@ -1019,9 +1026,7 @@
 	id = "kitchen_counter";
 	name = "Kitchen Counter Shutters"
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "nE" = (
@@ -1060,9 +1065,7 @@
 /obj/effect/spawner/lootdrop/refreshing_beverage,
 /obj/machinery/dish_drive,
 /obj/item/radio/intercom/directional/north,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "oa" = (
@@ -1209,6 +1212,7 @@
 "qN" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "qR" = (
@@ -1224,9 +1228,7 @@
 	name = "Kitchen Counter Shutters"
 	},
 /obj/effect/spawner/lootdrop/three_course_meal,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "qV" = (
@@ -1306,7 +1308,8 @@
 /area/engineering/atmos)
 "rW" = (
 /obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white,
+/obj/effect/mapping_helpers/paint_wall/engineering,
+/turf/closed/wall,
 /area/medical/pharmacy)
 "sa" = (
 /obj/structure/table/wood,
@@ -1595,7 +1598,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "vj" = (
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/captain)
 "vq" = (
 /obj/structure/disposalpipe/segment{
@@ -1651,11 +1654,12 @@
 /turf/open/openspace,
 /area/cargo/warehouse/upper)
 "ws" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall/r_wall,
 /area/medical/pharmacy)
 "wu" = (
-/turf/open/floor/iron,
+/obj/item/stack/tile/iron/cafeteria,
+/turf/open/floor/plating,
 /area/service/kitchen/diner)
 "ww" = (
 /obj/effect/mapping_helpers/paint_wall/neutral,
@@ -2090,7 +2094,7 @@
 /obj/structure/chair/comfy/brown{
 	dir = 4
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/captain)
 "Cj" = (
 /turf/open/floor/iron/dark,
@@ -2166,6 +2170,14 @@
 /obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall,
 /area/service/hydroponics)
+"De" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/hallway/primary/central/aft)
 "Di" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -2187,7 +2199,7 @@
 /obj/item/restraints/handcuffs,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "DB" = (
 /turf/open/space/openspace,
@@ -2241,6 +2253,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "DX" = (
@@ -2271,6 +2286,9 @@
 "Ej" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/item/radio/intercom/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/commons/lounge)
 "Ek" = (
@@ -2328,7 +2346,7 @@
 "EC" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/captain)
 "EF" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -2387,6 +2405,12 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
+"Fh" = (
+/obj/machinery/modular_computer/console/preset/id{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/command/heads_quarters/captain)
 "Fn" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -2666,6 +2690,9 @@
 /area/engineering/supermatter)
 "Iw" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/hidden,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "IA" = (
@@ -2675,7 +2702,7 @@
 /obj/machinery/modular_computer/console/preset/id{
 	dir = 4
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "ID" = (
 /obj/machinery/light/directional/west,
@@ -2837,12 +2864,10 @@
 	name = "Kitchen Counter Shutters"
 	},
 /obj/effect/spawner/lootdrop/food_packaging,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "Kz" = (
@@ -2923,7 +2948,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
 /area/medical/medbay)
 "Lv" = (
 /obj/machinery/power/smes/engineering,
@@ -2937,7 +2964,7 @@
 "LD" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/medical/pharmacy)
 "LE" = (
@@ -3009,7 +3036,7 @@
 /area/commons/toilet)
 "Mg" = (
 /obj/structure/chair/office,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "Mh" = (
 /obj/structure/closet/firecloset,
@@ -3056,7 +3083,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
 "MS" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "MX" = (
@@ -3348,11 +3375,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "RO" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/captain)
 "RP" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -3577,7 +3607,7 @@
 /area/engineering/engine_smes)
 "UM" = (
 /obj/structure/table/wood,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "UO" = (
 /turf/open/floor/iron/dark,
@@ -3710,7 +3740,7 @@
 "WH" = (
 /obj/structure/cable,
 /obj/machinery/firealarm/directional/south,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "WQ" = (
 /obj/structure/cable,
@@ -3871,7 +3901,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/bridge)
 "Yo" = (
 /obj/structure/kitchenspike,
@@ -3966,7 +3996,7 @@
 /area/command/heads_quarters/captain)
 "Zm" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "Zn" = (
 /obj/effect/mapping_helpers/paint_wall/bridge,
@@ -38069,7 +38099,7 @@ Jk
 Pd
 bg
 hl
-hl
+De
 vS
 fk
 Pw
@@ -38306,7 +38336,7 @@ mY
 mY
 zY
 mK
-vj
+Fh
 iQ
 zY
 Nl
