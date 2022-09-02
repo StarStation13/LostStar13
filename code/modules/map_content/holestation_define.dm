@@ -22,5 +22,5 @@
 
 	overmap_object_type = /datum/overmap_object/shuttle/ship/holemaker
 
-/datum/map_config/tradership/get_map_info()
+/datum/map_config/holestation/get_map_info()
 	return "You're aboard the <b>[map_name],</b> a moderately-sized Nanotrasen research vessel."
