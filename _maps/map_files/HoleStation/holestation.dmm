@@ -4185,6 +4185,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft/secondary)
+"pO" = (
+/obj/docking_port/stationary/large{
+	dir = 8;
+	name = "Above The Port Dock"
+	},
+/turf/open/space/openspace,
+/area/space)
 "pP" = (
 /turf/open/openspace,
 /area/service/library/upper)
@@ -5364,6 +5371,12 @@
 "ut" = (
 /turf/open/floor/iron/dark/side,
 /area/engineering/engine_smes)
+"uu" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/closet/firecloset,
+/obj/structure/railing,
+/turf/open/openspace,
+/area/maintenance/central)
 "uv" = (
 /obj/structure/cable/layer1,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -10039,9 +10052,10 @@
 /turf/closed/wall/r_wall,
 /area/medical/morgue)
 "MA" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing,
-/turf/open/openspace,
+/obj/machinery/computer/shuttle_purchase{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/maintenance/central)
 "ME" = (
 /obj/effect/mapping_helpers/paint_wall/security,
@@ -103343,7 +103357,7 @@ Mv
 Mv
 Mv
 Mv
-Mv
+pO
 Mv
 Mv
 Mv
@@ -104372,7 +104386,7 @@ SE
 SE
 SE
 MA
-Ly
+uu
 Ly
 Ly
 Ly
@@ -104628,8 +104642,8 @@ cd
 WO
 ru
 eX
+ru
 lJ
-WH
 WH
 WH
 or
