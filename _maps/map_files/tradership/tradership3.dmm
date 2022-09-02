@@ -2684,7 +2684,7 @@
 	pixel_y = -3
 	},
 /obj/machinery/button/door{
-	id = meetingroom_blast;
+	id = "meetingroom_blast";
 	pixel_x = -28;
 	pixel_y = 6
 	},
@@ -3786,7 +3786,7 @@
 "XB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
-	id = meetingroom_blast;
+	id = "meetingroom_blast";
 	id_tag = null;
 	name = "meeting room blast door"
 	},
