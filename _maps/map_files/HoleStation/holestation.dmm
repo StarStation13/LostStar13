@@ -38,7 +38,7 @@
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
 "ag" = (
-/obj/machinery/modular_computer/console/preset/command,
+/obj/machinery/computer/overmap_console,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "ah" = (
@@ -171,6 +171,9 @@
 /area/engineering/atmos)
 "aI" = (
 /obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
 /turf/open/floor/glass/reinforced,
@@ -590,6 +593,9 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
 /turf/open/floor/glass/reinforced,
 /area/command/bridge)
 "ct" = (
@@ -598,6 +604,9 @@
 /area/space/nearstation)
 "cw" = (
 /obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
 /turf/open/floor/glass/reinforced,
@@ -642,10 +651,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/cable,
-/obj/item/radio/intercom/directional/east{
-	freerange = 1;
-	name = "Command Intercom"
-	},
+/obj/item/radio/intercom/wideband/directional/east,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "cF" = (
@@ -2064,6 +2070,12 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/cafeteria)
+"hH" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "hI" = (
 /obj/effect/turf_decal/trimline/red,
 /turf/open/floor/engine/hull,
@@ -8132,6 +8144,12 @@
 "EL" = (
 /turf/closed/wall/r_wall,
 /area/service/janitor)
+"EM" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "EN" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -9916,6 +9934,10 @@
 	},
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"LZ" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "Ma" = (
 /obj/machinery/atmospherics/components/binary/pump/off{
 	dir = 8
@@ -10172,6 +10194,12 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/plating,
 /area/medical)
+"Nh" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "Ni" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/west,
@@ -10376,6 +10404,12 @@
 	dir = 10
 	},
 /area/medical)
+"NV" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "NX" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/effect/turf_decal/delivery,
@@ -44995,9 +45029,9 @@ nZ
 nZ
 ik
 ag
-Yb
+NV
 cs
-Yb
+hH
 ey
 ij
 ma
@@ -45254,7 +45288,7 @@ ik
 ah
 aI
 Yb
-Yb
+LZ
 gH
 MQ
 kb
@@ -45509,9 +45543,9 @@ nZ
 nZ
 ik
 aj
-Yb
+EM
 cw
-Yb
+Nh
 ey
 ij
 ka
