@@ -916,7 +916,6 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "mI" = (
@@ -1337,13 +1336,11 @@
 "sF" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "sL" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/machinery/meter,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "sN" = (
@@ -2370,7 +2367,6 @@
 /area/engineering/supermatter/room)
 "EN" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "EU" = (
@@ -2980,7 +2976,6 @@
 /area/command/meeting_room)
 "LO" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "LQ" = (
@@ -3098,6 +3093,9 @@
 "NK" = (
 /turf/closed/wall,
 /area/hallway/primary/central)
+"NL" = (
+/turf/closed/wall/r_wall,
+/area/engineering/atmos)
 "NM" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/binary/pump{
@@ -3158,6 +3156,9 @@
 /obj/structure/sign/departments/deck3,
 /turf/closed/wall,
 /area/hallway/primary/central/aft)
+"OD" = (
+/turf/closed/wall,
+/area/engineering/supermatter/room)
 "OM" = (
 /obj/machinery/light_switch/directional/north,
 /obj/structure/closet/secure_closet/engineering_personal,
@@ -3629,7 +3630,6 @@
 "Vm" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "Vs" = (
@@ -3662,6 +3662,9 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/primary/fore)
+"VV" = (
+/turf/closed/wall/r_wall,
+/area/engineering/supermatter/room)
 "VW" = (
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/closed/wall,
@@ -33716,10 +33719,10 @@ Qq
 Gm
 Gm
 Gm
-br
-br
-br
-br
+NL
+NL
+NL
+NL
 Zg
 DB
 DB
@@ -33976,8 +33979,8 @@ AE
 rQ
 LO
 wK
-br
-br
+NL
+NL
 DB
 Wg
 DB
@@ -34234,7 +34237,7 @@ nj
 LO
 BR
 uf
-br
+NL
 DB
 DB
 DB
@@ -34491,7 +34494,7 @@ gM
 Vm
 va
 EB
-br
+NL
 Zg
 Zg
 DB
@@ -35005,7 +35008,7 @@ Wm
 LO
 DI
 uS
-br
+NL
 Zg
 JL
 DB
@@ -35262,7 +35265,7 @@ BV
 Vm
 XW
 CF
-br
+NL
 GO
 cN
 JL
@@ -35513,13 +35516,13 @@ wL
 XH
 DJ
 Yk
-Yk
-Yk
-Yk
-Yk
-Yk
-Yk
-kb
+OD
+OD
+OD
+VV
+VV
+VV
+VV
 mF
 Tz
 Tz
