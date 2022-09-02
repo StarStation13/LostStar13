@@ -22,7 +22,7 @@
 /area/maintenance/port/aft)
 "ax" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/engineering/storage)
 "bc" = (
@@ -115,11 +115,11 @@
 /turf/open/floor/plating,
 /area/commons/dorms)
 "du" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall/rust,
 /area/maintenance/port/aft)
 "dF" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/science)
 "dJ" = (
@@ -140,7 +140,7 @@
 /turf/open/floor/plating,
 /area/commons/vacant_room)
 "dV" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/science)
 "eq" = (
@@ -158,7 +158,7 @@
 /turf/open/floor/plating,
 /area/commons/vacant_room)
 "eB" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/rust,
 /area/maintenance/port/aft)
 "eL" = (
@@ -199,7 +199,7 @@
 /area/engineering/storage)
 "fw" = (
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/maintenance/aft/secondary)
 "fx" = (
@@ -211,7 +211,7 @@
 	},
 /area/science)
 "fJ" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/maintenance/port/aft)
 "fL" = (
@@ -348,7 +348,7 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "ij" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/maintenance/aft/secondary)
 "iF" = (
@@ -385,7 +385,7 @@
 /area/commons/vacant_room)
 "jU" = (
 /obj/machinery/mineral/processing_unit_console,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "jX" = (
@@ -403,7 +403,7 @@
 "kl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/science)
 "kr" = (
@@ -483,7 +483,7 @@
 "lt" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "lE" = (
@@ -492,7 +492,7 @@
 /turf/open/floor/iron,
 /area/construction/storage_wing)
 "lH" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/commons/dorms/barracks)
 "lY" = (
@@ -604,7 +604,7 @@
 /obj/structure/sign/directions/medical{
 	pixel_y = 8
 	},
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/commons/cryopods)
 "ot" = (
@@ -760,7 +760,7 @@
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "sk" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "sx" = (
@@ -788,7 +788,7 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/aft/secondary)
 "sS" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/engineering/storage)
 "tk" = (
@@ -925,7 +925,7 @@
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "we" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/rust,
 /area/science)
 "wh" = (
@@ -1068,7 +1068,7 @@
 /area/commons/dorms/barracks)
 "zS" = (
 /obj/structure/sign/warning/vacuum,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "Ag" = (
@@ -1105,7 +1105,7 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "AU" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/commons/cryopods)
 "AY" = (
@@ -1205,7 +1205,7 @@
 /turf/open/openspace,
 /area/cargo/warehouse)
 "EP" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/commons/cryopods)
 "Fa" = (
@@ -1215,11 +1215,11 @@
 /turf/open/floor/iron/white,
 /area/science)
 "Fv" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/rust,
 /area/commons/cryopods)
 "FG" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/commons/dorms)
 "FN" = (
@@ -1268,7 +1268,7 @@
 /area/commons/cryopods)
 "GH" = (
 /obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/maintenance/aft/secondary)
 "GO" = (
@@ -1340,7 +1340,7 @@
 	},
 /area/commons/cryopods)
 "IP" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/cargo/warehouse)
 "IQ" = (
@@ -1432,7 +1432,7 @@
 /area/science)
 "Km" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "Kp" = (
@@ -1487,7 +1487,7 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "Lm" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall/rust,
 /area/commons/cryopods)
 "Lp" = (
@@ -1547,7 +1547,7 @@
 /turf/open/floor/plating,
 /area/science)
 "Me" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/construction/storage_wing)
 "Mg" = (
@@ -1571,7 +1571,7 @@
 /area/engineering/storage)
 "My" = (
 /obj/structure/sign/directions/science,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "ME" = (
@@ -1602,7 +1602,7 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/aft/secondary)
 "MY" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/maintenance/port/aft)
 "Ng" = (
@@ -1617,7 +1617,7 @@
 /area/commons/vacant_room)
 "NA" = (
 /obj/structure/sign/departments/deck2,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "NI" = (
@@ -1662,7 +1662,7 @@
 /area/cargo/warehouse)
 "OX" = (
 /obj/structure/sign/poster/random,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse)
 "Ph" = (
@@ -1761,7 +1761,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/storage)
 "QG" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/engineering/storage)
 "QH" = (
@@ -1816,7 +1816,7 @@
 /turf/open/floor/iron/white/smooth_edge,
 /area/science)
 "SK" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/science/research/abandoned)
 "SM" = (
@@ -1829,7 +1829,7 @@
 "ST" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "Te" = (
@@ -1934,11 +1934,11 @@
 "Vx" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/commons/cryopods)
 "VU" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/rust,
 /area/commons/dorms)
 "Wn" = (
@@ -1956,7 +1956,7 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "WG" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/commons/dorms/barracks)
 "WQ" = (
@@ -1967,7 +1967,7 @@
 /turf/open/space/openspace,
 /area/space/nearstation)
 "Xs" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/commons/dorms)
 "XH" = (
@@ -2070,7 +2070,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "Zj" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/construction/storage_wing)
 "Zs" = (
@@ -2106,7 +2106,7 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "ZV" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/commons/vacant_room)
 "ZX" = (
