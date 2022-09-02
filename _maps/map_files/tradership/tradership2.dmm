@@ -398,7 +398,6 @@
 /area/science)
 "kl" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/science,
 /turf/open/floor/plating,
 /area/science)
@@ -478,7 +477,6 @@
 /area/commons/dorms/barracks)
 "lt" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "lE" = (
@@ -1427,12 +1425,8 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
 	},
-/obj/machinery/button/door/directional/north{
-	id = "rnd";
-	name = "Shutters Control Button";
-	pixel_x = 26;
-	pixel_y = 0;
-	req_access_txt = "47"
+/obj/machinery/button/door/directional/east{
+	id = "rnd"
 	},
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
@@ -1843,7 +1837,6 @@
 /area/engineering/storage)
 "ST" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
@@ -1952,7 +1945,6 @@
 /area/science)
 "Vx" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/neutral,
 /turf/open/floor/plating,
 /area/commons/cryopods)

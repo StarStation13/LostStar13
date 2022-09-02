@@ -287,11 +287,6 @@
 /obj/machinery/telecomms/bus/preset_three,
 /turf/open/floor/circuit,
 /area/tcommsat/server)
-"FM" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
 "Hc" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/plating,
@@ -31992,8 +31987,8 @@ jB
 jB
 jB
 oE
-FM
-FM
+nZ
+nZ
 oE
 yC
 yC
@@ -34305,8 +34300,8 @@ jB
 jB
 jB
 oE
-FM
-FM
+nZ
+nZ
 oE
 jB
 jB

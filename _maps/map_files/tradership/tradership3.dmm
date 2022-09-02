@@ -253,7 +253,6 @@
 /area/engineering/atmos)
 "eb" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/service/kitchen/coldroom)
 "ec" = (
@@ -309,7 +308,6 @@
 	dir = 4
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
@@ -543,7 +541,6 @@
 /area/command/bridge)
 "ib" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/open/floor/plating,
 /area/command/heads_quarters/captain)
@@ -640,7 +637,6 @@
 	id = "bridge blast";
 	name = "bridge blast door"
 	},
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/open/floor/plating,
 /area/command/bridge)
@@ -922,7 +918,6 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "mI" = (
@@ -954,14 +949,11 @@
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "mW" = (
-/obj/machinery/button/door/directional/north{
-	id = "firstmateshutters";
-	name = "Shutters Control Button";
-	pixel_y = -26;
-	req_access_txt = "47"
-	},
 /obj/machinery/power/apc/auto_name/east,
 /obj/structure/cable,
+/obj/machinery/button/door/directional/south{
+	id = "firstmateshutters"
+	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "mX" = (
@@ -1211,13 +1203,11 @@
 /area/commons/locker)
 "qN" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "qR" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/open/floor/plating,
 /area/command/heads_quarters/hop)
@@ -1361,24 +1351,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/bridge)
-"sP" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/service,
-/turf/open/floor/plating,
-/area/service/hydroponics)
 "sS" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
 	},
 /turf/open/floor/iron,
 /area/commons/lounge)
-"sT" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/engineering,
-/turf/open/floor/plating,
-/area/engineering/engine_smes)
 "sV" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin{
@@ -1588,12 +1566,10 @@
 /obj/structure/sink{
 	pixel_y = 22
 	},
-/obj/machinery/button/door/directional/south{
+/obj/machinery/button/door/directional/north{
 	id = "kitchen_service";
-	name = "Service Shutter Control";
 	pixel_x = 6;
-	pixel_y = 35;
-	req_access_txt = "28"
+	pixel_y = 35
 	},
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
@@ -1608,7 +1584,6 @@
 /area/hallway/primary/aft)
 "vQ" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/service,
 /turf/open/floor/plating,
 /area/service/kitchen/diner)
@@ -1636,7 +1611,6 @@
 /area/engineering/engine_smes)
 "wg" = (
 /obj/machinery/smartfridge,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall,
 /area/service/hydroponics)
@@ -1899,11 +1873,8 @@
 /area/commons/lounge)
 "zD" = (
 /obj/machinery/computer/communications,
-/obj/machinery/button/door/directional/south{
-	id = "bridge blast";
-	name = "Bridge Access Blast Door Control";
-	pixel_y = 24;
-	req_access_txt = "19"
+/obj/machinery/button/door/directional/north{
+	id = "bridge blast"
 	},
 /turf/open/floor/iron/dark,
 /area/command/bridge)
@@ -2509,12 +2480,10 @@
 /area/commons/locker)
 "Gm" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "Gt" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/open/floor/plating,
 /area/medical/medbay)
@@ -2710,11 +2679,6 @@
 	pixel_x = -25;
 	pixel_y = -3
 	},
-/obj/machinery/button/door{
-	id = "meetingroom_blast";
-	pixel_x = -28;
-	pixel_y = 6
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -2822,7 +2786,6 @@
 /area/hallway/primary/central/aft)
 "JN" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/hallway/primary/central/aft)
 "JZ" = (
@@ -2963,7 +2926,6 @@
 /area/hallway/primary/central/fore)
 "LD" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/medical/pharmacy)
@@ -3177,6 +3139,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "firstmateshutters"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/command/heads_quarters/hop)
 "Oy" = (
@@ -3312,7 +3275,6 @@
 "Qq" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/visible,
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "Qt" = (
@@ -3529,7 +3491,6 @@
 /area/cargo/warehouse/upper)
 "Tz" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
@@ -3815,12 +3776,6 @@
 /area/cargo/warehouse/upper)
 "XB" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/preopen{
-	id = "meetingroom_blast";
-	id_tag = null;
-	name = "meeting room blast door"
-	},
-/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/open/floor/plating,
 /area/command/meeting_room)
@@ -4008,11 +3963,6 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
-"Zp" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plating,
-/area/hallway/primary/central/fore)
 "ZF" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -33737,10 +33687,10 @@ wZ
 Cc
 Cc
 Cc
-sP
-sP
-sP
-sP
+gf
+gf
+gf
+gf
 Cc
 Cc
 br
@@ -35002,7 +34952,7 @@ Zn
 XN
 gt
 XN
-Zp
+EF
 Xw
 JN
 JN
@@ -38343,7 +38293,7 @@ Nl
 XN
 NW
 XN
-Zp
+EF
 Xw
 JN
 JN
@@ -39142,7 +39092,7 @@ qK
 wd
 wd
 wd
-sT
+kk
 wd
 kk
 wd
