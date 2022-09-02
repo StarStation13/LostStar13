@@ -245,6 +245,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/storage_shared)
 "aW" = (
@@ -547,6 +549,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/bar)
 "ck" = (
@@ -587,6 +591,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/maintenance/port/aft)
 "cs" = (
@@ -706,6 +712,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "cW" = (
@@ -962,6 +970,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "dX" = (
@@ -1062,6 +1072,7 @@
 "el" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/carpet,
 /area/service/theater)
 "em" = (
@@ -1106,8 +1117,10 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
-/area/command/bridge)
+/area/command/heads_quarters/hop)
 "er" = (
 /obj/machinery/firealarm/directional/north,
 /obj/structure/reagent_dispensers/water_cooler,
@@ -1171,8 +1184,9 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/captain,
 /turf/open/floor/wood,
-/area/command/bridge)
+/area/command/heads_quarters/captain)
 "eC" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -1378,6 +1392,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/captain,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "fn" = (
@@ -1978,6 +1993,8 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "hr" = (
@@ -2249,6 +2266,8 @@
 "ij" = (
 /obj/machinery/door/airlock/command/glass,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -2395,6 +2414,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
 "iP" = (
@@ -2462,6 +2482,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "je" = (
@@ -2543,6 +2564,7 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "jv" = (
+/obj/effect/loot_site_spawner,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/bar)
 "jy" = (
@@ -2638,6 +2660,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "jT" = (
@@ -2717,6 +2741,8 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/hidden,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "kn" = (
@@ -2814,6 +2840,7 @@
 "ky" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/landmark/blobstart,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/service/janitor)
 "kz" = (
@@ -2859,6 +2886,7 @@
 /turf/open/openspace,
 /area/engineering/atmos/upper)
 "kG" = (
+/obj/effect/loot_site_spawner,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
 "kH" = (
@@ -2908,6 +2936,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
 "kP" = (
@@ -2995,6 +3025,8 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/bar)
 "lj" = (
@@ -3049,6 +3081,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/lobby)
 "ls" = (
@@ -3161,6 +3195,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit)
 "lM" = (
@@ -3213,6 +3248,10 @@
 	},
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
+"lV" = (
+/obj/effect/mapping_helpers/paint_wall/engineering,
+/turf/closed/wall,
+/area/engineering/atmos)
 "lX" = (
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
@@ -3232,6 +3271,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/command/bridge)
 "ma" = (
@@ -3281,6 +3322,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/commons/cryopods)
 "mi" = (
@@ -3356,6 +3398,8 @@
 "mx" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
 "my" = (
@@ -3487,6 +3531,7 @@
 "mX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit)
 "mY" = (
@@ -3765,6 +3810,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
+"nP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "nQ" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/cable/layer1,
@@ -3791,6 +3841,7 @@
 /area/service/cafeteria)
 "nT" = (
 /obj/machinery/door/airlock/public/glass,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -3863,6 +3914,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/service/library)
 "ol" = (
@@ -3968,6 +4020,11 @@
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
+"oN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/service/janitor)
 "oO" = (
 /obj/machinery/modular_computer/console/preset/civilian{
 	dir = 8
@@ -4023,6 +4080,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/lobby)
 "pc" = (
@@ -4039,6 +4098,8 @@
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "pg" = (
@@ -4140,6 +4201,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "pE" = (
@@ -4167,6 +4230,7 @@
 "pH" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/carpet,
 /area/service/theater)
 "pI" = (
@@ -4282,6 +4346,8 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "qh" = (
@@ -4373,6 +4439,9 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/engine,
 /area/engineering/atmos)
 "qv" = (
@@ -4618,6 +4687,15 @@
 /obj/machinery/door/airlock,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/chapel_office,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/effect/mapping_helpers/airlock/access/any/service/janitor,
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/service/lawyer,
+/obj/effect/mapping_helpers/airlock/access/any/service/library,
+/obj/effect/mapping_helpers/airlock/access/any/service/theatre,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/hallway/secondary/service)
 "ro" = (
@@ -4650,6 +4728,7 @@
 "rt" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
 "ru" = (
@@ -4957,6 +5036,8 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/hidden,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "sK" = (
@@ -5368,6 +5449,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/gravity_generator)
 "us" = (
@@ -5438,6 +5521,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/engine_smes)
 "uI" = (
@@ -5612,6 +5697,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/engineering/main)
+"vr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/janitor,
+/turf/open/floor/plating,
+/area/service/janitor)
 "vt" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron,
@@ -5631,6 +5721,8 @@
 /obj/structure/railing/corner,
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "vx" = (
@@ -5688,6 +5780,8 @@
 	},
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "vJ" = (
@@ -5792,6 +5886,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "wc" = (
@@ -5849,8 +5945,10 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
-/area/commons/dorms)
+/area/maintenance/starboard/aft)
 "wm" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -5879,7 +5977,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 9
 	},
-/turf/open/floor/iron,
+/obj/structure/lattice/catwalk/plated,
+/turf/open/floor/plating,
 /area/commons/cryopods)
 "ws" = (
 /obj/structure/table,
@@ -6027,12 +6126,15 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/vault,
 /obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
 "wW" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "wX" = (
@@ -6275,6 +6377,8 @@
 	cycle_id = "maintbar"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/maintenance/central)
 "xW" = (
@@ -6367,12 +6471,13 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "ym" = (
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "yn" = (
@@ -6521,7 +6626,9 @@
 /area/maintenance/port/aft)
 "yM" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/glass,
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood/large,
 /area/service/theater)
 "yN" = (
@@ -6590,15 +6697,17 @@
 	},
 /area/engineering/engine_smes)
 "yY" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood/large,
-/area/service/theater)
+/obj/effect/loot_site_spawner,
+/turf/open/floor/plating,
+/area/maintenance/port/central)
 "yZ" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/hidden{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "za" = (
@@ -6644,6 +6753,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "zi" = (
@@ -6689,6 +6799,8 @@
 /area/ai_monitored/command/nuke_storage)
 "zp" = (
 /obj/machinery/door/airlock/grunge,
+/obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
 /area/service/chapel/main)
 "zq" = (
@@ -6743,12 +6855,13 @@
 /area/engineering/storage)
 "zv" = (
 /obj/machinery/door/airlock/engineering/glass/critical{
-	name = "Supermatter Chamber";
 	heat_proof = 1
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
 "zw" = (
@@ -7013,6 +7126,8 @@
 "AB" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "AD" = (
@@ -7037,6 +7152,8 @@
 /area/science/lab)
 "AG" = (
 /obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "AI" = (
@@ -7260,6 +7377,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/cargo/office)
 "BA" = (
@@ -7313,6 +7432,8 @@
 "BJ" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "BK" = (
@@ -7340,7 +7461,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/cargo/office)
 "BO" = (
 /obj/structure/cable,
@@ -7606,6 +7728,8 @@
 "CR" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/service/hydroponics)
 "CS" = (
@@ -7708,6 +7832,8 @@
 "Dq" = (
 /obj/machinery/door/airlock/grunge,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/service/theater)
 "Dr" = (
@@ -7916,6 +8042,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/maintenance/central)
 "DX" = (
@@ -7973,6 +8101,8 @@
 "Ei" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/security/prison/upper)
 "Ej" = (
@@ -8088,6 +8218,8 @@
 "EC" = (
 /obj/machinery/door/airlock/command/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible,
+/obj/effect/mapping_helpers/airlock/access/any/science/rd,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
 /area/science/lab)
 "ED" = (
@@ -8198,6 +8330,8 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "Fa" = (
@@ -8263,6 +8397,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
 "Fu" = (
@@ -8313,6 +8449,8 @@
 /obj/machinery/door/airlock/engineering,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/storage)
 "FG" = (
@@ -8372,8 +8510,10 @@
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
 "FO" = (
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "FP" = (
@@ -8473,6 +8613,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/maintenance/central)
 "Gg" = (
@@ -8570,7 +8712,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/cargo/office)
 "Gy" = (
 /obj/structure/cable,
@@ -8590,6 +8733,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "GB" = (
@@ -8642,6 +8787,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "GK" = (
@@ -8799,6 +8946,7 @@
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "Hm" = (
+/obj/effect/loot_site_spawner,
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
 "Hn" = (
@@ -8828,6 +8976,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
 "Hu" = (
@@ -8934,7 +9084,8 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
 /turf/open/floor/iron/dark,
 /area/service/chapel/main)
 "HJ" = (
@@ -9041,6 +9192,8 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/grunge,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/service/library,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
 /area/service/library/private)
 "Ig" = (
@@ -9396,6 +9549,8 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/white/side{
 	dir = 4
 	},
@@ -9461,6 +9616,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/security/prison)
 "JS" = (
@@ -9468,6 +9625,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "JT" = (
@@ -9531,6 +9690,8 @@
 "Ki" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "Kj" = (
@@ -9652,6 +9813,8 @@
 	name = "Equipment Room"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/showroomfloor,
 /area/ai_monitored/security/armory)
 "KK" = (
@@ -9662,6 +9825,8 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/security/brig,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/security/brig)
 "KL" = (
@@ -9693,6 +9858,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
 "KS" = (
@@ -9845,6 +10012,8 @@
 /obj/machinery/door/airlock/grunge,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/medical/morgue,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/white/side,
 /area/medical/morgue)
 "LC" = (
@@ -9959,6 +10128,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "Mf" = (
@@ -10137,6 +10307,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "MU" = (
@@ -10144,6 +10315,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "MX" = (
@@ -10339,9 +10511,14 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "NJ" = (
-/obj/structure/sign/departments/security,
-/turf/closed/wall,
-/area/hallway/secondary/exit)
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "greaterportmaintup"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "NK" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -10381,9 +10558,8 @@
 /turf/open/floor/iron,
 /area/security/prison)
 "NR" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum/external,
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/hallway/secondary/exit)
 "NS" = (
 /obj/structure/lattice/catwalk,
@@ -10430,6 +10606,10 @@
 "Oc" = (
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
+"Of" = (
+/obj/effect/mapping_helpers/paint_wall/neutral,
+/turf/closed/wall/r_wall,
+/area/maintenance/starboard/aft)
 "Og" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron,
@@ -10538,6 +10718,7 @@
 /area/command/heads_quarters/captain)
 "OC" = (
 /obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
 /turf/open/floor/plating,
 /area/cargo/miningdock)
 "OF" = (
@@ -10678,9 +10859,11 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "Pe" = (
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "Pf" = (
@@ -10945,6 +11128,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit)
+"PZ" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/plating,
+/area/maintenance/department/science)
 "Qb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -10956,6 +11146,8 @@
 /area/security/prison/upper)
 "Qc" = (
 /obj/machinery/door/airlock/research/glass,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/science/lab)
 "Qd" = (
@@ -11033,6 +11225,8 @@
 	cycle_id = "greaterportmaintup"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "Qo" = (
@@ -11113,6 +11307,7 @@
 	name = "Laser Room"
 	},
 /obj/structure/cable/layer3,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "QE" = (
@@ -11134,13 +11329,15 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "QI" = (
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock/wood{
 	name = "The Aft-Lock"
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/maintenance/port/aft)
 "QJ" = (
@@ -11167,10 +11364,11 @@
 /area/engineering/supermatter/room)
 "QM" = (
 /obj/machinery/door/airlock/engineering/glass/critical{
-	heat_proof = 1;
-	name = "Supermatter Chamber"
+	heat_proof = 1
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
 "QN" = (
@@ -11198,6 +11396,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/service/janitor)
 "QS" = (
@@ -11421,6 +11621,8 @@
 "RM" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "RO" = (
@@ -11479,6 +11681,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "RU" = (
@@ -11996,6 +12200,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/engine,
 /area/engineering/engine_smes)
 "TS" = (
@@ -12030,6 +12236,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/structure/sign/departments/security{
+	pixel_y = 32
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit)
 "TZ" = (
@@ -12060,6 +12269,8 @@
 /area/cargo/miningdock)
 "Uf" = (
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "Ug" = (
@@ -12338,7 +12549,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth_large,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/cargo/office)
 "Vj" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
@@ -12416,6 +12628,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/aux_base,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
 "Vx" = (
@@ -12424,6 +12638,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "greaterstarboardmaintup"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "Vy" = (
@@ -12461,7 +12676,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/cargo/miningdock)
 "VC" = (
@@ -12583,6 +12799,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "greaterportmaintup"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "Wa" = (
@@ -12613,6 +12830,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/aux_base,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/maintenance/central)
 "We" = (
@@ -12627,6 +12846,16 @@
 /obj/machinery/chem_mass_spec,
 /turf/open/floor/iron,
 /area/medical)
+"Wg" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/plating,
+/area/maintenance/department/medical)
 "Wh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/docking,
@@ -12829,8 +13058,10 @@
 /obj/machinery/door/airlock/atmos,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
-/area/engineering/lobby)
+/area/engineering/atmos)
 "WU" = (
 /obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/smooth_large,
@@ -12871,12 +13102,17 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/engineering/atmos/upper)
 "Xd" = (
 /obj/machinery/door/airlock/engineering/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/engineering/storage)
 "Xe" = (
@@ -12931,6 +13167,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "Xt" = (
@@ -12984,6 +13221,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "security"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/brig,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/security/brig)
 "XC" = (
@@ -13194,6 +13433,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/security/prison)
 "Yx" = (
@@ -13219,11 +13460,15 @@
 "YB" = (
 /obj/machinery/airalarm/directional/south,
 /obj/machinery/door/airlock/research/glass,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/science/lab)
 "YC" = (
-/obj/effect/mapping_helpers/airlock/abandoned,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "YD" = (
@@ -13469,6 +13714,8 @@
 /obj/machinery/door/airlock/security/glass,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/white/corner,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/security/office)
 "ZE" = (
@@ -13476,6 +13723,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/smooth_large,
 /area/cargo/office)
 "ZF" = (
@@ -41966,7 +42215,7 @@ sk
 Gm
 lM
 Kq
-Ki
+PZ
 Kq
 Kq
 Kq
@@ -43505,7 +43754,7 @@ yx
 Aa
 CO
 fJ
-KM
+yY
 xK
 Jj
 KM
@@ -44285,7 +44534,7 @@ nZ
 zq
 DG
 WF
-FU
+Vh
 kI
 Ys
 Zy
@@ -44514,12 +44763,12 @@ nZ
 nZ
 nZ
 MN
-MN
-bD
-bD
+Mj
+au
+au
 eq
-bD
-MN
+au
+Mj
 jN
 ai
 ng
@@ -44542,7 +44791,7 @@ nZ
 ZZ
 QZ
 WF
-FU
+Vh
 Wy
 Yz
 zq
@@ -45834,10 +46083,10 @@ ZZ
 wH
 Zj
 NI
-AT
-IU
+Ck
+lV
 WT
-IU
+lV
 BY
 oO
 pS
@@ -46056,12 +46305,12 @@ nZ
 nZ
 nZ
 MN
-MN
-bD
-bD
+am
+db
+db
 eB
-bD
-MN
+db
+am
 bD
 bD
 nz
@@ -46084,7 +46333,7 @@ nZ
 ZZ
 RA
 WF
-FU
+Vh
 WF
 WR
 ZJ
@@ -47099,7 +47348,7 @@ zD
 rJ
 wn
 QE
-yY
+yM
 Kt
 DI
 ce
@@ -48648,7 +48897,7 @@ BU
 HD
 YZ
 Iu
-KR
+Wg
 Iu
 Iu
 Iu
@@ -49441,7 +49690,7 @@ jX
 Pb
 It
 TF
-QN
+Sn
 AW
 hE
 yF
@@ -49698,7 +49947,7 @@ uh
 uh
 It
 AZ
-QN
+Sn
 yF
 Fw
 VN
@@ -49706,7 +49955,7 @@ Nx
 Nx
 Nx
 JC
-nc
+nP
 yT
 Nx
 JB
@@ -49955,7 +50204,7 @@ sq
 Ik
 nm
 uh
-QN
+Sn
 Cn
 Nx
 JB
@@ -50220,8 +50469,8 @@ oA
 Nx
 JB
 io
-Sz
-Sz
+oN
+vr
 ch
 JB
 ZM
@@ -50469,7 +50718,7 @@ sg
 sg
 Vn
 uh
-QN
+Sn
 JB
 Uf
 JB
@@ -50726,7 +50975,7 @@ Sk
 uh
 hz
 Qi
-QN
+Sn
 Nx
 nc
 De
@@ -50983,7 +51232,7 @@ Tw
 Xy
 Go
 GU
-QN
+Sn
 JV
 yJ
 uU
@@ -51240,7 +51489,7 @@ Tw
 ju
 xL
 GU
-BL
+Of
 Ro
 td
 td
@@ -51991,13 +52240,13 @@ nZ
 nZ
 cx
 LS
-NJ
+NB
 PY
-Lm
+NB
 Lm
 Wh
 Lm
-Lm
+NB
 PY
 NB
 PY
@@ -52246,19 +52495,19 @@ nZ
 nZ
 nZ
 nZ
-Lm
+NB
 Mb
 Lm
 Qd
-Lm
+NB
 Ji
 Ji
 Ji
-Lm
+NB
 Mb
 Lm
 rq
-Lm
+NB
 nZ
 nZ
 nZ
@@ -52503,19 +52752,19 @@ nZ
 nZ
 nZ
 nZ
-Lm
+NB
 Mf
 NR
 Qg
-Lm
+NB
 SM
 nZ
 SM
-Lm
+NB
 Qg
 NR
 Qg
-Lm
+NB
 nZ
 nZ
 nZ
@@ -108525,7 +108774,7 @@ AN
 Ud
 ei
 SE
-VY
+NJ
 SE
 Ud
 ei
