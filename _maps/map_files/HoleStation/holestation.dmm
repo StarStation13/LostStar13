@@ -5932,6 +5932,15 @@
 	dir = 4
 	},
 /area/ai_monitored/turret_protected/ai_upload)
+"wj" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "greaterportmaintup"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "wk" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/bar{
@@ -6625,12 +6634,12 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "yM" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/machinery/door/airlock/glass,
-/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /obj/effect/mapping_helpers/airlock/autoname,
-/turf/open/floor/wood/large,
-/area/service/theater)
+/turf/open/floor/plating,
+/area/maintenance/department/science)
 "yN" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 6
@@ -6697,9 +6706,12 @@
 	},
 /area/engineering/engine_smes)
 "yY" = (
-/obj/effect/loot_site_spawner,
-/turf/open/floor/plating,
-/area/maintenance/port/central)
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/door/airlock/glass,
+/obj/effect/mapping_helpers/airlock/access/all/service/theatre,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/wood/large,
+/area/service/theater)
 "yZ" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
@@ -9690,7 +9702,7 @@
 "Ki" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
@@ -10511,14 +10523,9 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "NJ" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "greaterportmaintup"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/loot_site_spawner,
 /turf/open/floor/plating,
-/area/maintenance/central)
+/area/maintenance/port/central)
 "NK" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -10632,6 +10639,7 @@
 "Oi" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/plating,
 /area/cargo/office)
 "Ol" = (
@@ -11128,13 +11136,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit)
-"PZ" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/autoname,
-/turf/open/floor/plating,
-/area/maintenance/department/science)
 "Qb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -12799,7 +12800,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "greaterportmaintup"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/maintenance/central)
 "Wa" = (
@@ -41190,7 +41191,7 @@ zG
 JZ
 Ec
 Ec
-Ki
+yM
 Ec
 SC
 yc
@@ -42215,7 +42216,7 @@ sk
 Gm
 lM
 Kq
-PZ
+Ki
 Kq
 Kq
 Kq
@@ -43754,7 +43755,7 @@ yx
 Aa
 CO
 fJ
-yY
+NJ
 xK
 Jj
 KM
@@ -47091,7 +47092,7 @@ aC
 rJ
 wn
 QE
-yM
+yY
 BA
 DI
 ce
@@ -47348,7 +47349,7 @@ zD
 rJ
 wn
 QE
-yM
+yY
 Kt
 DI
 ce
@@ -108261,7 +108262,7 @@ Ud
 tV
 VT
 gj
-VY
+wj
 Wi
 Ly
 Ly
@@ -108774,7 +108775,7 @@ AN
 Ud
 ei
 SE
-NJ
+VY
 SE
 Ud
 ei
