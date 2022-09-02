@@ -192,9 +192,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/preview_pref = PREVIEW_PREF_JOB
 
 	var/ooc_prefs = ""
-	var/erp_pref = "Ask"
-	var/noncon_pref = "Ask"
-	var/vore_pref = "Ask"
 
 	//BACKGROUND STUFF
 	var/general_record = ""
@@ -213,8 +210,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/chosen_augment_slot
 	///Whether the user wants to see body size being shown in the preview
 	var/show_body_size = FALSE
-	///The arousal state of the previewed character, can be toggled by the user
-	var/arousal_preview = AROUSAL_NONE
 	/// Chosen cultural informations
 	var/pref_culture = /datum/cultural_info/culture/generic
 	var/pref_location = /datum/cultural_info/location/generic
@@ -471,9 +466,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "[copytext(html_encode(features["silicon_flavor_text"]), 1, 40)]..."
 
 					dat +=	"<h2>OOC Preferences</h2>"
-					dat += 	"<b>ERP:</b><a href='?_src_=prefs;preference=erp_pref;task=input'>[erp_pref]</a> "
-					dat += 	"<b>Non-Con:</b><a href='?_src_=prefs;preference=noncon_pref;task=input'>[noncon_pref]</a> "
-					dat += 	"<b>Vore:</b><a href='?_src_=prefs;preference=vore_pref;task=input'>[vore_pref]</a><br>"
 					dat += "<a href='?_src_=prefs;preference=ooc_prefs;task=input'><b>Set OOC prefs</b></a><br>"
 					if(length(ooc_prefs) <= 40)
 						if(!length(ooc_prefs))
@@ -604,49 +596,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if (user.client.get_exp_living(TRUE) >= PLAYTIME_VETERAN)
 						dat += "<br><b>Don The Ultimate Gamer Cloak?:</b><BR><a href ='?_src_=prefs;preference=playtime_reward_cloak'>[(playtime_reward_cloak) ? "Enabled" : "Disabled"]</a><BR></td>"
 
-
-					if(pref_species.can_have_genitals)
-						dat += APPEARANCE_CATEGORY_COLUMN
-						dat += "<a href='?_src_=prefs;preference=change_arousal_preview;task=input'>Change arousal preview</a>"
-						dat += "<h3>Penis</h3>"
-						var/penis_name = mutant_bodyparts["penis"][MUTANT_INDEX_NAME]
-						dat += print_bodypart_change_line("penis")
-						if(penis_name != "None")
-							dat += "<br><b>Length: </b> <a href='?_src_=prefs;key=["penis"];preference=penis_size;task=change_genitals'>[features["penis_size"]]</a> inches."
-							dat += "<br><b>Girth: </b> <a href='?_src_=prefs;key=["penis"];preference=penis_girth;task=change_genitals'>[features["penis_girth"]]</a> inches circumference"
-							dat += "<br><b>Sheath: </b> <a href='?_src_=prefs;key=["penis"];preference=penis_sheath;task=change_genitals'>[features["penis_sheath"]]</a>"
-
-						dat += "<h3>Testicles</h3>"
-						var/balls_name = mutant_bodyparts["testicles"][MUTANT_INDEX_NAME]
-						dat += print_bodypart_change_line("testicles")
-						if(balls_name != "None")
-							var/named_size = balls_size_to_description(features["balls_size"])
-							dat += "<br><b>Size: </b> <a href='?_src_=prefs;key=["testicles"];preference=balls_size;task=change_genitals'>[named_size]</a>"
-
-						if(mutant_bodyparts["taur"])
-							var/datum/sprite_accessory/taur/TSP = GLOB.sprite_accessories["taur"][mutant_bodyparts["taur"][MUTANT_INDEX_NAME]]
-							if(TSP.factual && !(TSP.taur_mode & BODYTYPE_TAUR_SNAKE))
-								var/text_string = (features["penis_taur_mode"]) ? "Yes" : "No"
-								dat += "<br><b>Taur Mode: </b> <a href='?_src_=prefs;key=["penis"];preference=penis_taur_mode;task=change_genitals'>[text_string]</a>"
-						dat += "</td>"
-						dat += "</td>"
-
-						dat += APPEARANCE_CATEGORY_COLUMN
-						dat += "<b>Uses skintones: </b> <a href='?_src_=prefs;preference=uses_skintones;task=input'>[(features["uses_skintones"]) ? "Yes" : "No"]</a>"
-						dat += "<h3>Vagina</h3>"
-						dat += print_bodypart_change_line("vagina")
-						dat += "</td>"
-
-						dat += APPEARANCE_CATEGORY_COLUMN
-						dat += "<BR>"
-						dat += "<h3>Breasts</h3>"
-						var/breasts_name = mutant_bodyparts["breasts"][MUTANT_INDEX_NAME]
-						dat += print_bodypart_change_line("breasts")
-						if(breasts_name != "None")
-							var/named_size = breasts_size_to_cup(features["breasts_size"])
-							var/named_lactation = (features["breasts_lactation"]) ? "Yes" : "No"
-							dat += "<br><b>Size: </b> <a href='?_src_=prefs;key=["breasts"];preference=breasts_size;task=change_genitals'>[named_size]</a>"
-							dat += "<br><b>Can Lactate: </b> <a href='?_src_=prefs;key=["breasts"];preference=breasts_lactation;task=change_genitals'>[named_lactation]</a>"
 						dat += "</td>"
 
 					dat += "</tr></table>"
@@ -1759,38 +1708,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						body_markings[zone] -= changing_name
 						body_markings[zone].Insert(held_index, desired_marking)
 						body_markings[zone][desired_marking] = marking_content
-		if("change_genitals")
-			needs_update = TRUE
-			switch(href_list["preference"])
-				if("breasts_size")
-					var/new_size = input(user, "Choose your character's breasts size:", "Character Preference") as null|anything in GLOB.preference_breast_sizes
-					if(new_size)
-						features["breasts_size"] = breasts_cup_to_size(new_size)
-				if("breasts_lactation")
-					features["breasts_lactation"] = !features["breasts_lactation"]
-				if("penis_taur_mode")
-					features["penis_taur_mode"] = !features["penis_taur_mode"]
-				if("penis_size")
-					var/new_length = input(user, "Choose your penis length:\n([PENIS_MIN_LENGTH]-[PENIS_MAX_LENGTH] in inches)", "Character Preference") as num|null
-					if(new_length)
-						features["penis_size"] = clamp(round(new_length, 1), PENIS_MIN_LENGTH, PENIS_MAX_LENGTH)
-						if(features["penis_girth"] >= new_length)
-							features["penis_girth"] = new_length - 1
-				if("penis_sheath")
-					var/new_sheath = input(user, "Choose your penis sheath", "Character Preference") as null|anything in SHEATH_MODES
-					if(new_sheath)
-						features["penis_sheath"] = new_sheath
-				if("penis_girth")
-					var/max_girth = PENIS_MAX_GIRTH
-					if(features["penis_size"] >= max_girth)
-						max_girth = features["penis_size"]
-					var/new_girth = input(user, "Choose your penis girth:\n(1-[max_girth] (based on length) in inches)", "Character Preference") as num|null
-					if(new_girth)
-						features["penis_girth"] = clamp(round(new_girth, 1), 1, max_girth)
-				if("balls_size")
-					var/new_size = input(user, "Choose your character's balls size:", "Character Preference") as null|anything in GLOB.preference_balls_sizes
-					if(new_size)
-						features["balls_size"] = balls_description_to_size(new_size)
 		if("change_bodypart")
 			needs_update = TRUE
 			switch(href_list["preference"])
@@ -2047,41 +1964,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if("uses_skintones")
 					needs_update = TRUE
 					features["uses_skintones"] = !features["uses_skintones"]
-
-				if("erp_pref")
-					switch(erp_pref)
-						if("Yes")
-							erp_pref = "Ask"
-						if("Ask")
-							erp_pref = "No"
-						if("No")
-							erp_pref = "Yes"
-				if("noncon_pref")
-					switch(noncon_pref)
-						if("Yes")
-							noncon_pref = "Ask"
-						if("Ask")
-							noncon_pref = "No"
-						if("No")
-							noncon_pref = "Yes"
-				if("vore_pref")
-					switch(vore_pref)
-						if("Yes")
-							vore_pref = "Ask"
-						if("Ask")
-							vore_pref = "No"
-						if("No")
-							vore_pref = "Yes"
-
-				if("change_arousal_preview")
-					var/list/gen_arous_trans = list("Not aroused" = AROUSAL_NONE,
-						"Partly aroused" = AROUSAL_PARTIAL,
-						"Very aroused" = AROUSAL_FULL
-						)
-					var/new_arousal = input(user, "Choose your character's arousal:", "Character Preference")  as null|anything in gen_arous_trans
-					if(new_arousal)
-						arousal_preview = gen_arous_trans[new_arousal]
-						needs_update = TRUE
 
 				if("hair")
 					var/new_hair = input(user, "Choose your character's hair colour:", "Character Preference","#"+hair_color) as color|null
@@ -2866,13 +2748,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	else //We need to update it to 100% in case they switch back
 		character.dna.features["body_size"] = BODY_SIZE_NORMAL
 		character.dna.update_body_size()
-
-	if(character_setup)
-		for(var/organ_key in list(ORGAN_SLOT_VAGINA, ORGAN_SLOT_PENIS, ORGAN_SLOT_BREASTS))
-			var/obj/item/organ/genital/gent = character.getorganslot(organ_key)
-			if(gent)
-				gent.aroused = arousal_preview
-				gent.update_sprite_suffix()
 
 	if(length(augments))
 		for(var/key in augments)

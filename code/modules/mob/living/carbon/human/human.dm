@@ -109,24 +109,6 @@
 				if(compare_text)
 					to_chat(usr, SPAN_NOTICE("<i>Comparing yourself to [src] you notice...\n[compare_text]</i>"))
 
-			if("genitals")
-				var/list/line = list()
-				for(var/genital in list("penis", "testicles", "vagina", "breasts"))
-					if(!dna.species.mutant_bodyparts[genital])
-						continue
-					var/datum/sprite_accessory/genital/G = GLOB.sprite_accessories[genital][dna.species.mutant_bodyparts[genital][MUTANT_INDEX_NAME]]
-					if(!G)
-						continue
-					if(G.is_hidden(src))
-						continue
-					var/obj/item/organ/genital/ORG = getorganslot(G.associated_organ_slot)
-					if(!ORG)
-						continue
-					var/new_line = ORG.get_description_string(G)
-					if(new_line)
-						line += new_line
-				if(length(line))
-					to_chat(usr, SPAN_NOTICE("[jointext(line, "\n")]"))
 			if("flavor_text")
 				if(length(dna.features["flavor_text"]))
 					var/datum/browser/popup = new(usr, "[name]'s flavor text", "[name]'s Flavor Text", 500, 200)
@@ -136,7 +118,7 @@
 
 			if("ooc_prefs")
 				if(client)
-					var/str = "[src]'s OOC Notes : <br> <b>ERP :</b> [client.prefs.erp_pref] <b>| Non-Con :</b> [client.prefs.noncon_pref] <b>| Vore :</b> [client.prefs.vore_pref]"
+					var/str = "[src]'s OOC Notes :"
 					str += "<br>[html_encode(client.prefs.ooc_prefs)]"
 					var/datum/browser/popup = new(usr, "[name]'s ooc info", "[name]'s OOC Information", 500, 200)
 					popup.set_content(text("<HTML><HEAD><TITLE>[]</TITLE></HEAD><BODY><TT>[]</TT></BODY></HTML>", "[name]'s OOC information", replacetext(str, "\n", "<BR>")))

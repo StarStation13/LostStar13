@@ -3579,7 +3579,7 @@
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/dining_hall)
 "pv" = (
-/obj/effect/mapping_helpers/paint_wall/hotel_wood,
+/obj/effect/mapping_helpers/paint_wall/hotel/wood,
 /turf/closed/wall/mineral/wood,
 /area/ruin/space/has_grav/hotel/sauna)
 "pz" = (
