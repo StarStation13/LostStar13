@@ -41,22 +41,54 @@
 
 	qdel(src)
 
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship
-	name = "FTU Wall Paint"
+/obj/effect/mapping_helpers/paint_wall/cargo
+	name = "Cargo Wall Paint"
 	stripe_paint = "#5B4D41"
-	icon_state = "paint_ftu"
+	icon_state = "paint_cargo"
 
 /obj/effect/mapping_helpers/paint_wall/bridge
 	name = "Bridge Wall Paint"
 	stripe_paint = "#334E6D"
 	icon_state = "paint_bridge"
 
+/obj/effect/mapping_helpers/paint_wall/science
+	name = "Science Wall Paint"
+	stripe_paint = COLOR_PURPLE_GRAY
+	icon_state = "paint_science"
+
+/obj/effect/mapping_helpers/paint_wall/engineering
+	name = "Engineering Wall Paint"
+	stripe_paint = COLOR_DARK_ORANGE
+	icon_state = "paint_engineering"
+
+/obj/effect/mapping_helpers/paint_wall/security
+	name = "Security Wall Paint"
+	stripe_paint = COLOR_BUBBLEGUM_RED
+	icon_state = "paint_security"
+
+/obj/effect/mapping_helpers/paint_wall/service
+	name = "Service Wall Paint"
+	stripe_paint = COLOR_GREEN
+	icon_state = "paint_service"
+
+/obj/effect/mapping_helpers/paint_wall/neutral
+	name = "Neutral Wall Paint"
+	stripe_paint = COLOR_DARK
+	icon_state = "paint_neutral"
+
+/obj/effect/mapping_helpers/paint_wall/dark
+	name = "Dark Wall Paint"
+	stripe_paint = COLOR_ALMOST_BLACK
+	icon_state = "paint_dark"
+
 /obj/effect/mapping_helpers/paint_wall/hotel
-	name = "hotel Wall Paint"
+	name = "Hotel Wall Paint"
 	stripe_paint = "#54402D"
 	wall_paint = "#303030"
+	icon_state = "paint_hotel"
 
-/obj/effect/mapping_helpers/paint_wall/hotel_wood
+/obj/effect/mapping_helpers/paint_wall/hotel/wood
 	name = "Hotel Wood Paint"
 	stripe_paint = "#54402D"
 	wall_paint = "#54402D"
+	icon_state = "paint_hotel_wood"

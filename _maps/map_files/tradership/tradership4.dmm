@@ -23,7 +23,6 @@
 /turf/open/floor/circuit,
 /area/tcommsat/server)
 "dO" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
 /turf/closed/wall,
 /area/maintenance/solars/port/aft)
 "fB" = (
@@ -41,6 +40,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
+/obj/machinery/light/directional/east,
 /turf/open/openspace,
 /area/maintenance/solars/port/aft)
 "hg" = (
@@ -116,7 +116,6 @@
 /area/tcommsat/server)
 "nZ" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
 /turf/open/floor/plating,
 /area/maintenance/solars/port/aft)
 "oa" = (
@@ -132,7 +131,6 @@
 /turf/open/floor/plating,
 /area/maintenance/solars/port/aft)
 "oE" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
 /turf/closed/wall/r_wall,
 /area/maintenance/solars/port/aft)
 "oH" = (
@@ -150,7 +148,7 @@
 /area/tcommsat/server)
 "pE" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/open/floor/plating,
 /area/tcommsat/server)
 "pW" = (
@@ -182,20 +180,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/tcommsat/server)
-"ve" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/light/directional/west,
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
 "vf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -303,12 +287,6 @@
 /obj/machinery/telecomms/bus/preset_three,
 /turf/open/floor/circuit,
 /area/tcommsat/server)
-"FM" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
 "Hc" = (
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/plating,
@@ -324,7 +302,6 @@
 /area/tcommsat/server)
 "HJ" = (
 /obj/structure/sign/departments/deck4,
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
 /turf/closed/wall/r_wall,
 /area/maintenance/solars/port/aft)
 "HN" = (
@@ -402,17 +379,6 @@
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit,
 /area/tcommsat/server)
-"Rx" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/machinery/light/directional/east,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/turf/open/openspace,
-/area/maintenance/solars/port/aft)
 "SH" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner{
@@ -428,7 +394,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/light_switch/directional/west,
+/obj/machinery/light_switch/directional/south,
+/obj/machinery/light/directional/west,
 /turf/open/floor/plating,
 /area/maintenance/solars/port/aft)
 "Tj" = (
@@ -477,7 +444,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "Vd" = (
-/obj/effect/mapping_helpers/paint_wall/free_trade_union_ship,
+/obj/effect/mapping_helpers/paint_wall/engineering,
 /turf/closed/wall/r_wall,
 /area/tcommsat/server)
 "Vn" = (
@@ -32020,8 +31987,8 @@ jB
 jB
 jB
 oE
-FM
-FM
+nZ
+nZ
 oE
 yC
 yC
@@ -32536,7 +32503,7 @@ JQ
 Ux
 Ux
 Ux
-ve
+Ux
 SU
 oE
 yC
@@ -33818,7 +33785,7 @@ jB
 oE
 oE
 gD
-Rx
+fB
 fB
 fB
 fB
@@ -34333,8 +34300,8 @@ jB
 jB
 jB
 oE
-FM
-FM
+nZ
+nZ
 oE
 jB
 jB
