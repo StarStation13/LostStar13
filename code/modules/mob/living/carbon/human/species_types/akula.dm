@@ -1,7 +1,8 @@
 /datum/species/akula
 	name = "Akula"
 	id = "akula"
-	flavor_text = "An aquatic species, most having a big similarity to sharks."
+	flavor_text = "An aquatic species, most having a big similarity to sharks. Traditionally, Akula are reliant on low-levels of Water Vapor \
+	in the atmosphere for their survival."
 	default_color = "444"
 	species_traits = list(
 		MUTCOLORS,
