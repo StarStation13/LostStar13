@@ -110,6 +110,9 @@
 /area/cargo/storage)
 "dq" = (
 /obj/effect/decal/cleanable/food/pie_smudge,
+/obj/structure/sign/poster/official/no_erp{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet,
 /area/service/bar)
 "dz" = (
@@ -125,7 +128,7 @@
 /area/cargo/storage)
 "dK" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/security,
 /turf/open/floor/plating,
 /area/security/brig)
 "ec" = (
@@ -153,6 +156,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/chair/stool/directional/north,
 /turf/open/floor/wood,
 /area/service/bar)
 "ev" = (
@@ -165,7 +169,7 @@
 /area/cargo/storage)
 "eP" = (
 /obj/structure/sign/departments/deck1,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/security,
 /turf/closed/wall,
 /area/security/brig)
 "ff" = (
@@ -327,7 +331,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "kC" = (
-/obj/structure/chair/stool,
+/obj/structure/chair/stool/directional/west,
 /turf/open/floor/wood,
 /area/service/bar)
 "kG" = (
@@ -410,7 +414,7 @@
 /turf/open/floor/iron,
 /area/cargo/storage)
 "nb" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/security,
 /turf/closed/wall/r_wall,
 /area/security/brig)
 "nd" = (
@@ -506,7 +510,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
-/area/service/bar)
+/area/maintenance/disposal)
 "pW" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -604,6 +608,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/iron,
 /area/cargo/storage)
+"sT" = (
+/turf/closed/wall/r_wall,
+/area/science/xenobiology)
+"tm" = (
+/obj/effect/mapping_helpers/paint_wall/security,
+/turf/closed/wall,
+/area/science/xenobiology)
 "tu" = (
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/east,
@@ -786,11 +797,11 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "xZ" = (
-/obj/structure/chair/stool,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/chair/stool/directional/north,
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
@@ -819,6 +830,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/chair/stool/directional/north,
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
 	},
@@ -850,20 +862,21 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "zT" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall/r_wall,
-/area/service/bar)
+/area/maintenance/disposal)
 "zY" = (
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/wood,
 /area/service/bar)
+"Aa" = (
+/turf/closed/wall,
+/area/maintenance/port/aft)
 "Af" = (
-/obj/structure/cable,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/hallway/primary/central)
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall,
+/area/service/bar)
 "An" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -1018,7 +1031,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/science,
 /turf/open/floor/plating,
 /area/science/xenobiology)
 "EQ" = (
@@ -1059,7 +1072,7 @@
 "GZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/open/floor/plating,
 /area/service/bar)
 "HA" = (
@@ -1103,14 +1116,13 @@
 /obj/item/stack/ore/iron{
 	amount = 5
 	},
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/cargo/storage)
 "Iy" = (
 /turf/open/floor/iron,
 /area/cargo/storage)
 "IT" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/science,
 /turf/closed/wall/r_wall,
 /area/science/xenobiology)
 "IU" = (
@@ -1191,11 +1203,9 @@
 "Lv" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "LT" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/maintenance/port/aft)
 "LU" = (
@@ -1210,7 +1220,7 @@
 /area/science/xenobiology)
 "My" = (
 /obj/machinery/vending/boozeomat,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall,
 /area/service/bar)
 "MI" = (
@@ -1277,7 +1287,6 @@
 /obj/structure/table/wood,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/west,
-/obj/machinery/light/broken/directional/west,
 /obj/machinery/light_switch/directional/west{
 	pixel_x = -36
 	},
@@ -1385,6 +1394,7 @@
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
 "QL" = (
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall/r_wall,
 /area/service/bar)
 "QR" = (
@@ -1396,7 +1406,7 @@
 "Rd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/security,
 /turf/open/floor/plating,
 /area/security/brig)
 "Rk" = (
@@ -1406,9 +1416,13 @@
 	name = "Xenobio Pen 1 Blast Door"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/science,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"Rm" = (
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall,
+/area/maintenance/disposal)
 "Ry" = (
 /obj/structure/window/reinforced/spawner{
 	dir = 1
@@ -1429,12 +1443,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/curtain/bounty,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/service/bar)
 "RL" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/cargo/storage)
 "RM" = (
@@ -1450,7 +1462,6 @@
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "RX" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal)
 "Sc" = (
@@ -1460,18 +1471,20 @@
 	},
 /area/service/bar)
 "Sn" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/cargo/storage)
 "Sr" = (
-/obj/structure/chair/stool,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/service/bar)
+/obj/effect/mapping_helpers/paint_wall/science,
+/turf/closed/wall,
+/area/maintenance/disposal)
+"SW" = (
+/obj/effect/mapping_helpers/paint_wall/security,
+/turf/closed/wall/r_wall,
+/area/science/xenobiology)
+"Ts" = (
+/obj/effect/mapping_helpers/paint_wall/science,
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal)
 "Tt" = (
 /obj/item/organ/ears/cat,
 /turf/open/floor/carpet,
@@ -1558,7 +1571,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "Ul" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/security,
 /turf/closed/wall,
 /area/security/brig)
 "Up" = (
@@ -1685,7 +1698,6 @@
 /area/maintenance/port/aft)
 "Yi" = (
 /obj/machinery/airalarm/directional/east,
-/obj/machinery/light/broken/directional/east,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/bar)
@@ -32248,7 +32260,7 @@ kg
 kg
 kg
 YQ
-YP
+Aa
 bk
 iW
 fn
@@ -32491,10 +32503,10 @@ Kg
 Kg
 Kg
 Kg
-zT
 QL
 QL
-zT
+QL
+QL
 gw
 gq
 MP
@@ -32748,10 +32760,10 @@ Kg
 Kg
 Kg
 Kg
-zT
+QL
 qI
 av
-Kr
+Af
 kg
 po
 YP
@@ -33005,10 +33017,10 @@ Kg
 Kg
 Kg
 Kg
-zT
+QL
 zY
 Bm
-Kr
+Af
 wR
 zP
 vF
@@ -33265,7 +33277,7 @@ Kg
 GZ
 Bn
 hU
-Kr
+Af
 hq
 os
 YP
@@ -33282,7 +33294,7 @@ HO
 ND
 YP
 YP
-YP
+Aa
 LT
 uN
 uN
@@ -33519,12 +33531,12 @@ Kg
 Kg
 Kg
 Kg
-zT
+QL
 My
 TU
-Kr
+Af
 rt
-Kr
+Af
 Kr
 CB
 wF
@@ -33796,7 +33808,7 @@ pK
 pK
 VW
 YP
-YP
+Aa
 LT
 RL
 Sn
@@ -34294,7 +34306,7 @@ GZ
 pY
 LU
 BC
-Sr
+et
 yc
 RK
 aj
@@ -35318,13 +35330,13 @@ Kg
 Kg
 Kg
 Kg
-zT
-Kr
+QL
+Af
 Us
-Kr
-Kr
+Rm
+Rm
 pP
-Kr
+OR
 Ez
 PZ
 kG
@@ -35578,7 +35590,7 @@ Kg
 GZ
 Tt
 kX
-Kr
+Rm
 RM
 Xg
 Vo
@@ -35832,10 +35844,10 @@ Kg
 Kg
 Kg
 Kg
-zT
+QL
 dq
 Pl
-Kr
+Rm
 uG
 TN
 OR
@@ -35848,7 +35860,7 @@ ab
 ab
 ab
 ab
-Af
+EQ
 Dp
 xo
 uK
@@ -36089,13 +36101,13 @@ Kg
 Kg
 Kg
 Kg
-zT
+QL
 JW
 kX
-Kr
+Rm
 TD
 Yp
-OR
+Sr
 lF
 Mg
 QA
@@ -36104,7 +36116,7 @@ Rk
 uV
 uV
 uV
-ab
+tm
 dK
 Ul
 NT
@@ -36346,13 +36358,13 @@ Kg
 Kg
 Kg
 ff
-zT
-zT
-zT
+QL
+QL
+QL
 zT
 uG
 Ry
-OR
+Sr
 gU
 Aw
 qF
@@ -36361,7 +36373,7 @@ om
 uV
 DI
 HJ
-ab
+tm
 ZA
 Ww
 ul
@@ -36609,7 +36621,7 @@ ff
 RX
 RD
 ZW
-OR
+Sr
 lf
 KU
 WB
@@ -36618,7 +36630,7 @@ Rk
 uV
 uV
 uV
-ab
+tm
 qB
 MI
 tz
@@ -36866,7 +36878,7 @@ ff
 RX
 DO
 RX
-RX
+Ts
 IT
 IT
 IT
@@ -36875,7 +36887,7 @@ IT
 IT
 IT
 IT
-IT
+SW
 nb
 nb
 nb
@@ -37126,13 +37138,13 @@ ww
 ff
 ff
 ff
-IT
+sT
 tE
-IT
+sT
 nk
 nk
 nk
-IT
+sT
 Kg
 Kg
 Kg
