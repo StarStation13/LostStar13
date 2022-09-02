@@ -261,18 +261,18 @@
 	item_chair = /obj/item/chair/stool
 
 /obj/structure/chair/stool/directional/north
-	dir = SOUTH
-	pixel_y = 6
-
-/obj/structure/chair/stool/directional/south
 	dir = NORTH
 	pixel_y = 6
 
+/obj/structure/chair/stool/directional/south
+	dir = SOUTH
+	pixel_y = 6
+
 /obj/structure/chair/stool/directional/east
-	dir = WEST
+	dir = EAST
 
 /obj/structure/chair/stool/directional/west
-	dir = EAST
+	dir = WEST
 
 /obj/structure/chair/stool/narsie_act()
 	return
@@ -301,16 +301,16 @@
 	item_chair = /obj/item/chair/stool/bar
 
 /obj/structure/chair/stool/bar/directional/north
-	dir = SOUTH
-
-/obj/structure/chair/stool/bar/directional/south
 	dir = NORTH
 
+/obj/structure/chair/stool/bar/directional/south
+	dir = SOUTH
+
 /obj/structure/chair/stool/bar/directional/east
-	dir = WEST
+	dir = EAST
 
 /obj/structure/chair/stool/bar/directional/west
-	dir = EAST
+	dir = WEST
 
 /obj/item/chair
 	name = "chair"
