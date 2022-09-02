@@ -1,6 +1,6 @@
 // TODO: Convert to non-numeric access codes like /tg/ did and greyscale as I did somewhere else
 /obj/effect/mapping_helpers/airlock/access
-	layer = DOOR_HELPER_LAYER
+	layer = DOOR_ACCESS_HELPER_LAYER
 	icon_state = "access_helper"
 	var/list/access_list = list()
 
@@ -147,11 +147,11 @@
 
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance/Initialize()
 	. = ..()
-	access_list += ACCESS_ORDNANCE
+	access_list += ACCESS_TOXINS
 
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance_storage/Initialize()
 	. = ..()
-	access_list += ACCESS_ORDNANCE_STORAGE
+	access_list += ACCESS_TOXINS_STORAGE
 
 /obj/effect/mapping_helpers/airlock/access/any/science/genetics/Initialize()
 	. = ..()
@@ -204,10 +204,6 @@
 // -------------------- Service access helpers
 /obj/effect/mapping_helpers/airlock/access/any/service
 	icon_state = "access_helper_serv"
-
-/obj/effect/mapping_helpers/airlock/access/any/service/general/Initialize()
-	. = ..()
-	access_list += ACCESS_SERVICE
 
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen/Initialize()
 	. = ..()
@@ -404,11 +400,11 @@
 
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance/Initialize()
 	. = ..()
-	access_list += ACCESS_ORDNANCE
+	access_list += ACCESS_TOXINS
 
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage/Initialize()
 	. = ..()
-	access_list += ACCESS_ORDNANCE_STORAGE
+	access_list += ACCESS_TOXINS_STORAGE
 
 /obj/effect/mapping_helpers/airlock/access/all/science/genetics/Initialize()
 	. = ..()
@@ -461,10 +457,6 @@
 // -------------------- Service access helpers
 /obj/effect/mapping_helpers/airlock/access/all/service
 	icon_state = "access_helper_serv"
-
-/obj/effect/mapping_helpers/airlock/access/all/service/general/Initialize()
-	. = ..()
-	access_list += ACCESS_SERVICE
 
 /obj/effect/mapping_helpers/airlock/access/all/service/kitchen/Initialize()
 	. = ..()
