@@ -75,7 +75,7 @@
 /obj/effect/mapping_helpers/paint_wall/medbay
 	name = "Medbay Wall Paint"
 	stripe_paint = "#435C90"
-	icon_state = "Medbay"
+	icon_state = "paint_medbay"
 
 /obj/effect/mapping_helpers/paint_wall/neutral
 	name = "Neutral Wall Paint"
