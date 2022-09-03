@@ -19,6 +19,12 @@
 	minetype = "lavaland"
 
 	allow_custom_shuttles = TRUE
+	shuttles = list(
+		"cargo" = "cargo_holestation",
+		"ferry" = "ferry_fancy",
+		"whiteship" = "whiteship_delta",
+		"emergency" = "emergency_delta",
+	)
 
 	overmap_object_type = /datum/overmap_object/shuttle/ship/holemaker
 
