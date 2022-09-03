@@ -106,23 +106,6 @@
 	inhand_icon_state = "by_suit"
 	can_adjust = FALSE
 
-/obj/item/clothing/under/misc/stripper
-	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
-	worn_icon = 'icons/mob/clothing/under/stripper.dmi'
-	name = "pink stripper outfit"
-	icon_state = "stripper_p"
-	body_parts_covered = CHEST|GROIN
-	can_adjust = FALSE
-	fitted_bodytypes = NONE
-
-/obj/item/clothing/under/misc/stripper/green
-	name = "green stripper outfit"
-	icon_state = "stripper_g"
-
-/obj/item/clothing/under/misc/stripper/mankini
-	name = "pink mankini"
-	icon_state = "mankini"
-
 /obj/item/clothing/under/misc/croptop
 	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
 	name = "crop top"
