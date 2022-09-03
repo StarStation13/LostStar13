@@ -87,29 +87,22 @@
 /obj/item/clothing/under/pants/jeanripped
 	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
 	name = "ripped jeans"
-	desc = "If you're wearing this you're poor or a rebel"
+	desc = "If you're wearing this, you're poor or a rebel."
 	icon_state = "jean_ripped"
 	worn_template_greyscale_color = "#4D7EAC"
 
 /obj/item/clothing/under/pants/jeanshort
 	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
 	name = "jean shorts"
-	desc = "These are really just jeans cut in half"
+	desc = "These are really just jeans cut in half."
 	icon_state = "jean_shorts"
 	worn_template_greyscale_color = "#4D7EAC"
 
 /obj/item/clothing/under/pants/denimskirt
 	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
 	name = "denim skirt"
-	desc = "These are really just a jean leg hole cut from a pair"
+	desc = "These are really just a jean leg hole cut from a pair."
 	icon_state = "denim_skirt"
-
-/obj/item/clothing/under/pants/chaps
-	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
-	name = "black chaps"
-	body_parts_covered = LEGS
-	desc = "Yeehaw"
-	icon_state = "chaps"
 
 /obj/item/clothing/under/pants/yoga
 	icon = 'icons/horizon/obj/clothing/uniforms.dmi'

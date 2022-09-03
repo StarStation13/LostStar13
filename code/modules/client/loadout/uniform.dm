@@ -31,20 +31,6 @@
 /datum/loadout_item/uniform/kilt
 	path = /obj/item/clothing/under/costume/kilt
 
-/datum/loadout_item/uniform/gear_harnesses
-	path = /obj/item/clothing/under/misc/gear_harness
-
-/datum/loadout_item/uniform/pinkstripper
-	path = /obj/item/clothing/under/misc/stripper
-	cost = 2
-
-/datum/loadout_item/uniform/greenstripper
-	path = /obj/item/clothing/under/misc/stripper/green
-	cost = 2
-
-/datum/loadout_item/uniform/corset
-	path = /obj/item/clothing/under/dress/corset
-
 /datum/loadout_item/uniform/qipao
 	path = /obj/item/clothing/under/costume/qipao
 
