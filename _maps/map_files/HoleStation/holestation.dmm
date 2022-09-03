@@ -1066,7 +1066,7 @@
 /area/space/nearstation)
 "ek" = (
 /obj/effect/spawner/structure/window,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/open/floor/plating,
 /area/hallway/primary/central/aft)
 "el" = (
@@ -1440,7 +1440,7 @@
 /area/maintenance/port/aft)
 "fw" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/open/floor/plating,
 /area/medical)
 "fx" = (
@@ -4069,7 +4069,7 @@
 /turf/open/floor/plating,
 /area/engineering/atmos/upper)
 "pa" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall,
 /area/maintenance/department/medical)
 "pb" = (
@@ -5726,7 +5726,7 @@
 /turf/open/floor/plating,
 /area/maintenance/central)
 "vx" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall,
 /area/hallway/primary/central/aft)
 "vz" = (
@@ -6093,7 +6093,7 @@
 "wN" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/open/floor/plating,
 /area/medical)
 "wO" = (
@@ -9112,7 +9112,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/ai_monitored/security/armory)
 "HL" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall/r_wall,
 /area/medical/morgue)
 "HP" = (
@@ -9942,7 +9942,7 @@
 /turf/open/floor/iron,
 /area/medical/morgue)
 "Li" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall/r_wall,
 /area/medical)
 "Lj" = (
@@ -9994,7 +9994,7 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/aft)
 "Lu" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall,
 /area/medical/morgue)
 "Lv" = (
@@ -11704,7 +11704,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/storage_shared)
 "RW" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall,
 /area/medical)
 "RX" = (
@@ -13796,7 +13796,7 @@
 /area/security/brig)
 "ZR" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/medbay,
 /turf/closed/wall,
 /area/medical)
 "ZS" = (
