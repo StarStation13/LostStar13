@@ -116,15 +116,6 @@
 	can_adjust = FALSE
 	fitted_bodytypes = NONE
 
-/obj/item/clothing/under/misc/gear_harness
-	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
-	name = "gear harness"
-	desc = "A simple, inconspicuous harness replacement for a jumpsuit."
-	icon_state = "gear_harness"
-	body_parts_covered = CHEST|GROIN
-	can_adjust = FALSE
-	fitted_bodytypes = NONE
-
 /obj/item/clothing/under/misc/poly_kilt
 	name = "polychromic kilt"
 	desc = "It's not a skirt!"

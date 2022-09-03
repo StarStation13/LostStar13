@@ -158,15 +158,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing/under/dress/corset
-	icon = 'icons/horizon/obj/clothing/uniforms.dmi'
-	name = "black corset"
-	desc = "Nanotrasen is not resposible for any organ damage."
-	icon_state = "corset"
-	body_parts_covered = CHEST|GROIN
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
 /obj/item/clothing/under/dress/black
 	name = "black fashionable dress"
 	desc = "A black skirt with a golden-yellow trim and a matching bra."
