@@ -41,6 +41,7 @@
 
 	qdel(src)
 
+// Convert to color defines later, when we think up a good naming convention for them.
 /obj/effect/mapping_helpers/paint_wall/cargo
 	name = "Cargo Wall Paint"
 	stripe_paint = "#5B4D41"
@@ -53,23 +54,28 @@
 
 /obj/effect/mapping_helpers/paint_wall/science
 	name = "Science Wall Paint"
-	stripe_paint = COLOR_PURPLE_GRAY
+	stripe_paint = "#5C5167"
 	icon_state = "paint_science"
 
 /obj/effect/mapping_helpers/paint_wall/engineering
 	name = "Engineering Wall Paint"
-	stripe_paint = COLOR_DARK_ORANGE
+	stripe_paint = "#A18D00"
 	icon_state = "paint_engineering"
 
 /obj/effect/mapping_helpers/paint_wall/security
 	name = "Security Wall Paint"
-	stripe_paint = COLOR_BUBBLEGUM_RED
+	stripe_paint = "#7B3131"
 	icon_state = "paint_security"
 
 /obj/effect/mapping_helpers/paint_wall/service
 	name = "Service Wall Paint"
-	stripe_paint = COLOR_GREEN
+	stripe_paint = "#4E7C4E"
 	icon_state = "paint_service"
+
+/obj/effect/mapping_helpers/paint_wall/medbay
+	name = "Medbay Wall Paint"
+	stripe_paint = "#435C90"
+	icon_state = "Medbay"
 
 /obj/effect/mapping_helpers/paint_wall/neutral
 	name = "Neutral Wall Paint"
@@ -80,6 +86,11 @@
 	name = "Dark Wall Paint"
 	stripe_paint = COLOR_ALMOST_BLACK
 	icon_state = "paint_dark"
+
+/obj/effect/mapping_helpers/paint_wall/syndicate
+	name = "Syndicate Wall Paint"
+	stripe_paint = COLOR_BUBBLEGUM_RED
+	icon_state = "paint_syndie"
 
 /obj/effect/mapping_helpers/paint_wall/hotel
 	name = "Hotel Wall Paint"
