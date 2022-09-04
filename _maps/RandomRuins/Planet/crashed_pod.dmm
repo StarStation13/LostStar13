@@ -10,7 +10,8 @@
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1
 	},
-/turf/open/floor/planetary/rock,
+/obj/effect/spawner/clear,
+/turf/template_noop,
 /area/template_noop)
 "cs" = (
 /obj/item/stack/sheet/iron/ten,
@@ -32,7 +33,8 @@
 /area/ruin/unpowered/crashed_pod)
 "eg" = (
 /obj/effect/decal/remains/human/grave,
-/turf/open/floor/planetary/rock,
+/obj/effect/spawner/clear,
+/turf/template_noop,
 /area/template_noop)
 "eO" = (
 /obj/structure/table,
@@ -43,14 +45,18 @@
 "gB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table_frame,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "hb" = (
 /obj/item/electronics/tracker,
 /obj/item/stack/sheet/glass{
 	amount = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "iA" = (
 /obj/structure/table,
@@ -64,13 +70,16 @@
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
-/turf/open/floor/planetary/concrete,
+/obj/effect/spawner/clear,
+/turf/template_noop,
 /area/template_noop)
 "jb" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "jP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -98,7 +107,9 @@
 /area/ruin/unpowered/crashed_pod)
 "mi" = (
 /obj/structure/girder,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "mw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -116,7 +127,9 @@
 /area/ruin/unpowered/crashed_pod)
 "nq" = (
 /obj/structure/girder,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "nN" = (
 /obj/structure/cable,
@@ -155,7 +168,9 @@
 "rQ" = (
 /obj/item/stack/sheet/iron/ten,
 /obj/item/solar_assembly,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "sF" = (
 /obj/machinery/power/smes,
@@ -169,7 +184,9 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "up" = (
 /obj/structure/rack,
@@ -197,7 +214,9 @@
 /area/ruin/unpowered/crashed_pod)
 "uJ" = (
 /obj/item/solar_assembly,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "vc" = (
 /obj/structure/rack,
@@ -221,7 +240,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/cash,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "vp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -240,7 +261,9 @@
 /obj/effect/spawner/lootdrop/medicine,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/powercell,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "wO" = (
 /obj/structure/window/reinforced/spawner/east,
@@ -260,7 +283,9 @@
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/melee_weapon,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "xr" = (
 /obj/item/storage/toolbox/emergency,
@@ -286,12 +311,16 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "zV" = (
 /obj/structure/cable,
 /obj/item/stack/cable_coil,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "AU" = (
 /obj/effect/spawner/lootdrop/maintenance/four,
@@ -335,12 +364,16 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "ER" = (
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "EW" = (
 /obj/effect/decal/cleanable/shreds,
 /obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "Fn" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -420,7 +453,9 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden,
 /obj/structure/table_frame,
 /obj/item/bedsheet/medical,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/mineral/titanium/white{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/crashed_pod)
 "NX" = (
 /obj/effect/spawner/lootdrop/maintenance,
@@ -487,7 +522,8 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "RE" = (
-/turf/open/floor/planetary/concrete,
+/obj/effect/spawner/clear,
+/turf/template_noop,
 /area/template_noop)
 "RR" = (
 /turf/template_noop,
@@ -528,8 +564,10 @@
 "UM" = (
 /obj/structure/bed/pod,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/unpowered/crashed_pod)
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/template_noop)
 "UN" = (
 /obj/machinery/firealarm/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -538,7 +576,9 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "UO" = (
-/turf/open/floor/plating/foam,
+/turf/open/floor/plating/foam{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "UX" = (
 /obj/structure/cable,
@@ -550,8 +590,10 @@
 /area/ruin/unpowered/crashed_pod)
 "Vj" = (
 /obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
-/area/template_noop)
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/crashed_pod)
 "Vt" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden,
 /turf/closed/wall/mineral/titanium,
@@ -602,8 +644,10 @@
 /obj/effect/spawner/lootdrop/medkit,
 /obj/effect/spawner/lootdrop/medkit,
 /obj/machinery/light/small/broken/directional/north,
-/turf/open/floor/mineral/titanium/white,
-/area/template_noop)
+/turf/open/floor/mineral/titanium/white{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/crashed_pod)
 "XP" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/chair/comfy/shuttle,
@@ -612,8 +656,10 @@
 /turf/open/floor/mineral/titanium/purple,
 /area/ruin/unpowered/crashed_pod)
 "YH" = (
-/turf/open/floor/planetary/rock,
-/area/template_noop)
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/crashed_pod)
 "Zl" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -628,29 +674,29 @@
 (1,1,1) = {"
 RR
 RR
-YH
-YH
-YH
-YH
+RE
+RE
+RE
+RE
 RR
-YH
-YH
-YH
-YH
-YH
-YH
-YH
-YH
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 RR
 RR
 RR
 RR
 "}
 (2,1,1) = {"
-YH
-YH
+RE
+RE
 eg
-YH
+RE
 rQ
 uJ
 mi
@@ -668,9 +714,9 @@ RR
 RR
 "}
 (3,1,1) = {"
-YH
+RE
 co
-YH
+RE
 mi
 ER
 zV
@@ -689,9 +735,9 @@ EW
 RR
 "}
 (4,1,1) = {"
-YH
-YH
-YH
+RE
+RE
+RE
 mi
 ud
 Mb
@@ -707,11 +753,11 @@ jP
 Xn
 Mr
 UM
-YH
+RE
 "}
 (5,1,1) = {"
-YH
-YH
+RE
+RE
 RE
 xA
 xA
@@ -728,10 +774,10 @@ RB
 Qu
 Qu
 Qu
-YH
+RE
 "}
 (6,1,1) = {"
-YH
+RE
 RE
 iC
 xA
@@ -770,7 +816,7 @@ jP
 yS
 jb
 zs
-JH
+YH
 "}
 (8,1,1) = {"
 RE
@@ -791,11 +837,11 @@ Vx
 Qu
 xj
 wC
-JH
+YH
 "}
 (9,1,1) = {"
-YH
-YH
+RE
+RE
 RE
 qW
 lU
@@ -815,7 +861,7 @@ Qu
 nq
 "}
 (10,1,1) = {"
-YH
+RE
 RE
 RE
 Qu
@@ -836,9 +882,9 @@ CV
 Qu
 "}
 (11,1,1) = {"
-YH
-YH
-YH
+RE
+RE
+RE
 qW
 lU
 xr
@@ -857,9 +903,9 @@ On
 Qn
 "}
 (12,1,1) = {"
-YH
-YH
-YH
+RE
+RE
+RE
 Qu
 Qu
 Fn
@@ -879,9 +925,9 @@ Qu
 "}
 (13,1,1) = {"
 RR
-YH
-YH
-YH
+RE
+RE
+RE
 Qu
 Qu
 Qu
@@ -901,21 +947,21 @@ Qu
 (14,1,1) = {"
 RR
 RR
-YH
-YH
-YH
-YH
-YH
-YH
-YH
-YH
-YH
-YH
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 RR
 RR
 RR
-YH
-YH
+RE
+RE
 RR
 RR
 "}

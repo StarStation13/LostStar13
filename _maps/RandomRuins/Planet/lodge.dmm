@@ -28,7 +28,9 @@
 /area/ruin/unpowered)
 "dN" = (
 /obj/structure/mineral_door/wood,
-/turf/template_noop,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
 /area/ruin/unpowered)
 "dZ" = (
 /obj/structure/reagent_dispensers/watertank,
