@@ -7895,6 +7895,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 6
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "Cb" = (
@@ -9124,6 +9125,9 @@
 /obj/structure/cable,
 /obj/structure/window/plasma/spawner/east,
 /obj/machinery/power/rad_collector/anchored,
+/obj/effect/mapping_helpers/smart_pipe/simple/green/visible{
+	dir = 5
+	},
 /turf/open/floor/circuit/green{
 	luminosity = 2
 	},
@@ -11865,7 +11869,7 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "QL" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/orange/hidden{
+/obj/effect/mapping_helpers/smart_pipe/manifold/orange/visible{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -12016,6 +12020,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/visible{
 	dir = 4
 	},
+/obj/machinery/meter,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "Rk" = (
