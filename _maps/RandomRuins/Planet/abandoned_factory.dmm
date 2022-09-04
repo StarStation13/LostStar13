@@ -143,7 +143,9 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/iron/checker/airless,
+/turf/open/floor/iron/checker{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "ew" = (
 /obj/machinery/autolathe,
