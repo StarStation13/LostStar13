@@ -65,7 +65,7 @@
 	var/audio_cooldown = 2 SECONDS
 	/// How far will the emote be displayed
 	var/emote_distance = DEFAULT_MESSAGE_RANGE
-	/// Whether the emote will be shown to ghosts
+	/// Whether the emote will be shown to ghosts. Disable only for AI mob emotes.
 	var/show_ghosts = TRUE
 
 /datum/emote/New()
