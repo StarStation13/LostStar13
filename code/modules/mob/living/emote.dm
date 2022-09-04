@@ -590,7 +590,6 @@
 	key = "me"
 	key_third_person = "custom"
 	message = null
-	var/subtle = FALSE
 	cooldown = 0
 
 /datum/emote/living/custom/can_run_emote(mob/user, status_check, intentional)
@@ -637,25 +636,12 @@
 		custom_emote = params
 		if(type_override)
 			custom_emote_type = type_override
-	if(subtle)
-		custom_emote = "<i>[custom_emote]</i>"
 	override_message = custom_emote
 	override_emote_type = custom_emote_type
 	. = ..()
 
 /datum/emote/living/custom/replace_pronoun(mob/user, message)
 	return message
-
-/datum/emote/living/custom/subtle
-	key = "subtle"
-	key_third_person = "subtling"
-	subtle = TRUE
-	emote_distance = 1
-
-/datum/emote/living/custom/subtle/anti_ghost
-	key = "subtler"
-	key_third_person = "subtlering" //What do you mean third person???
-	show_ghosts = FALSE
 
 /datum/emote/living/beep
 	key = "beep"
