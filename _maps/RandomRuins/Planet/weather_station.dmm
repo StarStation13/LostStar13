@@ -16,7 +16,9 @@
 "ey" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "eI" = (
 /obj/structure/cable,
@@ -174,7 +176,9 @@
 /area/ruin/unpowered)
 "xE" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "Af" = (
 /turf/template_noop,
@@ -305,7 +309,9 @@
 "SK" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/template_noop)
 "TR" = (
 /obj/structure/cable,

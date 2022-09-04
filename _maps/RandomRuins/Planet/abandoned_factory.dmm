@@ -7,12 +7,16 @@
 /obj/item/stack/sheet/mineral/plasma/five,
 /obj/item/wrench/caravan,
 /obj/machinery/light/small/red/directional/east,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "bc" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "bl" = (
 /obj/structure/fence/door{
@@ -20,13 +24,13 @@
 	open = 1
 	},
 /obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete/reinforced,
+/turf/template_noop,
 /area/template_noop)
 "bn" = (
 /obj/structure/fence/door,
 /obj/structure/barricade/wooden/crude,
 /obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete/reinforced,
+/turf/template_noop,
 /area/template_noop)
 "bw" = (
 /obj/structure/fence/corner{
@@ -43,17 +47,14 @@
 	dir = 8;
 	open = 1
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "bE" = (
 /obj/structure/fence,
 /obj/effect/spawner/clear,
 /turf/template_noop,
-/area/template_noop)
-"bZ" = (
-/obj/structure/fence,
-/obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete,
 /area/template_noop)
 "cD" = (
 /obj/structure/grille,
@@ -62,7 +63,9 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "abandoned_factory_window_shutters"
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "cP" = (
 /obj/structure/safe,
@@ -82,7 +85,9 @@
 	pixel_y = 21
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "dl" = (
 /obj/effect/decal/remains/human,
@@ -108,7 +113,9 @@
 /area/ruin/unpowered)
 "dD" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "dG" = (
 /obj/structure/filingcabinet,
@@ -140,19 +147,25 @@
 /area/ruin/unpowered)
 "ew" = (
 /obj/machinery/autolathe,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "eK" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "fg" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "fo" = (
 /obj/effect/decal/cleanable/blood/old{
@@ -170,7 +183,9 @@
 /obj/structure/sink{
 	pixel_y = 20
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "fy" = (
 /obj/structure/bed/maint{
@@ -178,19 +193,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/food_packaging,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
-"fV" = (
-/obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete,
-/area/template_noop)
 "gb" = (
 /obj/structure/bed/maint{
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/prison_contraband,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "gg" = (
 /obj/structure/bed/maint{
@@ -198,7 +213,9 @@
 	},
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "gh" = (
 /obj/structure/cable,
@@ -209,7 +226,9 @@
 /obj/item/stack/conveyor,
 /obj/item/stack/conveyor,
 /obj/structure/rack,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "gV" = (
 /obj/structure/bed/maint{
@@ -218,14 +237,18 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "hR" = (
 /obj/machinery/shower{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "if" = (
 /obj/item/trash/can{
@@ -242,7 +265,9 @@
 /obj/effect/decal/cleanable/vomit/old,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/food_packaging,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "iE" = (
 /obj/structure/table/greyscale,
@@ -250,7 +275,9 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/spawner/lootdrop/food_packaging,
 /obj/effect/spawner/lootdrop/food_packaging,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "js" = (
 /obj/structure/chair/greyscale{
@@ -258,21 +285,22 @@
 	},
 /obj/machinery/light/small/broken/directional/north,
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "ju" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
-"kL" = (
-/obj/structure/fence,
-/obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete/reinforced,
-/area/template_noop)
 "la" = (
 /obj/effect/turf_decal/caution/stand_clear/red,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "lg" = (
 /obj/structure/closet/crate,
@@ -286,7 +314,8 @@
 /obj/effect/spawner/lootdrop/away_loot,
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/iron/smooth_corner{
-	dir = 8
+	dir = 8;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "lA" = (
@@ -294,18 +323,24 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "lC" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/table_frame,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "lU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/structure/fence,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "mh" = (
 /obj/machinery/conveyor{
@@ -317,7 +352,9 @@
 /obj/structure/sign/poster/official/obey{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "mC" = (
 /obj/structure/closet/cabinet,
@@ -330,7 +367,9 @@
 /obj/structure/fence/cut/medium{
 	dir = 8
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "nI" = (
 /turf/template_noop,
@@ -339,7 +378,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "oV" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -366,7 +407,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/spawner/lootdrop/tool,
 /obj/structure/table,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "ph" = (
 /obj/structure/table/wood,
@@ -398,13 +441,17 @@
 /area/ruin/unpowered)
 "pr" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "pt" = (
 /obj/structure/frame{
 	anchored = 1
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "pK" = (
 /obj/structure/pitgrate,
@@ -421,16 +468,22 @@
 /obj/structure/sign/poster/ripped{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "qm" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "qn" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "qF" = (
 /obj/effect/decal/cleanable/generic{
@@ -443,7 +496,9 @@
 	projectile_type = null
 	},
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "qG" = (
 /obj/structure/pitgrate,
@@ -457,17 +512,23 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/spawner/lootdrop/tool,
 /obj/structure/table,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "rh" = (
 /obj/structure/fence,
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "rA" = (
 /obj/effect/turf_decal/weather,
 /obj/structure/rubble/large,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "sO" = (
 /obj/machinery/conveyor{
@@ -477,7 +538,9 @@
 /obj/structure/sign/poster/ripped{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "tX" = (
 /obj/item/ammo_casing/c45{
@@ -508,7 +571,9 @@
 	},
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "uh" = (
 /obj/effect/decal/remains/human{
@@ -520,7 +585,9 @@
 	pixel_y = 18
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "us" = (
 /obj/effect/spawner/clear,
@@ -530,7 +597,9 @@
 /obj/structure/frame/computer{
 	anchored = 1
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "uU" = (
 /obj/structure/fence{
@@ -547,44 +616,52 @@
 	},
 /obj/item/stack/rods,
 /obj/item/stack/sheet/iron/ten,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "vw" = (
 /obj/item/chair/stool,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/food_packaging,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
-"vB" = (
-/obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete/reinforced,
-/area/template_noop)
 "vK" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "vL" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "abandoned_factory_north_shutters"
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "vS" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
 /obj/item/stack/sheet/iron/ten,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "wX" = (
 /obj/structure/table/greyscale,
 /obj/effect/spawner/lootdrop/food_packaging,
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "xl" = (
 /obj/effect/spawner/clear,
@@ -605,12 +682,16 @@
 /obj/structure/chair/greyscale{
 	dir = 4
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "xM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "yh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -620,7 +701,8 @@
 	pixel_x = -32
 	},
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "yu" = (
@@ -632,12 +714,16 @@
 /obj/structure/barricade/wooden/crude{
 	layer = 3.2
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "zX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ar" = (
 /obj/structure/fence/corner{
@@ -651,7 +737,9 @@
 /obj/structure/fence/corner{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "BE" = (
 /obj/effect/spawner/clear,
@@ -670,7 +758,9 @@
 	anchored = 1
 	},
 /obj/effect/decal/cleanable/robot_debris/down,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Em" = (
 /obj/structure/pitgrate,
@@ -679,22 +769,29 @@
 /area/ruin/unpowered)
 "Ep" = (
 /mob/living/simple_animal/hostile/giant_spider/hunter,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "EE" = (
 /obj/effect/turf_decal/weather,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "EX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Fp" = (
 /obj/structure/closet/crate,
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "Fw" = (
@@ -767,14 +864,18 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "abandoned_factory_conveyor"
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "HQ" = (
 /obj/structure/cable,
 /obj/machinery/power/smes{
 	panel_open = 1
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "HS" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -782,7 +883,9 @@
 /obj/structure/barricade/wooden/crude{
 	layer = 3.2
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Il" = (
 /obj/effect/decal/cleanable/wrapping{
@@ -790,22 +893,29 @@
 	},
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "Iq" = (
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "IQ" = (
 /obj/effect/decal/cleanable/wrapping{
 	pixel_x = -13;
 	pixel_y = 20
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Jd" = (
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "JC" = (
 /obj/effect/turf_decal/box/corners,
@@ -815,7 +925,8 @@
 /obj/item/chair,
 /obj/structure/rack,
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "JL" = (
@@ -829,7 +940,9 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "abandoned_factory_conveyor"
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ke" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -844,12 +957,16 @@
 /obj/structure/barricade/wooden/crude{
 	layer = 3.2
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ki" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/iron/smooth_corner,
+/turf/open/floor/iron/smooth_corner{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "KM" = (
 /obj/structure/pitgrate,
@@ -861,12 +978,16 @@
 /obj/structure/frame/computer{
 	anchored = 1
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "La" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "LH" = (
 /obj/effect/decal/cleanable/molten_object/large,
@@ -875,11 +996,15 @@
 /obj/structure/sign/poster/official/work_for_a_future{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "LV" = (
 /obj/machinery/power/port_gen/pacman,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "MB" = (
 /turf/closed/wall/concrete,
@@ -890,49 +1015,58 @@
 	id = "abandoned_factory_conveyor"
 	},
 /obj/machinery/light/small/built/directional/west,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "MN" = (
 /obj/effect/decal/cleanable/molten_object/large,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Nw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/rods,
 /obj/effect/spawner/lootdrop/garbage_spawner,
 /obj/structure/rack,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ob" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Oj" = (
 /obj/machinery/vending/sovietsoda,
-/turf/open/floor/iron/smooth_half,
-/area/ruin/unpowered)
-"Oq" = (
-/obj/structure/fence{
-	dir = 8
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
-/obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete,
-/area/template_noop)
+/area/ruin/unpowered)
 "OA" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/effect/spawner/lootdrop/tool,
 /obj/structure/table,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "OY" = (
 /obj/machinery/vending/cigarette,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Po" = (
 /obj/structure/table,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "PU" = (
 /obj/structure/grille,
@@ -943,18 +1077,24 @@
 /obj/structure/barricade/wooden/crude{
 	layer = 3.2
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Qj" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Qk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/neck/stethoscope,
 /obj/effect/spawner/lootdrop/medical,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Qu" = (
 /obj/structure/fence{
@@ -966,27 +1106,33 @@
 "QS" = (
 /obj/structure/rubble/large,
 /obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete,
+/turf/template_noop,
 /area/template_noop)
 "QV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/toolbox,
 /obj/structure/spider/stickyweb,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Rk" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/tool,
 /obj/structure/spider/stickyweb,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "RL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "St" = (
 /obj/structure/grille/broken,
@@ -995,49 +1141,64 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "abandoned_factory_window_shutters"
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Sv" = (
 /obj/machinery/conveyor{
 	dir = 1;
 	id = "abandoned_factory_conveyor"
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "SW" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "abandoned_factory_shutters_west"
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Tf" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "abandoned_factory_conveyor"
 	},
 /obj/structure/spider/stickyweb,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "To" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/table,
 /obj/item/stack/sheet/iron/twenty,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ty" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "Tz" = (
 /obj/structure/cable,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "TF" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/garbage,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_corner,
+/turf/open/floor/iron/smooth_corner{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ui" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1052,7 +1213,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Us" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1061,7 +1224,9 @@
 	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ut" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1069,7 +1234,9 @@
 	pixel_x = -13;
 	pixel_y = 13
 	},
-/turf/open/floor/iron/smooth_half,
+/turf/open/floor/iron/smooth_half{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Uz" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1079,7 +1246,8 @@
 	},
 /obj/effect/spawner/lootdrop/garbage_spawner,
 /turf/open/floor/iron/smooth_corner{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "UR" = (
@@ -1095,7 +1263,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "UT" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1109,13 +1279,17 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Vk" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Vn" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1124,7 +1298,9 @@
 	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Vq" = (
 /obj/structure/grille,
@@ -1135,12 +1311,16 @@
 /obj/machinery/door/poddoor{
 	id = "abandoned_factory_window_shutters"
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "VI" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/cable,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "VN" = (
 /obj/structure/fence/door{
@@ -1155,7 +1335,9 @@
 	dir = 4;
 	id = "abandoned_factory_conveyor"
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Wm" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1173,7 +1355,9 @@
 	pixel_x = 2
 	},
 /obj/machinery/light/small/built/directional/south,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Ww" = (
 /obj/effect/decal/cleanable/oil,
@@ -1185,7 +1369,9 @@
 /obj/item/stack/conveyor,
 /obj/item/stack/conveyor,
 /obj/item/stack/conveyor,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "WC" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -1193,18 +1379,26 @@
 	pixel_x = -13;
 	pixel_y = 13
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Xf" = (
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Yi" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "YD" = (
 /obj/structure/spider/stickyweb,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "YZ" = (
 /obj/effect/spawner/clear,
@@ -1213,11 +1407,14 @@
 "Zt" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
 /mob/living/simple_animal/hostile/giant_spider,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_large{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "Zv" = (
 /turf/open/floor/iron/smooth_half{
-	dir = 1
+	dir = 1;
+	initial_gas_mix = "PLANETARY_ATMOS"
 	},
 /area/ruin/unpowered)
 "ZI" = (
@@ -1225,13 +1422,15 @@
 	dir = 8
 	},
 /obj/effect/spawner/clear,
-/turf/open/floor/planetary/concrete/reinforced,
+/turf/template_noop,
 /area/template_noop)
 "ZU" = (
 /obj/machinery/door/airlock/maintenance/external{
 	locked = 1
 	},
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered)
 "ZZ" = (
 /obj/structure/fence{
@@ -1265,7 +1464,7 @@ YZ
 nI
 Ar
 bE
-bZ
+bE
 bE
 bE
 Fw
@@ -1275,7 +1474,7 @@ ZI
 JL
 VN
 bl
-kL
+bE
 bE
 bE
 xo
@@ -1285,16 +1484,16 @@ YZ
 nI
 ZZ
 YZ
-fV
-fV
 YZ
 YZ
 YZ
 YZ
-vB
+YZ
+YZ
+YZ
 BE
-vB
-vB
+YZ
+YZ
 YZ
 YZ
 YZ
@@ -1338,7 +1537,7 @@ lA
 gh
 MB
 YZ
-Oq
+Qu
 nI
 "}
 (6,1,1) = {"
@@ -1358,7 +1557,7 @@ Xf
 Tz
 MB
 YZ
-Oq
+Qu
 nI
 "}
 (7,1,1) = {"
@@ -1377,7 +1576,7 @@ dD
 dD
 Ww
 MB
-fV
+YZ
 Qu
 nI
 "}
@@ -1637,14 +1836,14 @@ uE
 xM
 Iq
 St
-fV
+YZ
 Qu
 nI
 "}
 (21,1,1) = {"
 YZ
 bn
-vB
+YZ
 vL
 ju
 zX
@@ -1657,14 +1856,14 @@ Jd
 Yi
 Ob
 St
-fV
-Oq
+YZ
+Qu
 nI
 "}
 (22,1,1) = {"
 YZ
 bn
-vB
+YZ
 vL
 la
 Ep
@@ -1678,7 +1877,7 @@ bz
 lU
 MB
 YZ
-Oq
+Qu
 nI
 "}
 (23,1,1) = {"
@@ -1733,7 +1932,7 @@ YZ
 YZ
 YZ
 YZ
-fV
+YZ
 YZ
 YZ
 YZ
