@@ -11,3 +11,8 @@
   - bugfix: Holestation&#x27;s cargo shuttle works. Yep. Really.
   - bugfix: Holestation&#x27;s cameras are back.
   - rscdel: More ERP content (and remnants of) have been deleted.
+2022-09-04:
+  BluBerry016 (unit0016):
+  - bugfix: Holestation no longer has duplicate APCs. Honk.
+  - bugfix: 3.6 Seconds is no longer wasted roundstart.
+  - rscdel: ERP Verbs.
