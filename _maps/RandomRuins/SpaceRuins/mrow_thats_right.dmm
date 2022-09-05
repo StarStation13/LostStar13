@@ -921,6 +921,15 @@
 /obj/machinery/atmospherics/components/unary/tank/nitrous,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered/cat_man)
+"lb" = (
+/obj/effect/mapping_helpers/paint_wall/dark,
+/turf/closed/wall,
+/area/ruin/space/has_grav/powered/cat_man)
+"pZ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/dark,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered/cat_man)
 "qc" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/green/hidden{
 	dir = 10
@@ -1189,11 +1198,11 @@ ad
 av
 ad
 ab
-ad
-aZ
-aZ
-aZ
-ad
+lb
+pZ
+pZ
+pZ
+lb
 ad
 ad
 ad
@@ -1220,12 +1229,12 @@ ad
 ad
 Sl
 ad
-ad
-ad
+lb
+lb
 ba
 bo
 bw
-ad
+lb
 bJ
 id
 aF
@@ -1252,12 +1261,12 @@ ay
 ad
 Gz
 aF
-ad
+lb
 aR
 aS
 bp
 bx
-ad
+lb
 bK
 id
 Qx
@@ -1289,7 +1298,7 @@ aS
 aS
 aS
 aS
-ad
+lb
 bL
 id
 hr
@@ -1316,12 +1325,12 @@ ad
 ad
 ax
 aH
-ad
+lb
 aT
 bb
 aS
 by
-ad
+lb
 bM
 id
 bT
@@ -1348,12 +1357,12 @@ aj
 ad
 Gz
 aG
-ad
-ad
-ad
-ad
-ad
-ad
+lb
+lb
+lb
+lb
+lb
+lb
 FU
 id
 aG

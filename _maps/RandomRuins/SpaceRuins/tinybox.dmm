@@ -34,9 +34,18 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/template_noop,
 /area/template_noop)
+"hh" = (
+/obj/effect/mapping_helpers/paint_wall/bridge,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/no_grav)
 "ja" = (
 /obj/structure/frame/computer,
 /turf/open/floor/iron,
+/area/ruin/unpowered/no_grav)
+"ke" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/bridge,
+/turf/open/floor/plating,
 /area/ruin/unpowered/no_grav)
 "mo" = (
 /obj/structure/tank_dispenser/oxygen,
@@ -118,6 +127,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/iron,
+/area/ruin/unpowered/no_grav)
+"zW" = (
+/obj/effect/mapping_helpers/paint_wall/bridge,
+/turf/closed/wall,
 /area/ruin/unpowered/no_grav)
 "Bo" = (
 /turf/open/floor/plating/airless,
@@ -366,11 +379,11 @@ Bo
 nD
 KF
 Nh
-TV
-TV
+hh
+hh
 Rv
-TV
-TV
+hh
+hh
 mZ
 DN
 DN
@@ -383,11 +396,11 @@ QN
 Mr
 KF
 gD
-TV
+hh
 ja
 MX
 Rb
-nD
+zW
 zy
 tQ
 mZ
@@ -400,7 +413,7 @@ mo
 of
 KF
 gD
-TV
+hh
 ja
 MX
 Cf
@@ -416,13 +429,13 @@ TW
 TV
 TV
 YE
-TV
-TV
+hh
+hh
 ja
 MX
 Tj
-TV
-TV
+hh
+hh
 QN
 tQ
 DN
@@ -433,13 +446,13 @@ tQ
 Wo
 IY
 Cf
-of
+ke
 YK
 ZB
 KH
-TV
+hh
 LR
-TV
+hh
 Bo
 Wo
 DN
@@ -450,13 +463,13 @@ KF
 KF
 IY
 GT
-of
+ke
 ja
 MX
 em
 LH
 ZL
-TV
+hh
 Wo
 Wo
 DN
@@ -467,13 +480,13 @@ QN
 tQ
 IY
 MX
-of
+ke
 YK
 MX
 WW
-TV
+hh
 fw
-TV
+hh
 DN
 Wo
 DN
@@ -484,13 +497,13 @@ nD
 nD
 nD
 US
-TV
-TV
+hh
+hh
 ja
 MX
 wB
-TV
-TV
+hh
+hh
 QN
 Wo
 DN
@@ -502,7 +515,7 @@ BB
 nD
 Cf
 gD
-TV
+hh
 ja
 GT
 MX
@@ -519,11 +532,11 @@ KF
 Cs
 zH
 gD
-TV
+hh
 wW
 Cf
 Rc
-TV
+hh
 QN
 Bo
 DN
@@ -536,11 +549,11 @@ tQ
 nD
 Cf
 vQ
-TV
-TV
+hh
+hh
 EP
-TV
-TV
+hh
+hh
 tQ
 DN
 DN

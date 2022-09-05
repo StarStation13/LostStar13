@@ -21,8 +21,9 @@
 	},
 /area/ruin/unpowered)
 "ae" = (
-/turf/open/space/basic,
-/area/template_noop)
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall,
+/area/ruin/unpowered)
 "af" = (
 /obj/structure/fluff/broken_flooring{
 	dir = 8;
@@ -540,7 +541,7 @@
 /area/template_noop)
 
 (1,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -563,7 +564,7 @@ aa
 aa
 "}
 (2,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -586,7 +587,7 @@ aa
 aa
 "}
 (3,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -609,7 +610,7 @@ af
 aa
 "}
 (4,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -632,7 +633,7 @@ aa
 aa
 "}
 (5,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -655,7 +656,7 @@ aa
 aa
 "}
 (6,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -678,7 +679,7 @@ ac
 aa
 "}
 (7,1,1) = {"
-ae
+aa
 aa
 ac
 al
@@ -701,7 +702,7 @@ aa
 aa
 "}
 (8,1,1) = {"
-ae
+aa
 aa
 ac
 ap
@@ -710,12 +711,12 @@ ax
 ai
 ag
 ag
-ai
-ai
-ai
-ai
-ai
-ai
+ae
+ae
+ae
+ae
+ae
+ae
 aq
 bp
 ah
@@ -724,7 +725,7 @@ ac
 aa
 "}
 (9,1,1) = {"
-ae
+aa
 aa
 ac
 ap
@@ -733,7 +734,7 @@ bv
 ai
 fY
 aC
-ai
+ae
 aI
 aR
 aW
@@ -747,7 +748,7 @@ ac
 aa
 "}
 (10,1,1) = {"
-ae
+aa
 aa
 ac
 ap
@@ -756,7 +757,7 @@ bA
 aq
 ag
 oI
-ai
+ae
 aJ
 aR
 aR
@@ -770,7 +771,7 @@ ac
 aa
 "}
 (11,1,1) = {"
-ae
+aa
 ac
 bw
 as
@@ -779,7 +780,7 @@ ai
 ai
 ag
 ag
-ai
+ae
 aK
 aR
 aR
@@ -802,7 +803,7 @@ ag
 ag
 hs
 ag
-ai
+ae
 aL
 aR
 aR
@@ -810,7 +811,7 @@ bb
 aR
 aR
 aR
-ai
+ae
 ac
 ac
 ac
@@ -825,21 +826,21 @@ ag
 ag
 ag
 ag
-ai
-ai
+ae
+ae
 aS
 aW
 bc
 aR
 aS
-ai
-ai
+ae
+ae
 ac
 ac
 ac
 "}
 (14,1,1) = {"
-ae
+aa
 bu
 ag
 ag
@@ -848,7 +849,7 @@ ag
 ag
 ag
 ag
-ai
+ae
 aM
 aM
 aX
@@ -856,13 +857,13 @@ bd
 aM
 aX
 aM
-ai
+ae
 ac
 ac
 ac
 "}
 (15,1,1) = {"
-ae
+aa
 ac
 bx
 ad
@@ -879,13 +880,13 @@ aM
 aT
 au
 be
-ai
+ae
 ac
 aa
 aa
 "}
 (16,1,1) = {"
-ae
+aa
 aa
 bx
 ap
@@ -908,7 +909,7 @@ aa
 aa
 "}
 (17,1,1) = {"
-ae
+aa
 aa
 bx
 ak
@@ -917,7 +918,7 @@ bG
 ai
 ag
 ag
-ai
+ae
 aM
 aU
 aB
@@ -931,7 +932,7 @@ aa
 aa
 "}
 (18,1,1) = {"
-ae
+aa
 aa
 aa
 am
@@ -940,7 +941,7 @@ ah
 aq
 ag
 aC
-ai
+ae
 aM
 ap
 ap
@@ -954,7 +955,7 @@ aa
 aa
 "}
 (19,1,1) = {"
-ae
+aa
 aa
 aa
 bz
@@ -963,7 +964,7 @@ ap
 ai
 ag
 ag
-ai
+ae
 aP
 ap
 ac
@@ -977,7 +978,7 @@ aa
 aa
 "}
 (20,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -986,7 +987,7 @@ ap
 ai
 ag
 ag
-ai
+ae
 ap
 aV
 aD
@@ -1000,7 +1001,7 @@ aA
 aa
 "}
 (21,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -1009,7 +1010,7 @@ as
 Cd
 ag
 ag
-ai
+ae
 au
 ap
 ap
@@ -1023,7 +1024,7 @@ aa
 aa
 "}
 (22,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -1032,9 +1033,9 @@ bx
 ap
 at
 oI
-ai
-ai
-ai
+ae
+ae
+ae
 aq
 ac
 aa
@@ -1046,7 +1047,7 @@ aa
 aa
 "}
 (23,1,1) = {"
-ae
+aa
 aa
 aa
 aa
@@ -1055,7 +1056,7 @@ aa
 ac
 ac
 bF
-ai
+ae
 ac
 ac
 aa
@@ -1069,7 +1070,7 @@ aa
 aa
 "}
 (24,1,1) = {"
-ae
+aa
 aa
 aa
 aa

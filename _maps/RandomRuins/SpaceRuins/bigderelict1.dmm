@@ -963,8 +963,8 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "cY" = (
-/obj/structure/grille/broken,
 /obj/structure/alien/weeds/creature,
+/obj/structure/low_wall,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/derelictoutpost)
 "cZ" = (
@@ -1635,6 +1635,15 @@
 "qk" = (
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/derelictoutpost/cargostorage)
+"qX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/security,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost)
+"sp" = (
+/obj/effect/mapping_helpers/paint_wall/security,
+/turf/closed/wall/rust,
+/area/ruin/space/has_grav/derelictoutpost)
 "sw" = (
 /obj/structure/alien/resin/wall/creature,
 /obj/structure/alien/weeds/creature,
@@ -1738,6 +1747,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Wo" = (
+/obj/effect/mapping_helpers/paint_wall/security,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/derelictoutpost)
 "Xu" = (
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/derelictoutpost)
@@ -2526,10 +2539,10 @@ ad
 ad
 ad
 ad
-Xu
+sp
 by
-bC
-bC
+Wo
+Wo
 cy
 bC
 aZ
@@ -2562,10 +2575,10 @@ ad
 ad
 aa
 aY
-aK
+qX
 bz
 bQ
-bC
+Wo
 cj
 cO
 aZ
@@ -2598,7 +2611,7 @@ aa
 aa
 aa
 aY
-aK
+qX
 bz
 bR
 cf
@@ -2634,7 +2647,7 @@ aa
 aa
 aa
 aY
-aK
+qX
 bA
 bS
 cg
@@ -2670,10 +2683,10 @@ aa
 aa
 aa
 aY
-aK
+qX
 bB
 bT
-bC
+Wo
 cj
 cQ
 aK
@@ -2706,10 +2719,10 @@ aa
 aa
 aa
 aY
-Xu
-bC
+sp
+Wo
 bU
-bC
+Wo
 cy
 bC
 aZ

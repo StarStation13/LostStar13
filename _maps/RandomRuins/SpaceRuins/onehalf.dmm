@@ -17,10 +17,12 @@
 /turf/template_noop,
 /area/template_noop)
 "ag" = (
+/obj/effect/mapping_helpers/paint_wall/neutral,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/dorms_med)
 "ah" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/neutral,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/dorms_med)
 "aj" = (
@@ -61,6 +63,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "ar" = (
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "as" = (
@@ -333,6 +336,7 @@
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "be" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "bf" = (
@@ -590,6 +594,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/onehalf/hallway)
 "bR" = (
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/onehalf/hallway)
 "bS" = (
@@ -630,6 +635,7 @@
 	id = "bridge_onehalf";
 	name = "bridge blast door"
 	},
+/obj/effect/mapping_helpers/paint_wall/syndicate,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "ca" = (
@@ -705,6 +711,7 @@
 	id = "bridge_onehalf";
 	name = "bridge blast door"
 	},
+/obj/effect/mapping_helpers/paint_wall/syndicate,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "cl" = (
@@ -746,6 +753,7 @@
 	name = "bridge blast door"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/paint_wall/syndicate,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "cr" = (
@@ -1008,6 +1016,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/onehalf/bridge)
+"vv" = (
+/obj/effect/mapping_helpers/paint_wall/syndicate,
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/onehalf/bridge)
 "wB" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
@@ -1025,6 +1037,10 @@
 	icon_state = "damaged5"
 	},
 /area/ruin/space/has_grav/onehalf/hallway)
+"AF" = (
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall,
+/area/ruin/space/has_grav/onehalf/hallway)
 "AM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1033,6 +1049,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav/onehalf/hallway)
+"BC" = (
+/obj/effect/mapping_helpers/paint_wall/syndicate,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/onehalf/bridge)
 "GJ" = (
 /obj/structure/frame/computer,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1065,6 +1085,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/onehalf/drone_bay)
+"QM" = (
+/obj/effect/mapping_helpers/paint_wall/medbay,
+/turf/closed/wall,
+/area/ruin/space/has_grav/onehalf/dorms_med)
 "TD" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/stripes/line{
@@ -1161,7 +1185,7 @@ ax
 aT
 bh
 bw
-ak
+AF
 bW
 aa
 aa
@@ -1198,15 +1222,15 @@ aa
 (6,1,1) = {"
 aa
 ab
-ag
-ag
-ag
-ag
-ag
+QM
+QM
+QM
+QM
+QM
 AM
 NY
 bM
-ak
+AF
 aa
 cr
 aa
@@ -1220,11 +1244,11 @@ aa
 (7,1,1) = {"
 aa
 ab
-ag
+QM
 al
 aA
 aK
-ag
+QM
 AM
 bw
 bN
@@ -1242,7 +1266,7 @@ aa
 (8,1,1) = {"
 aa
 ab
-ag
+QM
 am
 am
 aL
@@ -1264,11 +1288,11 @@ aa
 (9,1,1) = {"
 aa
 ab
-ag
+QM
 an
 aB
 aM
-ag
+QM
 yD
 bx
 bP
@@ -1286,11 +1310,11 @@ dl
 (10,1,1) = {"
 aa
 ab
-ag
-ag
-ag
-ag
-ag
+QM
+QM
+QM
+QM
+QM
 yD
 bx
 bQ
@@ -1386,7 +1410,7 @@ bY
 ci
 cv
 cE
-bU
+BC
 cQ
 cQ
 bU
@@ -1406,9 +1430,9 @@ PE
 bU
 aa
 cj
-bU
+BC
 cF
-bU
+BC
 aw
 aa
 Yd
@@ -1425,15 +1449,15 @@ ar
 aY
 bp
 PE
-bU
+BC
 bZ
 ck
-bU
+BC
 cG
-bU
+BC
 bZ
 bZ
-Yd
+vv
 ad
 aa
 "}
@@ -1447,7 +1471,7 @@ aN
 aZ
 li
 wB
-bU
+BC
 ca
 cl
 cw
@@ -1455,7 +1479,7 @@ Vh
 cM
 cR
 cY
-bU
+BC
 ad
 aa
 "}
@@ -1469,7 +1493,7 @@ ar
 ba
 PE
 bE
-Yd
+vv
 cb
 cm
 fO
@@ -1491,7 +1515,7 @@ aQ
 TD
 li
 bD
-Yd
+vv
 cc
 fO
 cn
@@ -1513,7 +1537,7 @@ ar
 bb
 bp
 bp
-Yd
+vv
 cd
 co
 cn
@@ -1535,7 +1559,7 @@ aQ
 TD
 bq
 bD
-Yd
+vv
 ce
 fO
 cn
@@ -1557,7 +1581,7 @@ ar
 bc
 bp
 bE
-bU
+BC
 cf
 Vh
 gO
@@ -1579,7 +1603,7 @@ aQ
 bd
 bq
 bF
-Yd
+vv
 cg
 cp
 cy
@@ -1587,7 +1611,7 @@ MQ
 vi
 cU
 db
-Yd
+vv
 ad
 aa
 "}
@@ -1601,15 +1625,15 @@ ar
 ar
 bp
 bG
-Yd
-bU
+vv
+BC
 cq
 cq
 cq
 cq
 cq
-bU
-bU
+BC
+BC
 ad
 aa
 "}

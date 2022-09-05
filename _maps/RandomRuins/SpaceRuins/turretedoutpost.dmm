@@ -11,6 +11,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/turretedoutpost)
 "ad" = (
+/obj/effect/mapping_helpers/paint_wall/syndicate,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/turretedoutpost)
 "ae" = (
@@ -364,6 +365,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/turretedoutpost)
 "sc" = (
+/obj/effect/mapping_helpers/paint_wall/syndicate,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/turretedoutpost)
 "tK" = (

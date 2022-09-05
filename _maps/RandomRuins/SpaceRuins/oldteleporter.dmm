@@ -10,6 +10,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
 "d" = (
+/obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/closed/wall/r_wall,
 /area/ruin/space/oldteleporter)
 "e" = (
@@ -29,6 +30,7 @@
 /obj/machinery/computer/teleporter{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/oldteleporter)
 "i" = (
@@ -60,7 +62,13 @@
 /area/ruin/space/oldteleporter)
 "n" = (
 /obj/machinery/power/apc/auto_name/south,
+/obj/structure/cable,
 /turf/open/floor/iron/airless,
+/area/ruin/space/oldteleporter)
+"w" = (
+/obj/structure/cable,
+/obj/structure/door_assembly/door_assembly_com,
+/turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
 "G" = (
 /obj/structure/girder,
@@ -72,8 +80,17 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
+"N" = (
+/obj/structure/cable,
+/turf/open/floor/iron/airless,
+/area/ruin/space/oldteleporter)
 "V" = (
+/obj/effect/mapping_helpers/paint_wall/bridge,
 /turf/closed/wall/r_wall/rust,
+/area/ruin/space/oldteleporter)
+"W" = (
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
 
 (1,1,1) = {"
@@ -182,9 +199,9 @@ b
 c
 V
 c
-e
+N
 h
-c
+W
 n
 d
 "}
@@ -193,10 +210,10 @@ a
 a
 a
 b
-c
-G
-e
-e
+W
+w
+N
+N
 i
 e
 c
