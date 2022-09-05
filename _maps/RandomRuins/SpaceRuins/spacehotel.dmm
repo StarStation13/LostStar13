@@ -858,13 +858,6 @@
 /obj/effect/mapping_helpers/paint_wall/hotel,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/hotel/power)
-"ei" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/paint_wall/bridge,
-/turf/open/floor/iron/dark/textured,
-/area/ruin/space/has_grav/hotel/maintenance)
 "ek" = (
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/wood,
@@ -9145,7 +9138,8 @@
 /obj/docking_port/stationary/medium{
 	dir = 8;
 	dwidth = 11;
-	width = 22
+	width = 22;
+	name = "Space Hotel - Aft Dock 3"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -9829,7 +9823,8 @@
 /obj/docking_port/stationary/small{
 	dwidth = 4;
 	height = 8;
-	width = 13
+	width = 13;
+	name = "Space Hotel - Aft Dock 2"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -10202,7 +10197,8 @@
 	dir = 2;
 	dwidth = 7;
 	height = 8;
-	width = 13
+	width = 13;
+	name = "Space Hotel - Aft Dock 1"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -10680,7 +10676,7 @@ uQ
 GC
 VP
 VP
-ei
+VP
 ZG
 eY
 NZ
