@@ -1,4 +1,3 @@
-// Convert to color defines later, when we think up a good naming convention for them.
 /obj/effect/mapping_helpers/paint_wall/station/cargo
 	name = "Cargo Wall Paint"
 	stripe_paint = COLOR_PAINT_CARGO
