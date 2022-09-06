@@ -280,7 +280,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 5
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/smooth_edge,
 /area/science/robotics/lab)
 "bd" = (
 /obj/structure/closet/secure_closet/captains,
@@ -513,8 +513,9 @@
 /turf/open/floor/iron/showroomfloor,
 /area/command/heads_quarters/hop)
 "bT" = (
-/turf/open/floor/iron/dark/textured,
-/area/science/robotics/lab)
+/obj/effect/mapping_helpers/paint_wall/cargo,
+/turf/closed/wall,
+/area/maintenance/central)
 "bU" = (
 /obj/effect/landmark/start/hangover,
 /obj/effect/landmark/start/assistant,
@@ -1057,7 +1058,7 @@
 /turf/open/floor/circuit/telecomms,
 /area/tcommsat/server)
 "dY" = (
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/smooth_edge{
 	dir = 1
 	},
 /area/science/robotics/lab)
@@ -3671,6 +3672,10 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/engineering/lobby)
+"mJ" = (
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall,
+/area/maintenance/starboard/fore)
 "mK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -3838,6 +3843,7 @@
 /area/commons/dorms)
 "nn" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
 "no" = (
@@ -4203,6 +4209,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "oE" = (
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall,
 /area/service/library/private)
 "oF" = (
@@ -4508,6 +4515,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/storage_shared)
 "pU" = (
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall/r_wall,
 /area/service/library/private)
 "pV" = (
@@ -5071,6 +5079,7 @@
 /area/ai_monitored/security/armory)
 "rR" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/open/floor/plating,
 /area/service/library/upper)
 "rS" = (
@@ -5500,6 +5509,7 @@
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "tt" = (
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall/r_wall,
 /area/construction/mining/aux_base)
 "tv" = (
@@ -6626,7 +6636,7 @@
 "xI" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/smooth_edge{
 	dir = 1
 	},
 /area/science/robotics/lab)
@@ -6761,6 +6771,11 @@
 	dir = 4
 	},
 /area/medical/morgue)
+"yf" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/mapping_helpers/paint_wall/engineering,
+/turf/open/floor/plating,
+/area/tcommsat/server)
 "yg" = (
 /obj/machinery/light/dim/directional/east,
 /obj/effect/landmark/start/hangover,
@@ -6904,6 +6919,10 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/iron/dark/side,
 /area/service/hydroponics)
+"yD" = (
+/obj/effect/mapping_helpers/paint_wall/service,
+/turf/closed/wall/r_wall,
+/area/maintenance/starboard/fore)
 "yE" = (
 /obj/structure/window/reinforced/spawner,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
@@ -8135,6 +8154,7 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "CX" = (
+/obj/effect/mapping_helpers/paint_wall/cargo,
 /turf/closed/wall,
 /area/construction/mining/aux_base)
 "CY" = (
@@ -8793,6 +8813,7 @@
 /turf/closed/wall/r_wall,
 /area/commons/cryopods)
 "Fs" = (
+/obj/effect/mapping_helpers/paint_wall/service,
 /turf/closed/wall/r_wall,
 /area/service/library/upper)
 "Ft" = (
@@ -8939,7 +8960,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/smooth_edge,
 /area/science/robotics/lab)
 "FR" = (
 /turf/open/floor/iron/dark/side{
@@ -8986,8 +9007,10 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "FY" = (
-/obj/machinery/door/airlock/medical,
 /obj/structure/cable,
+/obj/machinery/door/airlock/freezer,
+/obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
 "FZ" = (
@@ -9070,6 +9093,8 @@
 	},
 /obj/structure/cable,
 /obj/machinery/door/airlock/silver,
+/obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "Gn" = (
@@ -9320,6 +9345,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
+"Hb" = (
+/obj/effect/mapping_helpers/paint_wall/cargo,
+/turf/closed/wall/r_wall,
+/area/maintenance/central)
 "Hc" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -12545,7 +12574,7 @@
 /area/cargo/office)
 "Tn" = (
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured,
+/turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "To" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -13315,7 +13344,7 @@
 /area/service/hydroponics)
 "VR" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/smooth_edge,
 /area/science/robotics/lab)
 "VS" = (
 /obj/machinery/light/dim/directional/east,
@@ -47459,9 +47488,9 @@ yu
 Gs
 pW
 pW
-jl
+yf
 pW
-jl
+yf
 pW
 rl
 ip
@@ -107067,7 +107096,7 @@ Tq
 EI
 yb
 Oq
-bT
+TS
 TS
 IS
 gp
@@ -114753,9 +114782,9 @@ Mv
 ei
 pU
 pU
-gJ
-nd
-gJ
+yD
+mJ
+yD
 pU
 Ud
 Ud
@@ -114764,8 +114793,8 @@ Ud
 Ud
 Ud
 Fs
-SE
-pu
+Yy
+Io
 wZ
 pu
 DS
@@ -115022,24 +115051,24 @@ rR
 rR
 Fs
 gb
-pu
+Io
 RT
-SE
+Yy
 SE
 SE
 pj
 SE
-SE
-pu
-pu
-pu
-pu
+Hb
+bT
+bT
+bT
+bT
 Wd
-pu
-pu
-pu
-pu
-pu
+bT
+bT
+bT
+bT
+bT
 gj
 gj
 SE
@@ -115296,7 +115325,7 @@ Ts
 Xf
 AD
 BK
-pu
+bT
 ru
 gj
 SE
@@ -115553,7 +115582,7 @@ qY
 yU
 yy
 BK
-pu
+bT
 pu
 BJ
 SE
@@ -115810,7 +115839,7 @@ nn
 nn
 CX
 CX
-pu
+bT
 RY
 gj
 SE
@@ -116067,7 +116096,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 gj
 SE
@@ -116324,7 +116353,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 gj
 SE
@@ -116581,7 +116610,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 gj
 ru
@@ -116838,7 +116867,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 gj
 gj
@@ -117095,7 +117124,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 pu
 pu
@@ -117352,7 +117381,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 ru
 ru
 SE
@@ -117609,7 +117638,7 @@ AX
 AX
 AX
 AX
-pu
+bT
 SE
 SE
 SE
