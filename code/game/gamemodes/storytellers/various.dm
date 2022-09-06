@@ -53,7 +53,7 @@
 	a story of triumph or utter hopelessness. It's all drama to him." // Subtle? Not even close
 
 /// This is where we handle the randomness
-/datum/storyteller/random/new()
+/datum/storyteller/random/Initialize()
 	event_repetition_multiplier = rand(0.1,1)
 /// Max off at 2 times normal here for fun reasons
 	starting_point_multipliers = list(
