@@ -94,7 +94,7 @@
 
 /obj/effect/mapping_helpers/paint_wall/syndicate/full
 	name = "Syndicate Wall Paint (Full)"
-	wall_paint "#464347"
+	wall_paint = "#464347"
 	icon_state = "paint_syndie_full"
 
 /obj/effect/mapping_helpers/paint_wall/hotel
