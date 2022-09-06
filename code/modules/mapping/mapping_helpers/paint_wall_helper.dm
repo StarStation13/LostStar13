@@ -88,9 +88,14 @@
 	icon_state = "paint_dark"
 
 /obj/effect/mapping_helpers/paint_wall/syndicate
-	name = "Syndicate Wall Paint"
+	name = "Syndicate Wall Paint (Trim Only)"
 	stripe_paint = COLOR_BUBBLEGUM_RED
 	icon_state = "paint_syndie"
+
+/obj/effect/mapping_helpers/paint_wall/syndicate/full
+	name = "Syndicate Wall Paint (Full)"
+	wall_paint "#464347"
+	icon_state = "paint_syndie_full"
 
 /obj/effect/mapping_helpers/paint_wall/hotel
 	name = "Hotel Wall Paint"
