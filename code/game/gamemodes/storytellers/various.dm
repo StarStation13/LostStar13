@@ -51,41 +51,4 @@
 	name = "The Icon"
 	desc = "The Icon doesn't care about rules. He'll generate random events, and doesn't care if it creates \
 	a story of triumph or utter hopelessness. It's all drama to him." // Subtle? Not even close
-
-/// This is where we handle the randomness
-/datum/storyteller/random/Initialize()
-	event_repetition_multiplier = rand(0.1,1)
-/// Max off at 2 times normal here for fun reasons
-	starting_point_multipliers = list(
-		EVENT_TRACK_MUNDANE = rand(0.1,2), \
-		EVENT_TRACK_MODERATE = rand(0.1,2), \
-		EVENT_TRACK_MAJOR = rand(0.1,2), \
-		EVENT_TRACK_ROLESET = rand(0.1,2), \
-		EVENT_TRACK_OBJECTIVES = rand(0.1,2) \
-		)
-	point_gains_multipliers = list( \
-		EVENT_TRACK_MUNDANE = rand(0.1,2), \
-		EVENT_TRACK_MODERATE = rand(0.1,2), \
-		EVENT_TRACK_MAJOR = rand(0.1,2), \
-		EVENT_TRACK_ROLESET = rand(0.1,2), \
-		EVENT_TRACK_OBJECTIVES = rand(0.1,2) \
-		)
-	tag_multipliers = list(
-		TAG_COMBAT = rand(0.1,2), \
-		TAG_SPOOKY = rand(0.1,2), \
-		TAG_DESTRUCTIVE = rand(0.1,2), \
-		TAG_COMMUNAL = rand(0.1,2), \
-		TAG_TARGETED = rand(0.1,2), \
-		TAG_POSITIVE = rand(0.1,2), \
-		TAG_CREW_ANTAG = rand(0.1,2), \
-		TAG_TEAM_ANTAG = rand(0.1,2), \
-		TAG_OUTSIDER_ANTAG = rand(0.1,2), \
-		TAG_OVERMAP = rand(0.1,2), \
-		TAG_SPACE = rand(0.1,2), \
-		TAG_PLANETARY = rand(0.1,2), \
-		)
-	/// Anywhere all the way up to double normal
-	cost_variance = rand(0.1,30)
-	roundstart_points_variance = rand(0.1,30)
-	/// NOTHING is certain.
-	guarantees_roundstart_roleset = pick(TRUE,FALSE)
+	random = TRUE

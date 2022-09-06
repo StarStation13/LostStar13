@@ -784,6 +784,8 @@ SUBSYSTEM_DEF(gamemode)
 		message_admins("Attempted to set an invalid storyteller type: [passed_type].")
 		CRASH("Attempted to set an invalid storyteller type: [passed_type].")
 	storyteller = storytellers[passed_type]
+	if(storyteller.random)
+		storyteller.randomize()
 	to_chat(world, SPAN_NOTICE("<b>Storyteller is [storyteller.name]!</b>"))
 	to_chat(world, SPAN_NOTICE("[storyteller.welcome_text]"))
 
