@@ -217,3 +217,4 @@
 /// Meant to mimick classic plastitanium, not actually BE plastitanium
 #define COLOR_PAINT_SYNDICATE "#972626"
 #define COLOR_PAINT_PLASTITANIUM "#464347"
+#define COLOR_PAINT_SYNDIESEC "#8a5724"
