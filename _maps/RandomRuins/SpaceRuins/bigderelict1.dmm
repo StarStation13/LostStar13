@@ -1637,11 +1637,11 @@
 /area/ruin/space/has_grav/derelictoutpost/cargostorage)
 "qX" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/security,
+/obj/effect/mapping_helpers/paint_wall/station/security,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/derelictoutpost)
 "sp" = (
-/obj/effect/mapping_helpers/paint_wall/security,
+/obj/effect/mapping_helpers/paint_wall/station/security,
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/derelictoutpost)
 "sw" = (
@@ -1748,7 +1748,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Wo" = (
-/obj/effect/mapping_helpers/paint_wall/security,
+/obj/effect/mapping_helpers/paint_wall/station/security,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/derelictoutpost)
 "Xu" = (

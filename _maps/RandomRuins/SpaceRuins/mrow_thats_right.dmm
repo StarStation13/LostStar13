@@ -922,12 +922,12 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered/cat_man)
 "lb" = (
-/obj/effect/mapping_helpers/paint_wall/dark,
+/obj/effect/mapping_helpers/paint_wall/station/dark,
 /turf/closed/wall,
 /area/ruin/space/has_grav/powered/cat_man)
 "pZ" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/dark,
+/obj/effect/mapping_helpers/paint_wall/station/dark,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/cat_man)
 "qc" = (

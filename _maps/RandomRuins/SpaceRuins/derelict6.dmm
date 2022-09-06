@@ -21,7 +21,7 @@
 	},
 /area/ruin/unpowered)
 "ae" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/ruin/unpowered)
 "af" = (

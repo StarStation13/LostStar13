@@ -198,3 +198,22 @@
 #define COLOR_PRIDE_GREEN "#41FC66"
 #define COLOR_PRIDE_BLUE "#42FFF2"
 #define COLOR_PRIDE_PURPLE "#5D5DFC"
+
+/// Colors for wall paint. Named After their most prominent use cases.
+/// Special uses are defined where they're used.
+/// Station
+#define COLOR_PAINT_CARGO "#5B4D41"
+#define COLOR_PAINT_BRIDGE "#334E6D"
+#define COLOR_PAINT_SCIENCE "#5C5167"
+#define COLOR_PAINT_ENGINEERING "#A18D00"
+#define COLOR_PAINT_SECURITY "#7B3131"
+#define COLOR_PAINT_SERVICE "#4E7C4E"
+#define COLOR_PAINT_MEDBAY "#435C90"
+#define COLOR_PAINT_NEUTRAL "#404040"
+#define COLOR_PAINT_DARK "#303030"
+/// Ruins
+#define COLOR_PAINT_DARK_WOOD "#54402D"
+/// Syndicate
+/// Meant to mimick classic plastitanium, not actually BE plastitanium
+#define COLOR_PAINT_SYNDICATE "#972626"
+#define COLOR_PAINT_PLASTITANIUM "#464347"

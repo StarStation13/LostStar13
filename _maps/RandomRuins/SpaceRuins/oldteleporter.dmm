@@ -10,7 +10,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/oldteleporter)
 "d" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/ruin/space/oldteleporter)
 "e" = (
@@ -85,7 +85,7 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/oldteleporter)
 "V" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/oldteleporter)
 "W" = (

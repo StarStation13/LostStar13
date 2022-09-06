@@ -17,12 +17,12 @@
 /turf/template_noop,
 /area/template_noop)
 "ag" = (
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/dorms_med)
 "ah" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/dorms_med)
 "aj" = (
@@ -63,7 +63,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "ar" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "as" = (
@@ -336,7 +336,7 @@
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "be" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "bf" = (
@@ -594,7 +594,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/onehalf/hallway)
 "bR" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/onehalf/hallway)
 "bS" = (
@@ -635,7 +635,7 @@
 	id = "bridge_onehalf";
 	name = "bridge blast door"
 	},
-/obj/effect/mapping_helpers/paint_wall/syndicate,
+/obj/effect/mapping_helpers/paint_wall/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "ca" = (
@@ -711,7 +711,7 @@
 	id = "bridge_onehalf";
 	name = "bridge blast door"
 	},
-/obj/effect/mapping_helpers/paint_wall/syndicate,
+/obj/effect/mapping_helpers/paint_wall/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "cl" = (
@@ -753,7 +753,7 @@
 	name = "bridge blast door"
 	},
 /obj/structure/cable,
-/obj/effect/mapping_helpers/paint_wall/syndicate,
+/obj/effect/mapping_helpers/paint_wall/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf/bridge)
 "cr" = (
@@ -1017,7 +1017,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/onehalf/bridge)
 "vv" = (
-/obj/effect/mapping_helpers/paint_wall/syndicate,
+/obj/effect/mapping_helpers/paint_wall/syndicate/general,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/onehalf/bridge)
 "wB" = (
@@ -1038,7 +1038,7 @@
 	},
 /area/ruin/space/has_grav/onehalf/hallway)
 "AF" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/hallway)
 "AM" = (
@@ -1050,7 +1050,7 @@
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav/onehalf/hallway)
 "BC" = (
-/obj/effect/mapping_helpers/paint_wall/syndicate,
+/obj/effect/mapping_helpers/paint_wall/syndicate/general,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/onehalf/bridge)
 "GJ" = (
@@ -1086,7 +1086,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/onehalf/drone_bay)
 "QM" = (
-/obj/effect/mapping_helpers/paint_wall/medbay,
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/closed/wall,
 /area/ruin/space/has_grav/onehalf/dorms_med)
 "TD" = (

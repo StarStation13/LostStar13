@@ -45,7 +45,7 @@
 	id_tag = null
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/medical/medbay)
 "aK" = (
@@ -64,7 +64,7 @@
 /turf/open/floor/plating,
 /area/hallway/primary/central/fore)
 "bb" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/service/kitchen/coldroom)
 "bg" = (
@@ -84,7 +84,7 @@
 /turf/open/floor/iron/smooth,
 /area/command/meeting_room)
 "br" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "bz" = (
@@ -184,7 +184,7 @@
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
 "cU" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/bridge)
 "cZ" = (
@@ -257,7 +257,7 @@
 /area/service/kitchen/coldroom)
 "ec" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/open/floor/plating,
 /area/commons/lounge)
 "ek" = (
@@ -267,7 +267,7 @@
 	name = "Privacy Shutter";
 	pixel_x = 9
 	},
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/medical/medbay)
 "eo" = (
@@ -293,7 +293,7 @@
 /area/space/nearstation)
 "eI" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/service/hydroponics)
 "eQ" = (
@@ -308,7 +308,7 @@
 	dir = 4
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "eV" = (
@@ -366,7 +366,7 @@
 /area/command/heads_quarters/hop)
 "fJ" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter/room)
 "fN" = (
@@ -409,7 +409,7 @@
 /area/space/nearstation)
 "gf" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/open/floor/plating,
 /area/service/hydroponics)
 "gk" = (
@@ -515,7 +515,7 @@
 /turf/open/floor/plating,
 /area/service/hydroponics)
 "hL" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/meeting_room)
 "hO" = (
@@ -541,7 +541,7 @@
 /area/command/bridge)
 "ib" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/command/heads_quarters/captain)
 "ic" = (
@@ -552,11 +552,11 @@
 /area/hallway/primary/central)
 "ik" = (
 /obj/structure/sign/poster/contraband/random,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/heads_quarters/hop)
 "ir" = (
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall/r_wall,
 /area/commons/toilet)
 "ix" = (
@@ -624,7 +624,7 @@
 /area/command/heads_quarters/captain)
 "iS" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/open/floor/plating,
 /area/cargo/warehouse/upper)
 "iV" = (
@@ -637,7 +637,7 @@
 	id = "bridge blast";
 	name = "bridge blast door"
 	},
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/command/bridge)
 "jc" = (
@@ -655,7 +655,7 @@
 	id = "medbay_shutter1";
 	id_tag = null
 	},
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/medical/medbay)
 "jh" = (
@@ -703,7 +703,7 @@
 /area/engineering/engine_smes)
 "jG" = (
 /obj/structure/sign/poster/random,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/closed/wall,
 /area/commons/lounge)
 "jJ" = (
@@ -713,7 +713,7 @@
 /area/command/meeting_room)
 "jX" = (
 /obj/structure/sign/poster/official/random,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/heads_quarters/captain)
 "jY" = (
@@ -732,7 +732,7 @@
 /turf/open/floor/iron/freezer,
 /area/commons/toilet)
 "kb" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter/room)
 "kg" = (
@@ -743,7 +743,7 @@
 /area/engineering/engine_smes)
 "kk" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
 "kl" = (
@@ -780,7 +780,7 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "kA" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/engineering/engine_smes)
 "kC" = (
@@ -828,7 +828,7 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central/fore)
 "lv" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
 "lw" = (
@@ -941,7 +941,7 @@
 /area/cargo/warehouse/upper)
 "mQ" = (
 /obj/structure/sign/poster/contraband/random,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/meeting_room)
 "mS" = (
@@ -987,7 +987,7 @@
 "nl" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/hydroponics)
 "nt" = (
@@ -1061,15 +1061,15 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
 "oa" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/hydroponics)
 "od" = (
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall/r_wall,
 /area/commons/locker)
 "oi" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/engineering/atmos)
 "oo" = (
@@ -1167,7 +1167,7 @@
 /area/space)
 "pF" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/hidden,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/service/kitchen/diner)
 "pW" = (
@@ -1203,12 +1203,12 @@
 /area/commons/locker)
 "qN" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "qR" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/command/heads_quarters/hop)
 "qS" = (
@@ -1298,7 +1298,7 @@
 /area/engineering/atmos)
 "rW" = (
 /obj/machinery/smartfridge/organ,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "sa" = (
@@ -1397,7 +1397,7 @@
 /turf/open/floor/iron,
 /area/commons/lounge)
 "tE" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/medical/medbay)
 "tI" = (
@@ -1584,7 +1584,7 @@
 /area/hallway/primary/aft)
 "vQ" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/open/floor/plating,
 /area/service/kitchen/diner)
 "vS" = (
@@ -1606,12 +1606,12 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "wd" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/engine_smes)
 "wg" = (
 /obj/machinery/smartfridge,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/hydroponics)
 "wj" = (
@@ -1619,7 +1619,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/engine_smes)
 "wk" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/command/meeting_room)
 "wr" = (
@@ -1628,7 +1628,7 @@
 /turf/open/openspace,
 /area/cargo/warehouse/upper)
 "ws" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/medical/pharmacy)
 "wu" = (
@@ -1636,7 +1636,7 @@
 /turf/open/floor/plating,
 /area/service/kitchen/diner)
 "ww" = (
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall,
 /area/commons/toilet)
 "wF" = (
@@ -1658,16 +1658,16 @@
 /turf/open/floor/engine/o2,
 /area/engineering/atmos)
 "wL" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/engineering/main)
 "wN" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/heads_quarters/hop)
 "wO" = (
 /obj/structure/sign/poster/random,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
 "wT" = (
@@ -1686,7 +1686,7 @@
 /turf/open/space/openspace,
 /area/space/nearstation)
 "wZ" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/service/kitchen/diner)
 "xc" = (
@@ -1833,7 +1833,7 @@
 /turf/open/floor/iron,
 /area/commons/locker)
 "ze" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/closed/wall,
 /area/commons/lounge)
 "zi" = (
@@ -1906,7 +1906,7 @@
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/service/kitchen/coldroom)
 "zY" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/command/heads_quarters/captain)
 "Aa" = (
@@ -2058,7 +2058,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
 "Cc" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/service/hydroponics)
 "Ce" = (
@@ -2078,7 +2078,7 @@
 /area/engineering/supermatter/room)
 "Cs" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/service/hydroponics)
 "Cu" = (
@@ -2129,7 +2129,7 @@
 /area/engineering/supermatter)
 "CU" = (
 /obj/structure/sign/departments/medbay/alt,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/medical/medbay)
 "Db" = (
@@ -2138,7 +2138,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/main)
 "Dc" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/service/hydroponics)
 "De" = (
@@ -2203,7 +2203,7 @@
 /area/engineering/atmos)
 "DJ" = (
 /obj/structure/cable,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/engineering/main)
 "DK" = (
@@ -2430,7 +2430,7 @@
 /area/commons/toilet)
 "FE" = (
 /obj/machinery/biogenerator,
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall,
 /area/service/hydroponics)
 "FF" = (
@@ -2484,7 +2484,7 @@
 /area/engineering/atmos)
 "Gt" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/medical/medbay)
 "Gx" = (
@@ -2685,7 +2685,7 @@
 /turf/open/floor/iron/smooth,
 /area/command/meeting_room)
 "IJ" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/command/heads_quarters/captain)
 "IN" = (
@@ -2799,7 +2799,7 @@
 /turf/open/openspace,
 /area/cargo/warehouse/upper)
 "Kd" = (
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse/upper)
 "Kf" = (
@@ -2817,7 +2817,7 @@
 /area/engineering/supermatter/room)
 "Kt" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/open/floor/plating,
 /area/commons/locker)
 "Kw" = (
@@ -2926,7 +2926,7 @@
 /area/hallway/primary/central/fore)
 "LD" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/medical/pharmacy)
 "LE" = (
@@ -2993,7 +2993,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/engine_smes)
 "Me" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/commons/toilet)
 "Mg" = (
@@ -3045,7 +3045,7 @@
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
 "MS" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/medical/pharmacy)
 "MX" = (
@@ -3072,7 +3072,7 @@
 /turf/open/floor/plating/airless,
 /area/hallway/primary/central)
 "Nl" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/hallway/primary/central/fore)
 "NF" = (
@@ -3224,7 +3224,7 @@
 /area/command/meeting_room)
 "PP" = (
 /obj/structure/sign/departments/deck3,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/closed/wall,
 /area/cargo/warehouse/upper)
 "PQ" = (
@@ -3299,7 +3299,7 @@
 /area/engineering/supermatter/room)
 "QN" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/hidden,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/medical/medbay)
 "QQ" = (
@@ -3417,7 +3417,7 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "Sw" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/commons/toilet)
 "SA" = (
@@ -3436,7 +3436,7 @@
 /turf/open/floor/iron/freezer,
 /area/commons/toilet)
 "SI" = (
-/obj/effect/mapping_helpers/paint_wall/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall,
 /area/commons/locker)
 "SJ" = (
@@ -3491,7 +3491,7 @@
 /area/cargo/warehouse/upper)
 "Tz" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "TB" = (
@@ -3543,7 +3543,7 @@
 "Un" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/paint_wall/cargo,
+/obj/effect/mapping_helpers/paint_wall/station/cargo,
 /turf/open/floor/plating,
 /area/commons/lounge)
 "Up" = (
@@ -3638,7 +3638,7 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "VH" = (
-/obj/effect/mapping_helpers/paint_wall/service,
+/obj/effect/mapping_helpers/paint_wall/station/service,
 /turf/closed/wall/r_wall,
 /area/hallway/primary/central/aft)
 "VJ" = (
@@ -3657,7 +3657,7 @@
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter/room)
 "VW" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/hallway/primary/central/fore)
 "VZ" = (
@@ -3776,7 +3776,7 @@
 /area/cargo/warehouse/upper)
 "XB" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/command/meeting_room)
 "XH" = (
@@ -3836,7 +3836,7 @@
 /turf/open/floor/iron,
 /area/commons/lounge)
 "Yk" = (
-/obj/effect/mapping_helpers/paint_wall/engineering,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/engineering/supermatter/room)
 "Yl" = (
@@ -3954,7 +3954,7 @@
 /turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
 "Zn" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/command/heads_quarters/hop)
 "Zo" = (
