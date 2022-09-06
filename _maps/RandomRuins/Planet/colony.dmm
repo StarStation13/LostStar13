@@ -26,6 +26,7 @@
 /area/ruin/unpowered/colony/bathroom)
 "ho" = (
 /obj/structure/grille,
+/obj/effect/spawner/clear,
 /turf/template_noop,
 /area/template_noop)
 "hE" = (
