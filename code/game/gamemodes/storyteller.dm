@@ -10,18 +10,18 @@
 	var/event_repetition_multiplier = 0.6
 	/// Multipliers for starting points.
 	var/list/starting_point_multipliers = list(
-		EVENT_TRACK_MUNDANE = 1, 
-		EVENT_TRACK_MODERATE = 1, 
-		EVENT_TRACK_MAJOR = 1, 
-		EVENT_TRACK_ROLESET = 1, 
+		EVENT_TRACK_MUNDANE = 1,
+		EVENT_TRACK_MODERATE = 1,
+		EVENT_TRACK_MAJOR = 1,
+		EVENT_TRACK_ROLESET = 1,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
 	/// Multipliers for point gains.
 	var/list/point_gains_multipliers = list(
-		EVENT_TRACK_MUNDANE = 1, 
-		EVENT_TRACK_MODERATE = 1, 
-		EVENT_TRACK_MAJOR = 1, 
-		EVENT_TRACK_ROLESET = 1, 
+		EVENT_TRACK_MUNDANE = 1,
+		EVENT_TRACK_MODERATE = 1,
+		EVENT_TRACK_MAJOR = 1,
+		EVENT_TRACK_ROLESET = 1,
 		EVENT_TRACK_OBJECTIVES = 1
 		)
 	/// Multipliers of weight to apply for each tag of an event.
@@ -45,6 +45,8 @@
 	var/population_min
 	/// If defined, it will not be votable if exceeding the population
 	var/population_max
+	/// If TRUE, all variables will be randomized for this storyteller. Not for the feighnt of heart!
+	var/random = FALSE
 
 /datum/storyteller/process(delta_time)
 	if(disable_distribution)
@@ -146,3 +148,41 @@
 	for(var/client/admin_client as anything in GLOB.admins)
 		if(admin_client.prefs.hear_storyteller)
 			to_chat(admin_client, SPAN_ADMINNOTICE(string))
+
+/// This is where we handle the randomness
+/datum/storyteller/proc/randomize()
+	event_repetition_multiplier = rand(0.1,1)
+/// Max off at 2 times normal here for fun reasons
+	starting_point_multipliers = list(
+		EVENT_TRACK_MUNDANE = rand(0.1,2), \
+		EVENT_TRACK_MODERATE = rand(0.1,2), \
+		EVENT_TRACK_MAJOR = rand(0.1,2), \
+		EVENT_TRACK_ROLESET = rand(0.1,2), \
+		EVENT_TRACK_OBJECTIVES = rand(0.1,2) \
+		)
+	point_gains_multipliers = list( \
+		EVENT_TRACK_MUNDANE = rand(0.1,2), \
+		EVENT_TRACK_MODERATE = rand(0.1,2), \
+		EVENT_TRACK_MAJOR = rand(0.1,2), \
+		EVENT_TRACK_ROLESET = rand(0.1,2), \
+		EVENT_TRACK_OBJECTIVES = rand(0.1,2) \
+		)
+	tag_multipliers = list(
+		TAG_COMBAT = rand(0.1,2), \
+		TAG_SPOOKY = rand(0.1,2), \
+		TAG_DESTRUCTIVE = rand(0.1,2), \
+		TAG_COMMUNAL = rand(0.1,2), \
+		TAG_TARGETED = rand(0.1,2), \
+		TAG_POSITIVE = rand(0.1,2), \
+		TAG_CREW_ANTAG = rand(0.1,2), \
+		TAG_TEAM_ANTAG = rand(0.1,2), \
+		TAG_OUTSIDER_ANTAG = rand(0.1,2), \
+		TAG_OVERMAP = rand(0.1,2), \
+		TAG_SPACE = rand(0.1,2), \
+		TAG_PLANETARY = rand(0.1,2), \
+		)
+	/// Anywhere all the way up to double normal
+	cost_variance = rand(0.1,30)
+	roundstart_points_variance = rand(0.1,30)
+	/// NOTHING is certain.
+	guarantees_roundstart_roleset = pick(TRUE,FALSE)
