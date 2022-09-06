@@ -7,10 +7,10 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "co" = (
-/obj/structure/shuttle/engine/propulsion{
+/obj/effect/spawner/clear,
+/obj/machinery/atmospherics/components/unary/engine/not_welded{
 	dir = 1
 	},
-/obj/effect/spawner/clear,
 /turf/template_noop,
 /area/template_noop)
 "cs" = (
@@ -67,10 +67,10 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "iC" = (
-/obj/structure/shuttle/engine/propulsion{
+/obj/effect/spawner/clear,
+/obj/machinery/atmospherics/components/unary/engine/not_welded{
 	dir = 4
 	},
-/obj/effect/spawner/clear,
 /turf/template_noop,
 /area/template_noop)
 "jb" = (
@@ -160,7 +160,7 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/unpowered/crashed_pod)
 "qW" = (
-/obj/structure/shuttle/engine/propulsion{
+/obj/machinery/atmospherics/components/unary/engine{
 	dir = 1
 	},
 /turf/closed/wall/mineral/titanium,
