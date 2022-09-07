@@ -16,3 +16,6 @@
   - bugfix: Holestation no longer has duplicate APCs. Honk.
   - bugfix: 3.6 Seconds is no longer wasted roundstart.
   - rscdel: ERP Verbs.
+2022-09-06:
+  BluBerry016 (unit0016):
+  - rscadd: A new, randomized storyteller has been added.
