@@ -1,0 +1,14 @@
+author: BluBerry016 (unit0016)
+changes:
+- rscadd: A bunch of ruins have been re-added to the pool. Even the bad ones. Technically
+    they never left, they just never spawned properly (But still took up budget!)
+- rscdel: Counter to this, a bunch of planetary ruins have been removed for being
+    weird filler. Only ONE type can spawn naturally now, the other has been slightly
+    updated but still left as deadcode for the time being.
+- code_imp: Wallpaint now uses defines, and have been split into three different categories.
+- rscadd: Holestation now can actually pull in debris from space and mine asteroids
+    properly. Haha. Oops.
+- rscadd: The lavaland syndicate base has been entirely repainted over. Literally.
+    It should serve as an example on how to detail further syndicate non-shuttles.
+merge-date: 2022-09-07
+prnumber: 20
