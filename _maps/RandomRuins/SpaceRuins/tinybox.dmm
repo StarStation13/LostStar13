@@ -35,7 +35,7 @@
 /turf/template_noop,
 /area/template_noop)
 "hh" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/no_grav)
 "ja" = (
@@ -44,7 +44,7 @@
 /area/ruin/unpowered/no_grav)
 "ke" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/ruin/unpowered/no_grav)
 "mo" = (
@@ -129,7 +129,7 @@
 /turf/open/floor/iron,
 /area/ruin/unpowered/no_grav)
 "zW" = (
-/obj/effect/mapping_helpers/paint_wall/bridge,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
 /area/ruin/unpowered/no_grav)
 "Bo" = (

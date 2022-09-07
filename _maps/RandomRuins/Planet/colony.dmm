@@ -3,96 +3,689 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/atmos)
+"ah" = (
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"aC" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"aH" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"aW" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/north{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"bd" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/closet/wardrobe/grey,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"be" = (
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/ops)
+"br" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"bE" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/right,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/medbay)
+"bQ" = (
+/obj/machinery/door/airlock,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"bV" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/mess_hall)
 "cl" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/mess_hall)
+"cC" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/structure/railing/corner,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"cE" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"cF" = (
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"cM" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/structure/window/spawner/east,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered/colony/ops)
+"cQ" = (
+/obj/item/kitchen/knife/shiv,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"cY" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/ops)
+"de" = (
+/obj/machinery/door/airlock/command,
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered/colony/ops)
+"dt" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/mess_hall)
 "dv" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/external_airlock)
 "dJ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/operating_theatre)
+"dP" = (
+/obj/structure/table,
+/obj/item/stack/sheet/plasteel,
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
 "dX" = (
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered/colony/secure_storage)
 "eo" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/medbay)
+"et" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"eK" = (
+/obj/machinery/autolathe,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"eM" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/left,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stock_parts/capacitor,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/medbay)
+"eV" = (
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/ops)
+"fb" = (
+/obj/structure/lattice/catwalk/plated,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"fi" = (
+/obj/structure/cable,
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/smes,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"fC" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
 "gb" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall,
 /area/ruin/unpowered/colony/bathroom)
+"gp" = (
+/obj/machinery/door/airlock/vault,
+/obj/effect/mapping_helpers/airlock/access/all/supply/vault,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered/colony/secure_storage)
+"gr" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/dorms_double,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"gB" = (
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"gI" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/mess_hall)
+"gX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
 "ho" = (
 /obj/structure/grille,
+/obj/effect/spawner/clear,
 /turf/template_noop,
 /area/template_noop)
+"hu" = (
+/obj/structure/cable,
+/turf/open/floor/iron/large,
+/area/ruin/unpowered/colony/hallways)
 "hE" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/security)
-"iw" = (
+"ic" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered/colony/ops)
+"id" = (
+/obj/machinery/door/airlock,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/corner,
+/area/ruin/unpowered/colony/bathroom)
+"ie" = (
+/obj/effect/turf_decal/stripes/white/box,
+/obj/structure/closet/crate/build_your_shuttle_extra,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"iq" = (
+/obj/structure/cable,
 /turf/open/floor/iron,
+/area/ruin/unpowered/colony/mess_hall)
+"iw" = (
+/obj/item/bedsheet,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
 /area/ruin/unpowered/colony/operating_theatre)
 "ix" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/external_airlock)
+"iA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/dorms)
+"iI" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
 "iR" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/medbay)
 "jd" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/mess_hall)
+"jx" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/remains/human,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"jI" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"kg" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
 "kv" = (
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/medbay)
+"kA" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/structure/chair/sofa/bench/left,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
 "kH" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/ops)
+"kP" = (
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/colony/dorms)
+"ll" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/machinery/space_heater/improvised_chem_heater,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/medbay)
+"lM" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
 "md" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/planetary/concrete,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
+"me" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/hallways)
+"mg" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/grille,
+/obj/effect/mapping_helpers/paint_wall/station/security,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/hallways)
+"mh" = (
+/obj/structure/cable,
+/turf/open/floor/planetary/concrete,
+/area/template_noop)
 "mo" = (
 /turf/open/floor/engine/n2,
 /area/ruin/unpowered/colony/atmos)
+"mI" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"mX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/vending/snack,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"mY" = (
+/obj/machinery/suit_storage_unit/open,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"mZ" = (
+/obj/structure/low_wall,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/obj/item/shard,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/bathroom)
 "ne" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/planetary/concrete,
 /area/template_noop)
+"nz" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/unpowered/colony/engineering)
+"nG" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/ops)
+"om" = (
+/obj/structure/table/optable,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/mob_spawn/human/corpse/charredskeleton,
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
 "oD" = (
 /obj/structure/railing,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
 /turf/open/floor/planetary/concrete,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
 "oJ" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/security)
+"oZ" = (
+/obj/structure/cable,
+/obj/item/stack/cable_coil/five,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"pe" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"pf" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"pw" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/closed/wall,
+/area/ruin/unpowered/colony/dorms)
+"pL" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"pS" = (
+/obj/structure/low_wall,
+/obj/effect/mapping_helpers/paint_wall/station/security,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"pY" = (
+/obj/structure/holohoop{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"qc" = (
+/obj/machinery/door/airlock,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/dorms)
+"qk" = (
+/obj/machinery/door/airlock/engineering,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
 "qw" = (
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/secure_storage)
+"qS" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/closed/wall,
+/area/ruin/unpowered/colony/dorms)
+"rb" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
+"re" = (
+/obj/effect/spawner/structure/window,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/hallways)
+"rh" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/engineering)
+"rq" = (
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"rr" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/ops)
+"ru" = (
+/obj/structure/table/glass,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/power/apc/auto_name/east{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
+"rE" = (
+/obj/structure/closet/radiation,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"rJ" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/machinery/chem_master,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/medbay)
 "rN" = (
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/closed/wall,
 /area/ruin/unpowered/colony/medbay)
-"uw" = (
+"rT" = (
+/obj/machinery/door/airlock/public/glass,
 /turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"sy" = (
+/obj/machinery/door/airlock,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/bathroom)
+"sL" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/engineering)
+"sU" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/hallways)
+"sY" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/iron{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"tk" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"tm" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered/colony/secure_storage)
+"tB" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"tQ" = (
+/obj/structure/closet/crate/silvercrate,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"uj" = (
+/obj/structure/lattice/catwalk/plated,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"uw" = (
+/obj/effect/turf_decal/tile/blue/half,
+/obj/machinery/power/apc/auto_name/south{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_edge,
 /area/ruin/unpowered/colony/medbay)
 "uF" = (
 /turf/closed/wall,
 /area/ruin/unpowered/colony/armory)
+"uG" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/closet/wardrobe/green,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"uW" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/structure/chair/sofa/bench/right,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"vc" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
+"vi" = (
+/obj/effect/turf_decal/tile/blue/half,
+/obj/machinery/light/built/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white/smooth_edge,
+/area/ruin/unpowered/colony/medbay)
 "vP" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/engineering)
-"ws" = (
-/obj/effect/spawner/structure/window/reinforced,
+"vZ" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/engineering)
+"ws" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"wz" = (
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/hallways)
 "wE" = (
 /turf/open/floor/engine/o2,
 /area/ruin/unpowered/colony/atmos)
@@ -100,40 +693,166 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/hallways)
+"wQ" = (
+/obj/structure/rack,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"xf" = (
+/obj/machinery/door/airlock/atmos,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/atmos)
+"xg" = (
+/obj/machinery/door/airlock/medical,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
 "xk" = (
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/ruin/unpowered/colony/dorms)
 "xG" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/armory)
+"ya" = (
+/obj/machinery/vending/clothing,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/unpowered/colony/dorms)
+"ye" = (
+/obj/effect/turf_decal/tile/blue/half,
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/bottle/water{
+	pixel_y = 13;
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/glass/bottle/welding_fuel{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/glass/bottle/toxin{
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/glass/bottle/thermite{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/bottle/synaptizine,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white/smooth_edge,
+/area/ruin/unpowered/colony/medbay)
 "yC" = (
 /turf/closed/wall,
 /area/ruin/unpowered/colony/mess_hall)
 "yG" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/dorms)
+"yJ" = (
+/turf/closed/wall,
+/area/ruin/unpowered/colony/external_airlock)
+"yM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/unpowered/colony/medbay)
 "yZ" = (
 /turf/closed/wall,
 /area/ruin/unpowered/colony/security)
 "zc" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/dorms)
+"ze" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/dorms_double,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"zf" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/stripes/white/corner{
+	dir = 1
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
 "zp" = (
 /turf/closed/wall,
+/area/ruin/unpowered/colony/hallways)
+"zt" = (
+/obj/structure/rack/shelf,
+/obj/item/stock_parts/cell/high{
+	pixel_y = 3
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"zT" = (
+/obj/effect/turf_decal/tile/red,
+/obj/item/stack/rods/ten,
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
 /area/ruin/unpowered/colony/hallways)
 "zW" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/security)
+"Au" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
 "AA" = (
 /turf/open/floor/engine/airless,
 /area/ruin/unpowered/colony/atmos)
+"BB" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
 "BT" = (
 /turf/open/floor/planetary/concrete,
 /area/template_noop)
+"BX" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
 "BY" = (
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
 /area/ruin/unpowered/colony/ops)
+"BZ" = (
+/obj/structure/table,
+/turf/open/floor/iron{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"Cf" = (
+/obj/structure/railing,
+/turf/open/floor/planetary/concrete/reinforced,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"CB" = (
+/obj/effect/turf_decal/stripes/white/box,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"CR" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/hallways)
+"De" = (
+/turf/open/floor/iron/half,
+/area/ruin/unpowered/colony/dorms)
 "Do" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -142,50 +861,272 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/hallways)
+"DH" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
 "Eb" = (
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall,
 /area/ruin/unpowered/colony/engineering)
 "Er" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/hallways)
+"Ew" = (
+/obj/effect/turf_decal/loading_area/white{
+	dir = 8
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"EG" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"EK" = (
+/obj/machinery/power/apc/auto_name/north{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/dorms)
 "EP" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/armory)
 "EY" = (
-/turf/open/floor/iron,
+/obj/item/kirbyplants/dead,
+/turf/open/floor/iron/checker,
 /area/ruin/unpowered/colony/bathroom)
 "Fc" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/atmos)
+"Fd" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"Fe" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/dorms_double,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
 "Ff" = (
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/atmos)
+"Fp" = (
+/obj/structure/holohoop{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"Fr" = (
+/obj/structure/low_wall,
+/obj/structure/grille/broken,
+/obj/effect/mapping_helpers/paint_wall/station/security,
+/turf/open/floor/plating{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"Fw" = (
+/obj/structure/cable,
+/obj/item/disk/design_disk/adv,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
 "FF" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/hallways)
 "FK" = (
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall/r_wall,
+/area/ruin/unpowered/colony/ops)
+"FN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/dorms)
+"Gb" = (
+/obj/effect/turf_decal/loading_area/white{
+	dir = 4
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"Gc" = (
+/obj/machinery/door/airlock/security,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/armory)
+"Gj" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/structure/mirror/directional/east,
+/obj/structure/toilet{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered/colony/ops)
+"Gu" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/autoname,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/external_airlock)
+"GL" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/closet/wardrobe/black,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"GV" = (
+/turf/open/floor/planetary/concrete/reinforced,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"Hw" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/colony/hallways)
+"Hx" = (
+/obj/structure/lattice/catwalk/plated/dark,
+/obj/structure/curtain,
+/obj/machinery/shower/directional/south,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/ops)
+"Hy" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"HH" = (
+/obj/structure/cable,
+/turf/open/floor/planetary/concrete/reinforced,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"HR" = (
+/turf/open/floor/carpet/blue,
 /area/ruin/unpowered/colony/ops)
 "It" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/mess_hall)
-"Jg" = (
+"Jf" = (
+/obj/machinery/door/airlock/security,
 /turf/open/floor/iron,
-/area/ruin/unpowered/colony/external_airlock)
+/area/ruin/unpowered/colony/security)
+"Jg" = (
+/turf/open/floor/iron/large,
+/area/ruin/unpowered/colony/hallways)
 "Jv" = (
 /turf/template_noop,
 /area/template_noop)
 "JF" = (
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/operating_theatre)
+"Kq" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"Kx" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"KZ" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Li" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"Lq" = (
+/obj/machinery/shower/directional/west,
+/obj/structure/lattice/catwalk/plated,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/bathroom)
+"Ls" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Lv" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
 "Ly" = (
 /turf/closed/wall,
 /area/ruin/unpowered/colony/atmos)
+"Lz" = (
+/obj/item/toy/beach_ball/holoball,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
 "LD" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/atmos)
+"LT" = (
+/obj/effect/turf_decal/tile/blue/half,
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/bottle/sulfur{
+	pixel_y = 16;
+	pixel_x = 7
+	},
+/obj/item/reagent_containers/glass/bottle/sugar{
+	pixel_y = 14;
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/glass/bottle/sodium{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/glass/bottle/silver{
+	pixel_y = 9;
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/glass/bottle/potassium{
+	pixel_y = 2;
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/glass/bottle/plasma{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white/smooth_edge,
+/area/ruin/unpowered/colony/medbay)
+"LX" = (
+/obj/structure/frame/computer,
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered/colony/ops)
+"MZ" = (
+/obj/effect/mapping_helpers/paint_wall/station/security,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/colony/hallways)
+"Nk" = (
+/obj/structure/frame/computer{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
 "Nm" = (
 /obj/structure/grille,
 /turf/open/floor/planetary/concrete,
@@ -193,6 +1134,49 @@
 "NA" = (
 /turf/closed/wall/r_wall,
 /area/template_noop)
+"NC" = (
+/obj/machinery/door/airlock/security,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/turf/open/floor/iron/dark/side,
+/area/ruin/unpowered/colony/hallways)
+"NR" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Oj" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/west{
+	start_charge = 0
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/unpowered/colony/engineering)
+"Os" = (
+/obj/structure/table_frame,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"OD" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"OM" = (
+/obj/structure/table,
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/hallways)
 "OQ" = (
 /obj/structure/railing{
 	dir = 1
@@ -201,47 +1185,296 @@
 /area/template_noop)
 "Pi" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/engineering)
 "PB" = (
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
+/area/ruin/unpowered/colony/ops)
+"PJ" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
+"PQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"PT" = (
+/obj/machinery/door/airlock/silver,
+/turf/open/floor/iron/dark,
 /area/ruin/unpowered/colony/ops)
 "Qv" = (
 /obj/structure/grille,
 /turf/open/floor/planetary/concrete,
 /area/template_noop)
+"Rm" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/operating_theatre)
 "RS" = (
+/obj/effect/mapping_helpers/paint_wall/station/medbay,
 /turf/closed/wall,
 /area/ruin/unpowered/colony/operating_theatre)
+"Sw" = (
+/obj/effect/mapping_helpers/paint_wall/station/bridge,
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"SF" = (
+/obj/effect/turf_decal/tile/yellow,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
 "SJ" = (
 /turf/open/floor/planetary/concrete,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
+"SW" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Tn" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered/colony/ops)
 "Tt" = (
-/turf/open/floor/planetary/concrete,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/unpowered/colony/ops)
 "Tv" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/external_airlock)
+"TS" = (
+/obj/structure/cable,
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"TW" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/carpet/blue,
+/area/ruin/unpowered/colony/ops)
+"Ub" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/bathroom)
+"Uc" = (
+/obj/effect/mapping_helpers/paint_wall/station/neutral,
+/turf/closed/wall,
+/area/ruin/unpowered/colony/hallways)
+"Ug" = (
+/obj/machinery/door/airlock/medical,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/autoname,
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/medbay)
+"Uh" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"Uy" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/closet/wardrobe/mixed,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"UM" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/iron/white/corner,
+/area/ruin/unpowered/colony/hallways)
+"UO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/kirbyplants/fullysynthetic,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/dorms)
+"UW" = (
+/obj/structure/frame/computer{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"Vb" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Vv" = (
+/obj/machinery/door/airlock,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"VA" = (
+/obj/structure/sink{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"VE" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/cable,
+/turf/open/floor/iron/corner,
+/area/ruin/unpowered/colony/hallways)
 "VL" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/security)
+"VS" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/engineering)
+"We" = (
+/obj/item/kirbyplants/photosynthetic,
+/turf/open/floor/iron/dark,
+/area/ruin/unpowered/colony/ops)
 "Wg" = (
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/structure/barricade/security,
 /turf/open/floor/planetary/concrete,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
+"Wh" = (
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/ops)
+"Wk" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/edge,
+/area/ruin/unpowered/colony/dorms)
+"Wp" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/unpowered/colony/medbay)
+"Wx" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"Xx" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/no_erp{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/bathroom)
+"Xy" = (
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/iron{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
+"XR" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/engineering)
+"Yg" = (
+/obj/structure/cable,
+/obj/machinery/power/solar_control,
+/turf/open/floor/plating,
+/area/ruin/unpowered/colony/engineering)
+"Yq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/half,
+/area/ruin/unpowered/colony/dorms)
+"Ys" = (
+/obj/structure/easel,
+/obj/item/canvas/twentyfour_twentyfour{
+	pixel_y = 10
+	},
+/turf/open/floor/iron{
+	initial_gas_mix = "PLANETARY_ATMOS"
+	},
+/area/ruin/unpowered/colony/hallways)
 "Yx" = (
 /obj/machinery/power/tracker,
+/obj/structure/cable,
 /turf/open/floor/planetary/concrete,
 /area/template_noop)
 "YZ" = (
+/obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/colony/engineering)
 "Zf" = (
 /obj/machinery/power/solar,
+/obj/structure/cable,
 /turf/open/floor/planetary/concrete,
 /area/template_noop)
+"Zm" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/unpowered/colony/hallways)
+"Zv" = (
+/obj/machinery/door/airlock,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"Zx" = (
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/unpowered/colony/ops)
+"ZB" = (
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/ruin/unpowered/colony/hallways)
+"ZI" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/ruin/unpowered/colony/dorms)
+"ZR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/ruin/unpowered/colony/medbay)
+"ZT" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/spawner/lootdrop/crate_spawner,
+/turf/open/floor/planetary/concrete,
+/area/ruin/unpowered/colony/outdoors/cargo_bay)
 
 (1,1,1) = {"
 Jv
@@ -353,7 +1586,7 @@ xG
 xG
 xG
 xG
-xG
+Gc
 xG
 xG
 VL
@@ -390,7 +1623,7 @@ Ff
 Ff
 EP
 EP
-xG
+Gc
 EP
 EP
 EP
@@ -454,7 +1687,7 @@ Qv
 BT
 BT
 BT
-BT
+mh
 BT
 BT
 BT
@@ -513,7 +1746,7 @@ Ff
 Ff
 yZ
 yZ
-oJ
+Jf
 yZ
 yZ
 yZ
@@ -521,11 +1754,11 @@ yZ
 yZ
 VL
 VL
+VL
 hE
 hE
 hE
-hE
-hE
+VL
 VL
 VL
 Jv
@@ -536,7 +1769,7 @@ Qv
 BT
 BT
 BT
-BT
+mh
 BT
 BT
 BT
@@ -564,7 +1797,7 @@ FF
 FF
 SJ
 SJ
-SJ
+pY
 SJ
 SJ
 VL
@@ -602,10 +1835,10 @@ Er
 Er
 Er
 FF
+uW
 SJ
 SJ
-SJ
-SJ
+Ew
 SJ
 SJ
 oD
@@ -618,7 +1851,7 @@ Qv
 BT
 BT
 BT
-BT
+mh
 BT
 BT
 BT
@@ -643,9 +1876,9 @@ Er
 Er
 Er
 FF
+kA
 SJ
-SJ
-SJ
+tQ
 SJ
 SJ
 SJ
@@ -684,12 +1917,12 @@ zp
 Er
 zp
 FF
-SJ
-SJ
-SJ
-SJ
-SJ
-SJ
+ZT
+Kq
+Kq
+Kq
+Lz
+Kq
 oD
 Nm
 BT
@@ -700,7 +1933,7 @@ Qv
 BT
 BT
 BT
-BT
+mh
 BT
 BT
 BT
@@ -720,16 +1953,16 @@ yZ
 oJ
 oJ
 oJ
-oJ
-Er
+Jf
+Ls
 Er
 Er
 FF
+cF
 SJ
+CB
 SJ
-SJ
-SJ
-SJ
+CB
 SJ
 oD
 Nm
@@ -762,17 +1995,17 @@ oJ
 oJ
 oJ
 yZ
-Er
+Ls
 Er
 Er
 FF
+cF
+CB
 SJ
+ie
 SJ
-SJ
-SJ
-SJ
-SJ
-SJ
+CB
+br
 md
 BT
 "}
@@ -782,9 +2015,9 @@ Qv
 BT
 BT
 BT
+mh
 BT
 BT
-BT
 YZ
 YZ
 YZ
@@ -795,7 +2028,7 @@ Eb
 Eb
 Eb
 Eb
-Ff
+xf
 ab
 Ly
 yZ
@@ -803,17 +2036,17 @@ oJ
 oJ
 oJ
 yZ
-Er
+Ls
 Er
 Er
 FF
-SJ
-SJ
-SJ
-SJ
-SJ
-SJ
-SJ
+cF
+Hy
+Hy
+Hy
+Hy
+jx
+jI
 SJ
 BT
 "}
@@ -827,34 +2060,34 @@ Zf
 Zf
 BT
 YZ
-vP
-vP
-vP
-vP
-vP
-vP
-vP
-vP
+fi
+aH
+VS
+OD
+nz
+Oj
+nz
+rh
 Eb
 Er
-Er
+KZ
 Er
 yZ
 zW
 yZ
 zW
 yZ
-Er
+Ls
 Er
 Er
 FF
+cF
+EG
 SJ
 SJ
+cQ
 SJ
-SJ
-SJ
-SJ
-SJ
+cC
 Wg
 BT
 "}
@@ -864,35 +2097,35 @@ Qv
 BT
 BT
 BT
-BT
+mh
 BT
 BT
 Pi
+oZ
+BX
 vP
+eK
+rE
 vP
-vP
-vP
-vP
-vP
-vP
-vP
+fb
+Lv
 Eb
+mI
+Er
+Er
+DH
 Er
 Er
 Er
 Er
-Er
-Er
-Er
-Er
-Er
+Ls
 Er
 Er
 Dx
+cF
 SJ
 SJ
-SJ
-SJ
+Gb
 SJ
 SJ
 oD
@@ -909,31 +2142,31 @@ Zf
 Zf
 BT
 Pi
+Yg
+pe
+Fw
+UW
+pL
 vP
-vP
-vP
-vP
-vP
-vP
-vP
-vP
-vP
+fb
+VS
+qk
+Ls
+Ls
+Er
+DH
 Er
 Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
+Ls
+Ls
+Ls
 Er
 Er
 Dx
+cF
 SJ
 SJ
-SJ
-SJ
+Fp
 SJ
 SJ
 oD
@@ -946,38 +2179,38 @@ Qv
 BT
 BT
 BT
+mh
 BT
 BT
-BT
-Pi
+YZ
+Eb
+Eb
+VS
+Li
+pL
 vP
-vP
-vP
-vP
-vP
-vP
-vP
-vP
+uj
+SF
 ws
-Er
-Er
+SW
+Ls
 Er
 gb
 gb
 gb
-EY
+id
 gb
 gb
 Er
 Er
-FF
-Dx
-FF
-FF
-SJ
-SJ
-SJ
-oD
+MZ
+Fr
+MZ
+MZ
+aW
+PJ
+Hy
+zf
 Nm
 BT
 "}
@@ -989,36 +2222,36 @@ Zf
 Zf
 Zf
 Zf
-BT
-YZ
-vP
-vP
-vP
-vP
-vP
-vP
-vP
-vP
+mh
+BB
+kg
+vZ
+VS
+SF
+sL
+sL
+sL
+XR
 ws
 Er
-Er
+Ls
 Er
 gb
-EY
-EY
-EY
+Xx
+cE
+TS
 EY
 gb
 Er
-Er
-FF
-Er
-Er
-Dx
-SJ
-SJ
-SJ
-oD
+Zm
+MZ
+tB
+Nk
+mg
+GV
+HH
+GV
+Cf
 Nm
 BT
 "}
@@ -1031,7 +2264,7 @@ BT
 BT
 BT
 BT
-zc
+kP
 xk
 xk
 xk
@@ -1041,26 +2274,26 @@ xk
 xk
 xk
 xk
-xk
-Er
+qS
+Ls
 Er
 gb
+mZ
 gb
+TS
+VA
 gb
-EY
-EY
-gb
 Er
 Er
-Er
-Er
-Er
-FF
-ix
-Tv
-ix
-ix
-ix
+NC
+pf
+dP
+MZ
+yJ
+Gu
+yJ
+yJ
+yJ
 BT
 "}
 (21,1,1) = {"
@@ -1073,33 +2306,33 @@ FK
 FF
 FF
 zc
-yG
-yG
-yG
-xk
-yG
-xk
-yG
-yG
-yG
-xk
-Er
+ZI
+PQ
+gr
+qS
+ya
+qS
+ze
+PQ
+Au
+qS
+Ls
 Er
 gb
-EY
-EY
-EY
-EY
+Uh
+cE
+TS
+VA
 gb
 Er
-Er
-FF
-Er
-Er
-Dx
-Tv
-Tv
-Tv
+gB
+MZ
+Os
+zT
+mg
+wQ
+tk
+Fd
 dv
 BT
 BT
@@ -1107,80 +2340,80 @@ BT
 (22,1,1) = {"
 kH
 kH
-BY
+ic
 FK
-BY
+Hx
 PB
 Er
 Er
-xk
-xk
-yG
-xk
-xk
-yG
-xk
-xk
-yG
-xk
-xk
-Er
+qS
+qS
+Vv
+qS
+qS
+iA
+qS
+qS
+Zv
+qS
+qS
+Ls
 Er
 gb
+Ub
 gb
-gb
-EY
-EY
+TS
+VA
 gb
 Er
 Er
-FF
-FF
-FF
-FF
-Tv
-Tv
-Tv
-ix
+MZ
+MZ
+pS
+MZ
+mY
+tk
+aC
+yJ
 BT
 BT
 "}
 (23,1,1) = {"
 kH
-BY
-BY
-BY
-BY
+LX
+Tn
+PT
+Gj
 PB
 Er
 Er
-xk
+qS
+UO
 yG
+iA
+De
+iA
+Yq
 yG
-yG
-yG
-yG
-yG
-yG
-yG
-yG
-xk
-Er
+iA
+Wk
+qS
+Ls
 Er
 gb
-EY
-EY
-EY
-EY
+Lq
+cE
+TS
+rq
 gb
 Er
 Er
-FF
-Er
-Er
-Dx
-Tv
-Tv
+Uc
+Ys
+ZB
+Hw
+zt
+tk
 Tv
 dv
 BT
@@ -1188,175 +2421,186 @@ BT
 "}
 (24,1,1) = {"
 kH
-BY
-BY
+LX
+HR
 PB
 PB
 PB
 Er
 Er
-xk
-xk
-yG
-xk
-xk
-yG
-xk
-xk
-yG
-xk
-xk
-Er
+qS
+qS
+bQ
+qS
+qS
+EK
+qS
+qS
+bQ
+qS
+qS
+Ls
 Er
 gb
 gb
 gb
-EY
+sy
 gb
 gb
 Er
 Er
-Er
-Er
-Er
-FF
+rT
+Xy
+sY
+Hw
 ix
-Tv
-dv
+iI
+ix
 ix
 ix
 BT
 "}
 (25,1,1) = {"
 kH
-BY
-BY
-BY
-BY
+be
+Zx
+cY
+nG
 PB
 zp
 Er
-xk
-yG
-yG
-yG
-xk
-yG
-xk
-yG
-yG
-yG
-xk
+qS
+Wx
+PQ
+Fe
+qS
+FN
+qS
+gr
+PQ
+ZI
+qS
+Ls
 Er
 Er
 Er
 Er
+Ls
 Er
 Er
 Er
 Er
+Uc
+BZ
+OM
+re
 Er
+Ls
 Er
+mX
 FF
-Er
-Er
-Dx
-Jg
-Jg
-Jg
-Jg
-ix
 BT
 "}
 (26,1,1) = {"
 kH
+Wh
+Zx
 BY
-BY
-BY
-BY
+rr
 PB
+sU
 Er
-Er
-xk
-xk
-xk
-xk
-xk
-yG
-xk
-xk
-xk
-xk
-xk
-Er
-Er
-Er
-Er
+qS
+qS
+qS
+pw
+qS
+qc
+qS
+qS
+qS
+qS
+qS
+Ls
 Er
 Er
 Er
 Er
+Ls
 Er
 Er
+Er
+Er
+Uc
+re
+re
+Uc
+Er
+VE
+Jg
+UM
 FF
-Er
-Er
-FF
-Jg
-Jg
-Jg
-Jg
-ix
 BT
 "}
 (27,1,1) = {"
 kH
-BY
-BY
-BY
-BY
-BY
+LX
+HR
+Tt
+Tt
+de
+wz
 Er
 Er
 Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Jg
-Jg
-Jg
-Jg
-ix
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+lM
+Ls
+Ls
+Kx
+Ls
+hu
+me
+et
+FF
 BT
 "}
 (28,1,1) = {"
 kH
-BY
-BY
-BY
-BY
+LX
+TW
+Tt
+eV
 PB
+CR
+Er
+Er
+Vb
+Ls
+ah
+Er
+Er
+Er
+Er
+Ls
 Er
 Er
 Er
@@ -1369,46 +2613,35 @@ Er
 Er
 Er
 Er
+DH
+NR
 Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Er
-Jg
-Jg
-Jg
-Jg
-ix
+zp
+GL
+uG
+bd
+Uy
+FF
 BT
 "}
 (29,1,1) = {"
 PB
 PB
-BY
-BY
+cM
+Tt
 FK
 FK
 FF
 Dx
 kv
 iR
-uw
+Ug
 iR
 rN
 Do
 Do
 Do
-cl
+dt
 yC
 yC
 yC
@@ -1421,36 +2654,36 @@ zp
 wM
 Er
 wM
+zp
+zp
+zp
+zp
 zp
 zp
 zp
 FF
-ix
-ix
-ix
-ix
-ix
+FF
 BT
 "}
 (30,1,1) = {"
 Jv
 PB
-BY
-BY
-FK
+We
 Tt
+FK
+BT
 BT
 BT
 kv
-uw
-uw
+bE
+ZR
 uw
 rN
 cl
 cl
 cl
-cl
-yC
+iq
+gI
 cl
 cl
 yC
@@ -1477,21 +2710,21 @@ BT
 qw
 qw
 qw
-dX
+gp
 qw
 qw
-NA
+Sw
 BT
 eo
-uw
-uw
-uw
+eM
+Wp
+vi
 rN
 cl
 cl
 cl
-cl
-yC
+iq
+gI
 cl
 cl
 yC
@@ -1524,15 +2757,15 @@ qw
 BT
 BT
 eo
-uw
-uw
-uw
+ll
+yM
+LT
 rN
 cl
 cl
 cl
-cl
-yC
+iq
+gI
 cl
 cl
 yC
@@ -1565,14 +2798,14 @@ qw
 BT
 BT
 kv
-uw
-uw
-uw
+rJ
+ZR
+ye
 rN
 cl
 cl
 cl
-cl
+bV
 yC
 cl
 yC
@@ -1599,7 +2832,7 @@ ho
 (34,1,1) = {"
 qw
 dX
-dX
+tm
 dX
 dX
 qw
@@ -1607,7 +2840,7 @@ BT
 BT
 JF
 RS
-iw
+xg
 RS
 RS
 cl
@@ -1647,9 +2880,9 @@ qw
 BT
 BT
 JF
-iw
-iw
-iw
+fC
+vc
+Rm
 RS
 cl
 cl
@@ -1689,8 +2922,8 @@ BT
 BT
 dJ
 iw
-iw
-iw
+gX
+ru
 RS
 cl
 cl
@@ -1729,8 +2962,8 @@ ho
 BT
 BT
 JF
-iw
-iw
+rb
+om
 JF
 JF
 jd
