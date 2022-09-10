@@ -30,13 +30,6 @@
 /obj/structure/cable,
 /turf/open/floor/planetary/concrete,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
-"bd" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/closet/wardrobe/grey,
-/turf/open/floor/iron/white/corner,
-/area/ruin/unpowered/colony/hallways)
 "be" = (
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/dark/smooth_half{
@@ -157,6 +150,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/structure/closet/wardrobe/grey,
 /turf/open/floor/iron/white/corner,
 /area/ruin/unpowered/colony/hallways)
 "eK" = (
@@ -642,13 +636,6 @@
 "uF" = (
 /turf/closed/wall,
 /area/ruin/unpowered/colony/armory)
-"uG" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/closet/wardrobe/green,
-/turf/open/floor/iron/white/corner,
-/area/ruin/unpowered/colony/hallways)
 "uW" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/structure/chair/sofa/bench/right,
@@ -975,13 +962,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/external_airlock)
-"GL" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/closet/wardrobe/black,
-/turf/open/floor/iron/white/corner,
-/area/ruin/unpowered/colony/hallways)
 "GV" = (
 /turf/open/floor/planetary/concrete/reinforced,
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
@@ -1291,9 +1271,6 @@
 "Uy" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
 	},
 /obj/structure/closet/wardrobe/mixed,
 /turf/open/floor/iron/white/corner,
@@ -2617,9 +2594,9 @@ DH
 NR
 Er
 zp
-GL
-uG
-bd
+Er
+Er
+Er
 Uy
 FF
 BT
