@@ -7,6 +7,10 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron,
 /area/ruin/unpowered/colony/hallways)
+"aA" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/iron/large,
+/area/ruin/unpowered/colony/mess_hall)
 "aC" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south{
@@ -71,10 +75,14 @@
 /obj/machinery/power/apc/auto_name/south{
 	start_charge = 0
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/cafeteria{
+	dir = 1
+	},
 /area/ruin/unpowered/colony/mess_hall)
 "cl" = (
-/turf/open/floor/iron,
+/turf/open/floor/iron/cafeteria{
+	dir = 1
+	},
 /area/ruin/unpowered/colony/mess_hall)
 "cC" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -261,7 +269,9 @@
 /area/ruin/unpowered/colony/outdoors/cargo_bay)
 "iq" = (
 /obj/structure/cable,
-/turf/open/floor/iron,
+/turf/open/floor/iron/cafeteria{
+	dir = 1
+	},
 /area/ruin/unpowered/colony/mess_hall)
 "iw" = (
 /obj/item/bedsheet,
@@ -1168,6 +1178,9 @@
 /obj/effect/mapping_helpers/paint_wall/station/engineering,
 /turf/open/floor/plating,
 /area/ruin/unpowered/colony/engineering)
+"Pn" = (
+/turf/open/floor/iron/checker,
+/area/ruin/unpowered/colony/mess_hall)
 "PB" = (
 /obj/effect/mapping_helpers/paint_wall/station/bridge,
 /turf/closed/wall,
@@ -2661,8 +2674,8 @@ cl
 cl
 iq
 gI
-cl
-cl
+Pn
+Pn
 yC
 Er
 Er
@@ -2702,8 +2715,8 @@ cl
 cl
 iq
 gI
-cl
-cl
+Pn
+Pn
 yC
 Er
 Er
@@ -2743,8 +2756,8 @@ cl
 cl
 iq
 gI
-cl
-cl
+Pn
+Pn
 yC
 Er
 Er
@@ -2784,7 +2797,7 @@ cl
 cl
 bV
 yC
-cl
+aA
 yC
 yC
 Er
